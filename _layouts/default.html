@@ -1,0 +1,78 @@
+---
+layout: compress
+image: /assets/photo_2016-11-09_20-46-47.jpg
+---
+
+
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+{% include header.html %}
+
+<div class="page-content">
+
+  {% include sidebar-left.html %}
+
+
+
+      <!--  category for bigger screens -->
+      <div id="sidebar" class="visible-md visible-lg visible-sm">
+          {% include cat.html %}
+
+      </div>
+
+
+  <!-- category for small mobile devices -->
+
+  <div class="visible-xs">
+
+    <div class="tag-box inline">
+             
+           <a href="/"><b>  All  </b> <sup>{{ site.posts | size }}</sup></a>
+      {% assign tags_list = site.categories %}  
+
+          {% for tag in tags_list %} 
+           
+            &raquo; &nbsp;<a href="/{{ tag[0] }}">{{ tag[0] | capitalize }} <sup> {{ tag[1].size }} </sup></a> 
+          {% endfor %}
+        
+      {% assign tags_list = nil %}
+      
+      
+      
+      </div>
+  </div>
+
+
+
+
+  <div class="wrapper">
+
+      {{ content }}
+  </div>
+
+
+</div>
+
+{% include footer.html %}
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '125847997953374',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+</html>

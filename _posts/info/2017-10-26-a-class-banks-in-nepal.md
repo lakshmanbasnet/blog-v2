@@ -1,0 +1,353 @@
+---
+title: List of A class Banks in Nepal with paid up Capital
+date: 2017-10-26 04:06:47 Z
+categories:
+- info
+layout: post
+description: There are 28 A class banks in operation in Nepal according to Nepal Rastra Bank(NRB). In this post, the details of these A class banks are presented with their operation date, head office location and their total paid up capital.
+---
+There are 28 A class banks in operation in Nepal according to Nepal Rastra Bank(NRB). In this post, the details of these A class banks are presented with their operation date, head office location and their total paid up capital.
+
+
+<table class="table table-hover table-bordered">
+<thead>
+<tr>
+	<th>S.No.</th>
+	<th>Name</th>
+	<th>Operation Date (A.D.)</th>
+	<th>Head Office </th>
+	<th>Paid up 
+	Capital<small>in NRS Crore</small></th>
+	
+</tr>
+
+</thead>
+
+<tbody>
+
+
+
+<tr>
+	<td>1</td>   
+	<td>Nepal Bank Ltd.</td>
+	<td>1937/11/15</td>
+	<td>Dharmapath,Kathmandu</td>
+	<td>649.95</td>
+
+</tr>
+
+
+<tr>
+	<td>2</td>
+	<td>Rastriya Banijya Bank Ltd.</td>
+	<td>1966/01/23</td>
+	<td>Singhadurbarplaza,Kathmandu</td>
+	<td>858.90</td>
+</tr>
+
+
+<tr>
+	<td>3</td>
+	<td>Agriculture Development Bank Ltd.</td>
+	<td>1968/01/21</td>
+	<td>Ramshahpath, Kathmandu</td>
+	<td>1037.4</td>
+
+</tr>
+
+
+<tr>
+	<td>4</td>
+	<td>Nabil Bank Ltd.</td>
+	<td>1984/07/12</td>
+	<td>Beena Marg, Kathmandu</td>
+	<td>618.35</td>
+
+</tr>
+
+
+<tr>
+
+	<td>5</td>
+	<td>Nepal Investment Bank Ltd.</td>
+	<td>1986/03/09</td>
+	<td>Durbarmarg, Kathmandu</td>
+	<td>870.66</td>
+
+</tr>
+
+
+<tr>
+	<td>6</td>
+	<td>Standard Chartered Bank Nepal Ltd.</td>
+	<td>1987/02/28</td>
+	<td>Nayabaneshwor, Kathmandu</td>
+	<td>374.99</td>
+
+</tr>
+
+
+<tr>
+<td>
+7</td>
+<td>Himalayan Bank Ltd.</td>
+<td>1993/01/18</td>
+<td>Kamaladi, Kathmandu</td>
+<td>449.91</td>
+
+</tr>
+
+
+<tr>
+<td>
+8</td>
+<td>Nepal SBI Bank Ltd.</td>
+<td>1993/07/07</td>
+<td>Kesharmahal, Kathmandu</td>
+<td>388.37</td>
+
+</tr>
+
+
+<tr>
+<td>
+9</td>
+<td>Nepal Bangaladesh Bank Ltd.</td>
+<td>1994/06/06</td>
+<td>Kamaladi, Kathmandu</td>
+<td>401.18</td>
+
+</tr>
+
+
+<tr>
+<td>
+10</td>
+<td>Everest Bank Ltd.</td>
+<td>1994/10/18</td>
+<td>Lazimpat , Kathmandu</td>
+<td>274.26</td>
+
+</tr>
+
+
+<tr>
+<td>
+11</td>
+<td>Kumari Bank Ltd.</td>
+<td>2001/04/03</td>
+<td>Durbarmarg, Kathmandu</td>
+<td>269.92</td>
+
+</tr>
+
+
+<tr>
+<td>
+12</td>
+<td>Laxmi Bank Ltd.</td>
+<td>2002/04/03</td>
+<td>Hattisar, Kathmandu</td>
+<td>303.92</td>
+
+</tr>
+
+
+<tr>
+<td>
+13</td>
+<td>Citizens Bank International Ltd.</td>
+<td>2007/04/20</td>
+<td>Kamaladi, Kathmandu</td>
+<td>553.74</td>
+
+</tr>
+
+
+<tr>
+<td>
+14</td>
+<td>Prime Commercial Bank Ltd.</td>
+<td>2007/09/24</td>
+<td>Newroad, Kathmandu</td>
+<td>489.19</td>
+
+</tr>
+
+
+<tr>
+<td>
+15</td>
+<td>Sunrise Bank Ltd.</td>
+<td>2007/10/12</td>
+<td>Gairidhara, Kathmandu</td>
+<td>530.14</td>
+
+</tr>
+
+
+<tr>
+<td>
+16</td>
+<td>Janata Bank Nepal Ltd.</td>
+<td>2010/04/05</td>
+<td>Naya Baneshwor, Kathmandu</td>
+<td>206.00</td>
+
+</tr>
+
+
+<tr>
+<td>
+17</td>
+<td>Mega Bank Nepal Ltd.</td>
+<td>2010/07/23</td>
+<td>Kantipath, Kathmandu</td>
+<td>401.20</td>
+
+</tr>
+
+
+<tr>
+<td>
+18</td>
+<td>Century Commercial Bank Ltd.</td>
+<td>2011/03/10</td>
+<td>Putalisadak , Kathmandu</td>
+<td>368.90</td>
+
+</tr>
+
+
+<tr>
+<td>
+19</td>
+<td>Sanima Bank Ltd.<sup>1</sup></td>
+
+<td>2012/02/15</td>
+<td>Nagpokhari,  Kathmandu</td>
+<td>530.59</td>
+
+</tr>
+
+
+<tr>
+<td>
+20</td>
+<td>Machhapuchhre Bank Ltd.</td>
+<td>2012/7/9<sup>*</sup></td>
+<td>New Road, Pokhara, Kaski</td>
+<td>386.45</td>
+
+
+</tr>
+
+
+<tr>
+<td>
+21</td>
+<td>NIC Asia Bank Ltd.</td>
+<td>2013/6/30<sup>*</sup></td>
+<td>Thapathali, Kathmandu</td>
+<td>581.96</td>
+
+
+</tr>
+
+
+<tr>
+<td>
+22</td>
+<td>Global IME Bank Ltd.</td>
+<td>2014/4/9<sup>*</sup></td>
+<td>Panipokhari, Kathmandu</td>
+<td>616.43</td>
+
+</tr>
+
+
+<tr>
+<td>
+23</td>
+<td>NMB Bank Ltd.</td>
+<td>2015/10/18<sup>*</sup></td>
+<td>Babarmahal, Kathmandu</td>
+<td>543.01</td>
+
+
+</tr>
+
+
+<tr>
+<td>
+24</td>
+<td>Prabhu Bank Ltd.</td>
+<td>2016/2/12<sup>*</sup></td>
+<td>Babarmahal, Kathmandu</td>
+<td>88.14</td>
+
+</tr>
+
+
+<tr>
+<td>
+25</td>
+<td>Siddhartha Bank Ltd.</td>
+<td>2016/7/21<sup>*</sup></td>
+<td>		Hattisar, Kathmandu</td>
+<td>	302.21</td>
+
+</tr>
+
+
+<tr>
+<td>
+26</td>
+<td>		Bank of Kathmandu Lumbini Ltd.</td>
+<td>		2016/7/14<sup>*</sup></td>
+<td>	Kamaladi, Kathmandu</td>
+<td>		457.69</td>
+
+</tr>
+
+
+<tr>
+<td>
+27</td>
+<td>		Civil Bank Ltd.<sup>2</sup></td>
+
+<td>	2016/10/17<sup>*</sup></td>
+<td>Kamaladi, Kathmandu</td>
+<td>		458.38</td>
+
+</tr>
+
+
+<tr>
+<td>
+28</td>
+<td>		Nepal Credit and Commerce Bank Ltd.<sup>3</sup></td>
+
+<td>		2017/01/01*</td>
+<td>		Siddharthanagar, Rupandehi</td>
+<td>		467.91</td>
+</tr>
+</tbody>
+</table>
+
+<sup> *</sup> Operation date after joint merger
+
+<sup>1</sup> Paidup Capital After acquisition of Bagmati Develoment Bank Ltd. by Sanima Bank Ltd.
+2 After merger of Civil Bank Ltd. and International Leasing and Finance Company Ltd.
+
+<sup>3</sup> Paid Capital After merger of Nepal Credit and Commerce Bank Ltd., International Development Bank Ltd.,Infrastructure  Development Bank Ltd., 
+Supreme  Development Bank Ltd. and Apex  Development Bank Ltd.
+
+
+<br>
+
+<h1>A class Banks of Nepal</h1> licensed by Nepal Rastra Bank.<br>
+
+<small><a href="https://www.nrb.org.np" target="blank">source </a> of this article</small>
+ 
+Thanks for reading!

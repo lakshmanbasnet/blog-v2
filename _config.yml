@@ -1,0 +1,45 @@
+
+title: lakshman's blog
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+url: https://blog.lakshmanbasnet.com
+
+permalink: pretty
+permalink: /:categories/:title
+
+email: 
+description: Life, Travel & Technology Blogs from Nepal
+
+collections:
+  photo-gallery: 
+    output: true
+ 
+
+gems:
+- jekyll-seo-tag
+- jekyll-admin
+- jekyll-gist
+- jekyll-paginate
+
+sass:
+  style: compressed
+
+paginate: 18
+markdown: kramdown
+
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+  envs: []
+  blanklines: false
+  profile: false
+  startings: []
+

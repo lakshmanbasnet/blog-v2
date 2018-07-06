@@ -1,0 +1,185 @@
+---
+layout: homedef
+image: /assets/photo_2016-11-09_20-46-47.jpg
+---
+
+
+
+
+
+Everything I  write and share here were faced by me in some part of my time. Have time? know more about me: <a href="/timeline">timeline</a>, <a href="/about">about</a>, and <a href="http://lakshmanbasnet.com" target="blank">portfolio</a>. You can get this blog's archive <a href="/archive">here</a>.
+Make sure you use <b>Like, share and comment </b> boxes. ;)  
+
+<div style="float: right;">
+<a href="https://twitter.com/lakshmanbasnet" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @lakshmanbasnet</a>
+
+</div>
+
+
+
+<!-- pin post start -->
+
+<ul class="post-list">
+  {% for post in site.posts %}
+        {% if post.pin == true %}
+      
+  <div class="postf" style="margin-top: 15px;">
+    <div class="pin"> 
+
+  <img src="/assets/pin.jpg" title="Pinned Post" alt="pin post lakshmanbasnet">
+
+</div>
+
+  <div style="float: right; font-size: 11px;">
+    Pinned Post &nbsp;
+  </div>
+          <h1 style="margin-bottom: 10px">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}
+          </h1> </a> 
+          
+         
+<div class="pimage">
+     <img src="{{ post.image }}" alt="{{ post.title }}" style="padding-bottom: 10px;">
+</div>
+         <p class="post-meta">{% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-edit" aria-hidden="true"></i>
+{{ page.author }}</span>
+ &nbsp; 
+ {% endif %}<i class="fa fa-calendar" aria-hidden="true"></i>
+<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
+ {{ post.categories}}</span> 
+    &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>
+{% assign words = content | number_of_words %}
+{% if words < 360 %}
+  1 min read
+{% else %}
+  {{ words | divided_by:180 }} min read
+{% endif %}<br></span></p>
+<p style="font-size: 18px;">
+      {{ post.description | strip_html | truncatewords: 70 }} &nbsp;<a class="btn btn-default btn-s" href="{{ post.url | prepend: site.baseurl }}" role="button">read more</a>
+</p> 
+    
+   <div class="row" style="margin-bottom: 15px; margin-top: 25px;">  
+    <div class="col-md-3 col-sm-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
+  </div>
+    
+    
+   
+  <div class="col-md-3 col-sm-6" style="float: left;">
+    <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://blog.lakshmanbasnet.com{{ post.url | prepend: site.baseurl }}&display=popup&ref=plugin&src=share_button"><img src="http://www.homeinbangkok.com/wp-content/uploads/2017/09/share-facebook.png" style="height: 28px;" alt="fb"></a>
+  </div>
+
+  
+
+ 
+    </li>
+    {% endif %}
+  {% endfor %}
+
+  </ul>
+
+
+<!-- pin post end -->
+<br>
+<ul class="post-list">
+  {% for post in paginator.posts %}
+
+
+<div class="postf">
+    
+  
+          <h1 style="margin-bottom: 10px">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h1>
+          
+    
+
+
+<div class="pimage">
+     <img src="{{ post.image }}" alt="{{ post.title }}" style="padding-bottom: 10px;">
+</div>
+         <p class="post-meta">{% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-edit" aria-hidden="true"></i>
+{{ page.author }}</span>
+ &nbsp; 
+ {% endif %}<i class="fa fa-calendar" aria-hidden="true"></i>
+<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
+ {{ post.categories}}</span> 
+    &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>
+{% assign words = content | number_of_words %}
+{% if words < 360 %}
+  1 min read
+{% else %}
+  {{ words | divided_by:180 }} min read
+{% endif %}<br></span></p>
+<p style="font-size: 18px;">
+      {{ post.description | strip_html | truncatewords: 70 }} &nbsp;<a class="btn btn-default btn-s" href="{{ post.url | prepend: site.baseurl }}" role="button">read more</a>
+</p> 
+    
+   <div class="row" style="margin-bottom: 15px; margin-top: 25px;">  
+    <div class="col-md-3 col-sm-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
+  </div>
+    
+    
+   
+  <div class="col-md-3 col-sm-6" style="float: left;">
+    <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://blog.lakshmanbasnet.com{{ post.url | prepend: site.baseurl }}&display=popup&ref=plugin&src=share_button"><img src="http://www.homeinbangkok.com/wp-content/uploads/2017/09/share-facebook.png" style="height: 28px;" alt="fb"></a>
+  </div>
+
+    
+
+  </div>
+
+      
+
+
+
+  </div>
+  {% endfor %}
+
+  </ul>
+
+
+
+<!-- Pagination Links -->
+<div style="margin: auto;
+    width: 50%;
+    
+    padding: 10px;"> 
+
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+<nav aria-label="...">
+  <ul class="pager">
+  {% if paginator.previous_page %}
+    <li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &larr;Newer<span aria-hidden="true"></span></a></li> &nbsp;&nbsp;
+  {% else %}
+    <span> Newer</span> &nbsp;&nbsp;
+
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %} &nbsp;&nbsp;
+      <em>{{ page }}</em>
+    {% elsif page == 1 %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %} &nbsp;&nbsp;
+      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a> &nbsp;&nbsp;
+    {% endif %}
+  {% endfor %}
+
+
+  {% if paginator.next_page %}
+    <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span aria-hidden="true">&rarr;</span></a></li>
+  {% else %}
+    <span>Older</span>
+  {% endif %}
+
+  </ul>
+</nav>
+</div>
+{% endif %}
+
+<p class="rss-subscribe" align="center"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="label label-primary">Subscribe via RSS</span></a></p>
+
+<!--End mc_embed_signup-->
+
+</div>

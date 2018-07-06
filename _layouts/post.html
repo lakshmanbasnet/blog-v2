@@ -1,0 +1,130 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '125847997953374',
+      xfbml      : true,
+      version    : 'v2.7'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80349342-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=125847997953374";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+<small>
+ <div class="visible-xs">
+
+         
+       <li class="hre"></li>
+      </div>
+      
+</small>
+
+
+
+  <header class="post-header">
+    <h4 class="post-title" itemprop="name headline">{{ page.title }}</h3>
+    <p class="post-meta">{% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-edit" aria-hidden="true"></i>
+{{ page.author }}</span>
+ &nbsp; 
+ {% endif %}<i class="fa fa-calendar" aria-hidden="true"></i>
+<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
+ {{ page.categories}}</span> 
+    &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>
+{% assign words = content | number_of_words %}
+{% if words < 360 %}
+  1 min read
+{% else %}
+  {{ words | divided_by:180 }} min read
+{% endif %}
+
+
+
+
+  </header>
+ <div class="fb-like" data-href class="post-link" href="{{ post.url | prepend: site.baseurl }}" {{ post.url }} data-width="300px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" >
+  </div>
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+ 
+
+  
+ 
+
+
+
+
+<div class="fb-like" data-href class="post-link" href="{{ post.url | prepend: site.baseurl }}" {{ post.url }} data-width="300px" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" >
+  </div>
+</div>
+<br>
+<div class="fb-comments" data-href class="post-link" href="{{ post.url | prepend: site.baseurl }}" {{ post.url }} data-width="auto" data-numposts="5">
+</div>
+
+
+<hr>
+<h2 align="middle">
+  Posts you might like
+</h2>
+    {% for post in site.posts %}
+      {% if page.categories == post.categories %}
+      {% if page.title != post.title %}
+
+
+          
+          <div class="col-md-12">
+         
+         
+          <h4><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+          <p>{{ post.description | strip_html | truncatewords: 30 }} 
+
+
+          <a href="{{ post.url | prepend: site.baseurl }}">read more</a></p>
+           <hr>
+          </div>
+          
+         
+
+
+          
+
+        
+      {% endif %}
+
+      {% endif %}
+    {% endfor%}
+
+ </div>
+</article>

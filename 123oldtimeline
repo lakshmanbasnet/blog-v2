@@ -1,0 +1,184 @@
+---
+title: Timeline
+permalink:
+layout: page
+---
+
+<head>
+<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+</head>
+
+
+
+
+
+<!-- End Google Tag Manager -->
+<div class="ttt">
+	<div class="container">
+		
+		<ul class="timeline">
+
+			<li>
+			<i class="ion-jet"></i>
+			<div><small><b>2016 April 23-24</b> <br></small>Participated in <small> NASA International Space Apps Challenge</small></div>
+			</li>
+
+			<li>
+			<i class="ion-university"></i>
+			<div>
+			<small><b>2015 April-2016 April</b> 
+			<br>
+			Worked as a</small> Computer Teacher, <small>Naulo Jyoti English School, Bkt</small>
+			</div>
+			</li>
+			
+
+
+
+			<li>
+			<i class="ion-university"></i>
+
+		
+			<div>
+			<small><b>2015 </b>
+			</small>
+			<!--
+			<ul class="sa">
+
+			<li>
+			<i class="ion-university"></i>
+			<div>
+			<small><b>2015now</b> 
+			<br>
+			event</small>major <small>locations</small>
+			</div>
+			</li>
+
+
+			<li>
+			<i class="ion-university"></i>
+			<div>
+			<small><b>2015now</b> 
+			<br>
+			event</small>major <small>locations</small>
+			</div>
+			</li>
+
+
+			<li>
+			<i class="ion-university"></i>
+			<div>
+			<small><b>2015now</b> 
+			<br>
+			event</small>major <small>locations</small>
+			</div>
+			</li>
+
+			<li>
+			<i class="ion-university"></i>
+			<div>
+			<small><b>2015now</b> 
+			<br>
+			event</small>major <small>locations</small>
+			</div>
+			</li>
+
+			<li>
+			<i class="ion-university"></i>
+			<div>
+			<small><b>2015now</b> 
+			<br>
+			event</small>major <small>locations</small>
+			</div>
+			</li>
+
+
+
+			<li>
+			<i class="ion-university"></i>
+			<div>
+			<small><b>2015now</b> 
+			<br>
+			event</small>major <small>locations</small>
+			</div>
+			</li>
+
+			</ul>
+			-->
+
+
+			<li>
+			<i class="ion-university"></i>
+			<div>
+			<small><b>2013-now</b> 
+			<br>
+			Doing Bachelors in </small>Computer Science and Information Technology, <small>Tribhuwan University</small>
+			</div>
+			</li>
+
+
+			<li>
+			<i class="ion-ribbon-a"></i>
+			<div>
+			<small><b>2013 Tinkune, Kathmandu</b></small> 
+			<br>
+			Completed High School(+2), Pentagon International College. <small>Majors: Physics, Mathematics, Chemistry and Computer Science</small>
+			</div>
+			</li>
+
+			<li>
+			<i class="ion-ribbon-b"></i>
+			<div>
+			<small><b>2010 Sallaghari, Bhaktapur</b></small>
+			<br>
+			Completed SLC , Birendra Sainik Awasiya Mahavidyalaya</div>
+			</li>
+
+
+			<li>
+			<i class="ion-ios-location"></i>
+			<div>
+			<small><b>2004 Lagankhel, Lalitpur</b></small>
+			<br>
+			came to Kathmandu <small>for further schooling</small></div>
+			</li>
+
+
+
+			<li>
+			<i class="ion-edit"></i>
+			<div>
+			<small><b>1998-2004, Galkot Baglung</b></small>
+			<br>
+			Started Schooling, <small>New Life English Boarding School</small></div>
+			</li>
+			
+			<li>
+			<i class="ion-person"></i>
+			<div>
+			<small><b>1994 Aug 19, Kathmandu</b></small>
+			<br><h3>
+			Born</h3></div>
+			</li>
+
+			
+
+
+
+			
+	
+</div>
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-76574913-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+

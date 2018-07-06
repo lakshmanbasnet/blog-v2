@@ -1,0 +1,85 @@
+---
+title: Demat Account - advantages, how to open
+date: 2016-04-14 06:16:07 Z
+categories:
+- random
+layout: post
+description: All about Demat account, how to open one, advantages disadvantages in
+  context of Nepal's banking.
+---
+
+<b>Demat</b> is short form for <b>Dematerilization</b>.
+
+
+Dematerialisation is the process of converting physical financial instruments such as share certificates, mutual fund investments, and bonds into electronic form.
+
+ An Investor or person having shares of various companies listed by Nepal Stock Exchange(NEPSE) need to dematerialize their physical shares by opening a Demat account.
+
+Recently in Nepal the policy has been enacted that all the shares should be dematerialzed meaning all the shareholders should have Demat account and their share records would be maintained at their respective account number mentioned in the share's applicahtion form.
+
+Some of the major aims of opening a demat account :
+<ul>
+	<li>to buy/sell the shares (effective from 1st bhadra 2072, 106 company’s share can only be traded in Demat form)</li>
+	<li>to convert physical shares to electronic form</li>
+	<li>you can deposit and transfer shares listed in NEPSE </li>
+	<li>credit the shares allotted through IPO and corporate actions </li>
+	<li>receive shares' statement in a Demat account</li>
+
+</ul>
+The major advantages of having a demat account are:
+<ul>
+	<li>as demat account is in electronic form it is safe, secured and efficient than physical certificate</li>
+	<li>transfership of share ownership can be done instantly while physical shares require a large span of time</li>
+	<li>shares of different companies can be managed, monetized and utilized from the same account</li>
+	<li>can get the statements, shares status and all details sitting at home through online banking</li>
+	<li>time efficient</li>
+	<li>no tension of having a share certificate torn, stolen or lost as everything is in electronic form and stored in database</li>
+
+</ul>
+
+
+How to open a new Demat account?
+
+<ul>
+<li>
+Major banks like NIC Asia, Siddartha, Global IME, NMB Bank etc provide the service , you can visit the nearest branch.</li>
+<li>
+or you can proceed to do it online through esewa also , follow this <a href="https://esewa.com.np/main#!fnpy;menuid=33" target="blank">link</a> </li>
+</ul>
+
+Documents needed:
+
+<b>Individuals: </b>
+<ul>
+    <li>Duly filled up Demat Application Form</li>
+    <li>Completed Agreement between DP & Customer </li>
+    <li>Self Certified Copy of  Citizenship Certificate/Passport</li>
+    <li>Passport size photograph</li>
+    <li>second person's(hakwala) citizenship certificate's copy and photo</li>(optional)
+ </ul>
+
+ <br>
+<b>Institutions:</b>
+
+<ul>
+	<li>Duly filled Demat Application Form
+    <li>Completed Agreement between DP & Customer
+    <li>Copy of Company Registration Certificate
+    <li>Company MOA and AOA
+    <li>Board Minute for opening Demat Account
+    <li>Copy of Tax payment Certificate
+    <li>Copy of Permanent Account Number (PAN) Certificate
+    <li>Copy of Citizenship Certificate Directors and signatories.
+    <li>Passport size photograph of signatories.
+    <li>Partnership deed in case of a partnership firm
+
+
+<p>
+<br>
+<small>
+compiled from : www.itsallaboutmoney.com/equities/demat/demat-what-is-that/, nicasiabank.com, nmbbanknepal.com/
+</small><br>
+
+Confusions or want to know more?
+Comment, I will get to you. :)
+

@@ -1,0 +1,48 @@
+ 
+  <div class="visible-xs">
+
+         <div class="tag-box inline">
+             Categories<br>
+              <li class="hre"></li>
+           <a href="/"><b>  All  </b> <span class="badge">{{ site.posts | size }}</span></a>
+      {% assign tags_list = site.categories %}  
+
+          {% for tag in tags_list %} 
+           
+            &raquo; &nbsp;<a href="/{{ tag[0] }}">{{ tag[0] | capitalize }} <span class="badge"> {{ tag[1].size }} </span></a> 
+          {% endfor %}
+        
+      {% assign tags_list = nil %}
+      
+      
+      
+      </div>
+      
+      </div>
+       <li class="hre"></li>
+
+<br>
+<ul class="post-list">
+  {% for post in site.posts %}
+    <li>
+  
+          <h3 style="margin-bottom: 10px">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <p>
+
+      {{ post.description | strip_html | truncatewords: 50 }} 
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+</p>
+ 
+    </li> <br>
+  {% endfor %}
+
+  </ul>
+
+ <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+</p>
+
+</p>
+
+
