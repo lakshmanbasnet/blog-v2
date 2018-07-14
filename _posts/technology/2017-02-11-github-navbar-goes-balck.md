@@ -6,6 +6,7 @@ categories:
 layout: post
 description: Github's navbar is black now! And yeah it didn't appeal  me. More design changes coming soon.
 image: "/assets/darkgithubth.png"
+author: lakshman
 ---
 
 <img src="/assets/darkgithub.png">

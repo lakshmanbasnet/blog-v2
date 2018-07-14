@@ -4,6 +4,7 @@ date: 2016-06-06 04:06:47 Z
 categories:
 - linux
 layout: post
+author: Lakshman Basnet
 description: Kazam is the best and most used screencaster/screenrecorder that can
   capture screenshots, videos and have a lot of features. In this post, you will know
   hor to setup Kazam screencaster in Fedora

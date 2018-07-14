@@ -10,6 +10,7 @@ d: December 16, 2017
 venue: Tangalwood, Kathmandu Nepal
 website: nepalinternationalbeerfestival.com
 fb: /nepalinternationalbeerfestival
+author: Lakshman Basnet
 ---
 
 

@@ -4,6 +4,7 @@ date: 2016-08-22 04:06:47 Z
 categories:
 - random
 layout: post
+author: Lakshman Basnet
 description: Writing a diary from my today's routine
 image: "/assets/cover.jpg"
 ---

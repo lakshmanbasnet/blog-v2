@@ -4,6 +4,7 @@ date: 2016-04-05 04:06:47 Z
 categories:
 - technology
 layout: post
+author: lakshman
 description: fbstatic-a.akamaihd.net is a Content Delivery Network(CDN) used by facebook
 image: "/assets/fbcover.jpg"
 ---

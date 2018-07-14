@@ -4,6 +4,7 @@ date: 2016-06-03 04:06:47 Z
 categories:
 - linux
 layout: post
+author: Lakshman Basnet
 description: Install sublime text editor in Fedora 23
 ---
 

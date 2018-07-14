@@ -6,6 +6,7 @@ categories:
 layout: post
 description: All you need to know to write a project proposal, with every topics explained. Be it for engineering, Bsc CSIT, TU, PU, KU or anywhere you can use this as guideline for preparing project proposal.
 image: /assets/project-proposal.jpg
+author: Lakshman Basnet
 ---
 <div class="abc">
 <figure><img src="/assets/project-proposal.jpg" alt="project proposal"><figcaption>[source](http://st.depositphotos.com/1845839/1973/v/950/depositphotos_19730767-word-cloud---project-proposal.jpg)</figcaption></figure>

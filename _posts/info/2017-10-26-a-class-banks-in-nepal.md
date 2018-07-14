@@ -4,6 +4,7 @@ date: 2017-10-26 04:06:47 Z
 categories:
 - info
 layout: post
+author: Lakshman Basnet
 description: There are 28 A class banks in operation in Nepal according to Nepal Rastra Bank(NRB). In this post, the details of these A class banks are presented with their operation date, head office location and their total paid up capital.
 ---
 There are 28 A class banks in operation in Nepal according to Nepal Rastra Bank(NRB). In this post, the details of these A class banks are presented with their operation date, head office location and their total paid up capital.

@@ -4,6 +4,7 @@ date: 2016-11-17
 categories:
 - technology
 layout: post
+author: lakshman
 description: The most used and liked technological products and innovations either developed in Nepal or the general public platforms that have brought major changes in the lifestyle of Nepalese people. Also, I am trying to cover few most interesting amazing products from Nepal that are really impressive and have caught the attention.
 image: /assets/technology.jpg
 ---

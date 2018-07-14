@@ -4,6 +4,7 @@ date: 2016-04-18 21:56:47 Z
 categories:
 - technology
 layout: post
+author: lakshman
 ---
 
 You may be wondering why your Master card of Payoneer hasn't arrived at your place. You might have been waiting it since so long, but you don't see any signs of receiving it.

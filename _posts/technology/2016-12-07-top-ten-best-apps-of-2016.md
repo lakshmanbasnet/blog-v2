@@ -4,6 +4,7 @@ date: 2016-12-07 04:06:47 Z
 categories:
 - technology
 layout: post
+author: lakshman
 description: Prisma a fancy photo editing app becomes app of the year in app store. Read who made to the top 10 best apps of the year 2016.
 image: "/assets/all.png"
 ---

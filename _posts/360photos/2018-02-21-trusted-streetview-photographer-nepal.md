@@ -6,6 +6,7 @@ categories:
 layout: post
 description: A personal blog on how I started capturing 360 photos with Google Street View app and reached to be awarded with Trusted Street View Photographer Badge by Google across its platform.
 image: "/assets/streetview-badge.png"
+author: Lakshman Basnet
 ---
 <figure>
 <img src="/assets/streetview-badge.png" alt="google streetview badge"><figcaption>StreetView Photographer Badge, one among 10,180 people</figcaption></figure>

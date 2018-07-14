@@ -4,6 +4,7 @@ date: 2016-06-06 10:37:47 Z
 categories:
 - technology
 layout: post
+author: lakshman
 ---
 
 <div class="abc">

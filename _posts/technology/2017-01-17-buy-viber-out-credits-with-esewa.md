@@ -4,6 +4,7 @@ date: 2017-02-17
 categories:
 - technology
 layout: post
+author: lakshman
 description: Now, you don't need a credit/debit card to buy Viber Out Credits in Viber to make call to different numbers even when they don't have viber. 
 ---
 

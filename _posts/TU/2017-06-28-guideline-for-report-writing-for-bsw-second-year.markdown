@@ -4,7 +4,9 @@ date: 2017-06-28 04:06:47 Z
 categories:
 - TU
 layout: post
+author: lakshman
 description: This is a comprehensive guideline with format for writing report of Tribhuwan University Bachelors of Social Work BSW Second year. TU BSW notes, old question, syllabus, report, proposal, manual, solution etc.
+
 ---
 
 In this post, you will learn the general format for report writing for BSW Second Year.

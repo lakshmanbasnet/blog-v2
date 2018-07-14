@@ -6,6 +6,7 @@ categories:
 layout: post
 description: Setup Git in your computer in few quick steps, be it on Linux (Ubuntu, Fedora, Redhat, Arch etc) or Mac or Windows
 image: "/assets/github.JPG"
+author: lakshman
 ---
 
 <img src="/assets/github.JPG" alt="Github git setup">

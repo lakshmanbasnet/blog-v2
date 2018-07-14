@@ -4,6 +4,7 @@ date: 2016-07-03 23:17:47 Z
 categories:
 - technology
 layout: post
+author: lakshman
 description: Live stream to facebook from your laptop or desktop computer in easiest
   way using OBS
 image: "/assets/livestream.png"

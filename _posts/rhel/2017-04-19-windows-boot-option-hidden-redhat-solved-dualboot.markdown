@@ -3,6 +3,7 @@ layout: post
 title:  Windows boot option missing after installing redhat in dualboot SOLVED
 date:   2017-04-19 17:01:02 +0545
 categories: rhel
+author: Lakshman Basnet
 description: Windows boot option missing after installing redhat/ centos in dualboot on Redhat Enterprise Linux | Redhat Enterpise Linux Blog , How to
 ---
 

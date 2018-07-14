@@ -5,6 +5,7 @@ categories:
 - info
 layout: post
 description: List of agricultaral colleges, agro colleges, universities and educational organization in Nepal with their Location, <i class="fa fa-phone" aria-hidden="true"></i>, programs offered and more.
+author: Lakshman Basnet
 ---
 
 I have tried to list below essential information of different agricultural/agro related colleges and universities in Nepal. This list mightn't be complete one and is updating. You can comment for any feedbacks.

@@ -5,7 +5,8 @@ categories:
 - TU
 layout: post
 description: Tribhuwan University (TU) today has published the third year result of Bachelors in Arts, BA. Get your result here. BASW, BA, Result, TU
-image: http://tribhuvan-university.edu.np/wp-content/uploads/2015/09/TU_logo.png
+image: /assets/tu_logo.jpg
+author: lakshman
 ---
 
 

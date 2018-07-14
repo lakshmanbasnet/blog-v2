@@ -4,6 +4,7 @@ date: 2016-11-08 04:06:47 Z
 categories:
 - random
 layout: post
+author: Lakshman Basnet
 image: /assets/rihana.jpg
 ---
 

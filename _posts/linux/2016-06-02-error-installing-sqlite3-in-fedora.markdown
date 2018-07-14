@@ -4,6 +4,7 @@ date: 2016-06-02 04:06:47 Z
 categories:
 - linux
 layout: post
+author: Lakshman Basnet
 ---
 
 While creating app in ruby on rails,in Fedors if you face error something like this:

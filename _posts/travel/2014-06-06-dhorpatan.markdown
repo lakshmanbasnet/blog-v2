@@ -9,6 +9,7 @@ description: Dhorpatan Hunting Reserve is the one and only hunting reserve in Ne
   birds can be found here.
 image: "/assets/dh/51.jpg"
 pin: true
+author: lakshman
 ---
 
 <figure><img src="/assets/dh/29.jpg"/></figure>

@@ -4,6 +4,7 @@ date: 2016-04-05 04:06:47 Z
 categories:
 - technology
 layout: post
+author: lakshman
 description: Download albums from facebook at once.
 image: "/assets/7.png"
 ---

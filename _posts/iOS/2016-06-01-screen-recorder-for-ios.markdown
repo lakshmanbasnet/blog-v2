@@ -4,6 +4,7 @@ date: 2016-06-01 04:06:47 Z
 categories:
 - iOS
 layout: post
+author: Lakshman Basnet
 ---
 
 Recently, I was trying to capture screen of my iOS device and record a video. So, was searching for some apps/software that could help me. Actually there are few apps in appstore that provide you this service but aren't available at free. Shoutv is available for free to install from <a href="https://emu4ios.ne" target="blank">emu4ios</a> but your device should be iOS 8 or older.

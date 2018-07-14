@@ -4,6 +4,7 @@ date: 2016-04-04 04:06:47 Z
 categories:
 - random
 layout: post
+author: Lakshman Basnet
 ---
 
 People don' t realize you are not a machine,

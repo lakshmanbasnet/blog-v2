@@ -4,6 +4,7 @@ date: 2016-06-04 04:06:47 Z
 categories:
 - linux
 layout: post
+author: Lakshman Basnet
 description: run .sh files in Linux
 ---
 

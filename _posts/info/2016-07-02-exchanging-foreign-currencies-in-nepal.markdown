@@ -7,6 +7,7 @@ layout: post
 description: Know how you can exchange foreign currencies in Nepal, What documents
   are required, how much can be exchanged , and where to exchange in this blog post
 image: "/assets/m.jpg"
+author: Lakshman Basnet
 ---
 
 <img src="/assets/m.jpg" alt="money" align="middle"/>

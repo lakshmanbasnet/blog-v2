@@ -4,6 +4,7 @@ date: 2017-04-08 04:06:47 Z
 categories:
 - travel
 layout: post
+author: lakshman
 description: Here are some of the must visit places in Kathmandu valley. These places are naturally beautiful, away from the noise and disturbance. You should definetely be to these places if you are searching for good places to date around.
 ---
 Here are some of the must visit places in Kathmandu valley. These places are naturally beautiful, away from the noise and disturbance. You should definetely be to these places if you are searching for good places to date around.

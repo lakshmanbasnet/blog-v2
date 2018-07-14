@@ -4,6 +4,7 @@ date: 2016-05-11 04:06:47 Z
 categories:
 - random
 layout: post
+author: Lakshman Basnet
 description: Galkot got its first own ATM machine from Prabhu Bank in Hatiya Bajaar.
 image: "/assets/dh/32.jpg"
 ---

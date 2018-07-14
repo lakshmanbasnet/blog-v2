@@ -4,6 +4,7 @@ date: 2017-06-20 04:06:47 Z
 categories:
 - linux
 layout: post
+author: Lakshman Basnet
 description: I am keeping note of some problems I solved, or how to notes about installation and more on Red Hat Enterprise Linux. This blog post will get you where you can get all those posts.
 ---
 

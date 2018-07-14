@@ -4,6 +4,7 @@ date: 2016-04-23 04:06:47 Z
 categories:
 - linux
 layout: post
+author: Lakshman Basnet
 ---
 
 Recently while upgrading my ubuntu 15.10 to 16.04 I receieved an error while booting message saying:

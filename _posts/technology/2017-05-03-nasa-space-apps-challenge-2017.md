@@ -6,6 +6,7 @@ categories:
 layout: post
 description: Diary on Space Apps 2017, Why should you participate in hackathons like NASA Space Apps, about the event blog and more.
 image: "/assets/space.jpg"
+author: Lakshman Basnet
 ---
 
 <small>

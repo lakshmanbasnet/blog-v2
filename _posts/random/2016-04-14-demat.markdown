@@ -4,6 +4,7 @@ date: 2016-04-14 06:16:07 Z
 categories:
 - random
 layout: post
+author: Lakshman Basnet
 description: All about Demat account, how to open one, advantages disadvantages in
   context of Nepal's banking.
 ---

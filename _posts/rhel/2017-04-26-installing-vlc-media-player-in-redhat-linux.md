@@ -3,6 +3,7 @@ layout: post
 title:  Installing VLC media player in Redhat Enterprise Linux 7
 date:   2017-04-26 
 categories: rhel
+author: Lakshman Basnet
 description: Installing VLC media player in RHEL is so easy than you thought on Redhat Enterprise Linux | Redhat Enterpise Linux Blog , How to
 ---
 Installing VLC media player in Redhat Enterprise Linux editios can be done in following ways:

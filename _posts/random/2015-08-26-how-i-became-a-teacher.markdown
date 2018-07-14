@@ -6,6 +6,7 @@ categories:
 layout: post
 description: Never thought of becoming a teacher, but I became. Read this post to know What inspired me to work a teacher.
 image: "/assets/cover.jpg"
+author: Lakshman Basnet
 ---
 
 It was a meeting of [Brush Up Online](http://www.brushuponline.edu.np), we were discussing about the preparation for National Cyber Olympiad - Second Inter School ICT Quiz 2072. At the end of the meeting, one of our senior sir said that there is going to be a vacancy for Computer Teacher in Naulo Jyoti School. At that time, I thought I could do but myself felt that I might not be capable to work as a teacher. 

@@ -9,5 +9,6 @@ image: http://mediaprocessor.websimages.com/width/570/crop/0,0,570x427/infim.web
 d: November 22 - 25, 2017
 venue: Rastriya Nachghar, Kathmandu Nepal
 fb: /infim2011/
+author: Lakshman Basnet
 ---
 source:facebook.com/infim2011/

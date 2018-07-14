@@ -9,6 +9,7 @@ tags:
 - national cyber olympiad nepal
 - brush up online
 layout: post
+author: Lakshman Basnet
 description: National Cyber Olympiad Nepal ICT Quiz 2073, Brush Up Online, IT quiz
   in Nepal by Brush Up online
 ---

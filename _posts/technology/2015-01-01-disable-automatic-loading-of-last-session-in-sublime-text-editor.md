@@ -4,6 +4,7 @@ date: 2015-01-21 04:06:47 Z
 categories:
 - technology
 layout: post
+author: lakshman
 description: You might have got irritated everytime seeing two windows of Sublime Text Editor being opened every time you open Sublime. Here is a quick fix to it.
 image: "/assets/Sublime_Text_Logo.png"
 ---

@@ -4,6 +4,7 @@ date: 2016-11-17
 categories:
 - technology
 layout: post
+author: lakshman
 description: Explaining to you, how you can configure DNS for sub domains in site5 site to github page sites in easiest manner.
 image: /assets/site5.png
 ---

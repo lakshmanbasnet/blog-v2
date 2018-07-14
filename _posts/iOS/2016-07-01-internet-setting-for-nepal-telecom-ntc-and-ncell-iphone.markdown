@@ -7,6 +7,7 @@ layout: post
 description: Internet/3g/GPRS/4G/LTE Configuration setting for Nepal Telecom(NTC)
   and Ncell in an iphone in easiest way
 image: "/assets/1.png"
+author: Lakshman Basnet
 ---
 
 In Nepal, if you have an iphone, and want to surf internet through your carrier than it might be little bit headache for you at the beginning. 

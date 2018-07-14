@@ -10,6 +10,7 @@ description: Install the biggest update from apple to your iphone, ipad or any i
   device, the new iOS 10 is out now to the public. Install it today.
 image: "/assets/aaa.jpg"
 layout: post
+author: Lakshman Basnet
 ---
 
 <figure><img src="/assets/aaa.jpg"/></figure>

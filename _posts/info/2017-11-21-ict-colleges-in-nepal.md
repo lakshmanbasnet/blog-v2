@@ -4,6 +4,7 @@ date: 2017-11-21 04:06:47 Z
 categories:
 - info
 layout: post
+author: Lakshman Basnet
 description: Different IT/ ICT Colleges in Nepal are mapped below in the google maps. Computer Engineering, BCA, Bsc CSIT, Software Engineering, BIM etc.
 ---
 

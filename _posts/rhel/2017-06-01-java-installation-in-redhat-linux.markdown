@@ -3,6 +3,7 @@ layout: post
 title:  Installing Java in RHEL 7
 date:   2017-06-01 12:01:02 +0545
 categories: rhel
+author: Lakshman Basnet
 description: Java installation on Redhat Enterprise Linux | Redhat Enterpise Linux Blog , How to
 ---
 

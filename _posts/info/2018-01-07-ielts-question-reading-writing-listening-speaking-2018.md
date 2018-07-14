@@ -4,6 +4,7 @@ date: 2018-01-06 04:06:47 Z
 categories:
 - info
 layout: post
+author: Lakshman Basnet
 description: This is a set of questions that were asked in recently held IELTS exam on Jan 6, 2018. All the questions of Speaking, Reading, Writing and Listening are mentioned here. 
 image: https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/IELTS_logo.svg/1200px-IELTS_logo.svg.png
 ---

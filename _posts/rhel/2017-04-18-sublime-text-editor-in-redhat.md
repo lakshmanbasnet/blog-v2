@@ -3,6 +3,7 @@ layout: post
 title:  Sublime Text Editor in RHEL 7
 date:   2017-04-18 17:01:02 +0545
 categories: rhel
+author: Lakshman Basnet
 description: Easiest way to install Sublime Text Editor on Redhat Enterprise Linux | Redhat Enterpise Linux Blog , How to
 ---
 

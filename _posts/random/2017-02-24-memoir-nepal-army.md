@@ -4,6 +4,7 @@ date: 2017-02-24 04:06:47 Z
 categories:
 - random
 layout: post
+author: Lakshman Basnet
 description: Remembering the time, Nepal Army's arrival in my hometown, my perception and the consequences.
 ---
 

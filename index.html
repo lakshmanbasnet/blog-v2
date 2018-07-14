@@ -43,8 +43,8 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 <div class="pimage">
      <img src="{{ post.image }}" alt="{{ post.title }}" style="padding-bottom: 10px;">
 </div>
-         <p class="post-meta">{% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-edit" aria-hidden="true"></i>
-{{ page.author }}</span>
+         <p class="post-meta">{% if post.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i>
+{{ post.author }}</span>
  &nbsp; 
  {% endif %}<i class="fa fa-calendar" aria-hidden="true"></i>
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
@@ -99,8 +99,8 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 <div class="pimage">
      <img src="{{ post.image }}" alt="{{ post.title }}" style="padding-bottom: 10px;">
 </div>
-         <p class="post-meta">{% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-edit" aria-hidden="true"></i>
-{{ page.author }}</span>
+         <p class="post-meta">{% if post.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i>
+{{ post.author }}</span>
  &nbsp; 
  {% endif %}<i class="fa fa-calendar" aria-hidden="true"></i>
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>

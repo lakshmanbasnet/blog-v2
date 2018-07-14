@@ -4,6 +4,7 @@ date: 2016-06-02 04:06:47 Z
 categories:
 - iOS
 layout: post
+author: Lakshman Basnet
 ---
 
 <div class="abc">

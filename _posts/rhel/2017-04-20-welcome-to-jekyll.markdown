@@ -3,6 +3,7 @@ layout: post
 title:  Installing Jekyll on Redhat Enterprise Linux 
 date:   2017-04-20 17:01:02 +0545
 categories: rhel
+author: Lakshman Basnet
 description: Know how to install Jekyll static website generator on Redhat Enterprise Linux | Redhat Enterpise Linux Blog , How to
 ---
 

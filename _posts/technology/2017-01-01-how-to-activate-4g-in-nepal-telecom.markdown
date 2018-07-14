@@ -4,6 +4,7 @@ date: 2017-01-01
 categories:
 - technology
 layout: post
+author: lakshman
 description: Nepal Telecom just launched 4g service for the first time in Nepal today. To actiate 4G in your mobile follow these steps
 image: "/assets/Sublime_Text_Logo.png"
 ---

@@ -3,6 +3,7 @@ layout: post
 title:  Instaling Netbeans in Redhat Linux
 date:   2017-05-31 17:01:02 +0545
 categories: rhel
+author: Lakshman Basnet
 description: Netbeans on Redhat Enterprise Linux | Redhat Enterpise Linux Blog , How to
 ---
 

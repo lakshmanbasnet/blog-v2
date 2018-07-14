@@ -6,6 +6,7 @@ categories:
 layout: post
 description: Writing about the Google Local Guides Nepal - Nepal Local Guides Summit 2017 held at Nagarkot. How I started contributing to Google maps, and more.
 image: /assets/g1.jpg
+author: lakshman
 ---
 
 

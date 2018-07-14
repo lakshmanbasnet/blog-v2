@@ -6,6 +6,7 @@ categories:
 layout: post
 description: Explaining you, the details of document verification process, time it takes and major activitied involved in Nepal from university, education ministry, consular section of foreign ministry and the embassy.
 image: /assets/doc1.jpg
+author: Lakshman Basnet
 ---
 
 <img src="/assets/doc.jpg" alt="document verification in Nepal">

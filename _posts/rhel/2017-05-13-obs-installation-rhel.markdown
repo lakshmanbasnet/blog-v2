@@ -3,6 +3,7 @@ layout: post
 title:  Installing Open Broadcaster Software OBS in Redhat Enterprise Linux 7
 date:   2017-05-13 
 categories: rhel
+author: Lakshman Basnet
 description: OBS on Redhat Enterprise Linux | Redhat Enterpise Linux Blog , How to
 ---
 

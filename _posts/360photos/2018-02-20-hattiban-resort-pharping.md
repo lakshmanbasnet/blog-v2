@@ -6,6 +6,7 @@ categories:
 layout: post
 description: A collection of Hattiban Resort, Himalayan Height Resort in Pharping  captured in 360 photos during Himalayan Outdoor Festival 2018 Nepal. Enjoy the beautiful, natural scenic views and mindblowing infrastructures.
 image: "/assets/hattiban-resort.JPG"
+author: Lakshman Basnet
 ---
 
 Recently I got chance to visit Himalayan Height Resort, Hattiban Resort located in Pharping, Kathmandu. It is an hour's drive from ringroad. Located in top hill, between the woods, the resort is worth to be. Away from the chaotic valley, nature's silence and well architechtured infrastructures never fail to amaze every individual reaching there.

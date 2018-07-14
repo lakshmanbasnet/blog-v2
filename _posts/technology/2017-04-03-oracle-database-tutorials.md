@@ -6,6 +6,7 @@ categories:
 layout: post
 description: all you need to know starting from very basic to advanced level of administrating Oracle Database 11g R2 edition. Also, this will be a supplement resource for TU Bsc CSIT DBA notes, questions, and solutions. Learn Oracle Database in Nepal
 image: "/assets/oracle-dba.jpg"
+author: lakshman
 ---
 
 So, this blog post will be all about the **Oracle Database**, lessons from very beginning to advanced level. The contents will be added regularly.

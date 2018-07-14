@@ -6,6 +6,7 @@ categories:
 layout: post
 description: Installing Oracle Database 11g R2 with Docker on Linux is pretty easy and saves time and effort. In a matter of few minutes, you will have your Oracle database up and running and you can use it at your ease.
 image: "/assets/docker.jpg"
+author: lakshman
 ---
 <img src="/assets/docker.jpg" alt="Docker and Oracle 11gr2">
 

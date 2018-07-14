@@ -3,6 +3,7 @@ layout: post
 title: Mounting NTFS File System Drive in RHEL 7
 date: 2017-01-24 12:01:02 +0545
 categories: rhel
+author: Lakshman Basnet
 description: A simple walk through on mounting NTFS drives in Redhat Enterprise Linux | Redhat Enterpise Linux Blog , How to
 ---
 	

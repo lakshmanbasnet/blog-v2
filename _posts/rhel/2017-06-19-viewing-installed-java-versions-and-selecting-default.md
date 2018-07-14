@@ -3,6 +3,7 @@ layout: post
 title: Viewing the list of Java version installed and selecting the default one
 date: 2017-06-19 12:01:02 +0545
 categories: rhel
+author: Lakshman Basnet
 description: Viewing the list of Java version installed and selecting the default one on Redhat Enterprise Linux | Redhat Enterpise Linux Blog , How to
 ---
 We can view the current java version installed in our system with:

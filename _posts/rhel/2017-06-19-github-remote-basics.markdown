@@ -3,6 +3,7 @@ layout: post
 title: Git remote basic commands
 date: 2017-06-19 01:01:02 +0545
 categories: technology
+author: Lakshman Basnet
 description: Git and Github basics
 ---
 
