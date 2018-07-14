@@ -466,9 +466,21 @@ pre {
 .footer-col-wrapper {
     font-size: 15px;
     color: black;
-     
+    text-align: center; 
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+    padding-top: 14px;
+}
+
+.wrapper2 {
+    font-size: 14px;
+    color: black;
+    text-align: center; 
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+    background-color: $grey-color-light;
+    border-top: 1px solid $grey-color-light;
+    padding-top: 14px;
 }
 
 .footer-col {
@@ -491,6 +503,7 @@ pre {
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+    
 }
 
 @include media-query($on-laptop) {
@@ -522,7 +535,7 @@ pre {
 .page-content {
     background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
-    padding: $spacing-unit 0;
+    padding: 10px;
 }
 
 .homepage-content {
@@ -584,7 +597,7 @@ pre {
     margin-bottom: $spacing-unit;
     text-align:justify;
     font-size: 22px;
-    line-height: 35px;
+    line-height: 30px;
 
     h2 {
         font-size: 32px;
