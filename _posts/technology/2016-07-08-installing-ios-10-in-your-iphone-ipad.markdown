@@ -2,7 +2,7 @@
 title: Install iOS 10 on your device
 date: 2016-07-08 04:06:00 Z
 categories:
-- iOS
+- technology
 tags:
 - ios 10
 - apple

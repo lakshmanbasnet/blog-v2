@@ -2,7 +2,7 @@
 title: Screen recorder for iOS
 date: 2016-06-01 04:06:47 Z
 categories:
-- iOS
+- technology
 layout: post
 author: Lakshman Basnet
 ---

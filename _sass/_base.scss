@@ -181,7 +181,7 @@ pre {
 
 #sidebar {
     position: absolute;
-    top: 100px; right:20px;
+    right:20px;
     width:260px;
 }
 
@@ -256,8 +256,8 @@ pre {
 
 #sidebar-left {
     position: absolute;
-    top: 100px; height: 150px; left:20px;
-    width:260px;
+    left:20px;
+    width: 260px;
 }
 #sidebar-left-bottom {
     
@@ -354,18 +354,23 @@ pre {
 
 }
 
+.navbar {
+  font-size: 16px;
+  border-radius: 0px !important;
+ }
 .site-title {
     font-family: 'Gloria Hallelujah', cursive;
     font-size: 26px;
     font-weight: 300;
-    line-height: 56px;
+    
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    color: #000000 !important;
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #fff;
     }
 }
 
@@ -541,8 +546,7 @@ pre {
 .homepage-content {
     background-color: #f5f2f2;
     font-family: 'Montserrat', sans-serif;
-    padding: $spacing-unit 0;
-}
+  }
 
 .page-heading {
     font-family: 'Montserrat', sans-serif;
@@ -810,41 +814,6 @@ height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
 
-.navbar {
-  background: #B97CFC;
-  color: #fff;
-  padding: 1em 0.5em;
-}
-
-.navbar1 {
-  background: #008000;
-  color: #fff;
-  padding: 1em 0.5em;
- }
-.navbar a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.3em;
-  float: left;
-}
-.navbar1 a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.3em;
-  float: left;
-}
-.navbar span {
-  font-size: 1.1em;
-  font-weight: 300;
-  display: block;
-  text-align: center;
-}
-.navbar1 span {
-  font-size: 1.1em;
-  font-weight: 300;
- display: block;
-  text-align: center;
-}
 
 .profile-pic {
   width: 30px;
@@ -1042,10 +1011,10 @@ word-wrap: break-word;
 
 .postf {
   border: 1px solid $grey-color-light;
-  padding: 18px;
-  margin-bottom: 50px;
-  margin-right: 6px;
-  margin-left: 6px;
+  padding: 10px;
+  margin-bottom: 40px;
+  margin-right: 4px;
+  margin-left: 4px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

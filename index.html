@@ -2,13 +2,7 @@
 layout: homedef
 image: /assets/photo_2016-11-09_20-46-47.jpg
 ---
-
-
-<div class="alert alert-info">
-<strong>Site is being upgraded.</strong> Apologies if site takes a while loading content on your device.
-</div>
-
-
+<br>
 Everything I  write and share here were faced by me in some part of my time. Have time? know more about me: <a href="/timeline">timeline</a>, <a href="/about">about</a>, and <a href="http://lakshmanbasnet.com" target="blank">portfolio</a>. You can get this blog's archive <a href="/archive">here</a>.
 Make sure you use <b>Like, share and comment </b> boxes. ;)  
 
@@ -85,7 +79,7 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 <ul class="post-list">
   {% for post in paginator.posts %}
 
-
+<div class="col-lg-6" style="float: left;">
 <div class="postf">
     
   
@@ -99,30 +93,27 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 <div class="pimage">
      <img data-src="{{ post.image }}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 10px;">
 </div>
-         <p class="post-meta">{% if post.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i>
-{{ post.author }}</span>
- &nbsp; 
- {% endif %}<i class="fa fa-calendar" aria-hidden="true"></i>
+         <p class="post-meta"><i class="fa fa-calendar" aria-hidden="true"></i>
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
  {{ post.categories}}</span> 
     &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>
 {% assign words = content | number_of_words %}
 {% if words < 360 %}
-  1 min read
+  1 min
 {% else %}
-  {{ words | divided_by:180 }} min read
+  {{ words | divided_by:180 }} min
 {% endif %}<br></span></p>
-<p style="font-size: 18px;">
-      {{ post.description | strip_html | truncatewords: 70 }} &nbsp;<a class="btn btn-default btn-s" href="{{ post.url | prepend: site.baseurl }}" role="button">read more</a>
+<p style="font-size: 15px;">
+      {{ post.description | strip_html | truncatewords: 22 }} &nbsp;<a class="btn btn-default btn-s" href="{{ post.url | prepend: site.baseurl }}" role="button">read more</a>
 </p> 
     
-   <div class="row" style="margin-bottom: 15px; margin-top: 25px;">  
-    <div class="col-md-3 col-sm-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
+   <div class="row" style="margin-bottom: 5px; margin-top: 15px;">  
+    <div class="col-md-6 col-sm-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
   </div>
     
     
    
-  <div class="col-md-3 col-sm-6" style="float: left;">
+  <div class="col-md-6 col-sm-6">
     <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://blog.lakshmanbasnet.com{{ post.url | prepend: site.baseurl }}&display=popup&ref=plugin&src=share_button"><img src="/assets/share-facebook.png" style="height: 28px;" alt="fb"></a>
   </div>
 
@@ -134,7 +125,7 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 
 
 
-  </div>
+  </div></div>
   {% endfor %}
 
   </ul>

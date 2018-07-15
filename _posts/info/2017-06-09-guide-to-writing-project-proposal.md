@@ -2,7 +2,7 @@
 title: Your Guide to Writing a Better Project Proposal 
 date: 2017-06-09 04:06:47 Z
 categories:
-- TU
+- info
 layout: post
 description: All you need to know to write a project proposal, with every topics explained. Be it for engineering, Bsc CSIT, TU, PU, KU or anywhere you can use this as guideline for preparing project proposal.
 image: /assets/project-proposal.jpg

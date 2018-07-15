@@ -2,7 +2,7 @@
 title: Internet setting for Nepal Telecom and Ncell in iphone
 date: 2016-07-01 04:06:47 Z
 categories:
-- iOS
+- technology
 layout: post
 description: Internet/3g/GPRS/4G/LTE Configuration setting for Nepal Telecom(NTC)
   and Ncell in an iphone in easiest way

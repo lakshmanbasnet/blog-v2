@@ -8,7 +8,7 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 <html>
 {% include head.html %}
 {% include header.html %}
-
+<br><br>
 <div class="homepage-content">
 
   {% include sidebar-left.html %}
@@ -22,30 +22,7 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
       </div>
 
 
-  <!-- category for small mobile devices -->
-
-  <div class="visible-xs visible-sm">
-
-    <div class="tag-box inline">
-             
-           <a href="/"><b>  All  </b> <sup>{{ site.posts | size }}</sup></a>
-      {% assign tags_list = site.categories %}  
-
-          {% for tag in tags_list %} 
-           
-            &raquo; &nbsp;<a href="/{{ tag[0] }}">{{ tag[0] | capitalize }} <sup> {{ tag[1].size }} </sup></a> 
-          {% endfor %}
-        
-      {% assign tags_list = nil %}
-      
-      
-      
-      </div>
-  </div>
-
-
-
-
+  
   <div class="wrapper">
 
       {{ content }}

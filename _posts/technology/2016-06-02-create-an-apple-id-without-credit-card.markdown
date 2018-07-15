@@ -2,7 +2,7 @@
 title: Easiest way to create an apple id with no need of credit card
 date: 2016-06-02 04:06:47 Z
 categories:
-- iOS
+- technology
 layout: post
 author: Lakshman Basnet
 ---
