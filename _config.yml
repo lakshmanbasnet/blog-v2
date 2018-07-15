@@ -14,8 +14,8 @@ permalink: pretty
 permalink: /:categories/:title
 
 email: 
-description: Life, Travel & Technology Blogs from Nepal
-
+description: I am Lakshman Basnet, a Computer Science Student, Tech Enthusiast and Occasional Blogger from Nepal. | Lakshman's Blog
+des: Personal Blog on Life, Travel & Technology
 collections:
   photo-gallery: 
     output: true

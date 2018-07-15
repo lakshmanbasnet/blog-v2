@@ -2,26 +2,49 @@
 <head>
   <meta charset="utf-8">
 
-  <link rel="alternate" href="https://blog.lakshmanbasnet.com" hreflang="en" />
-
+  
+  <meta property="op:markup_version" content="v1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>
+    {% if page.title %}{{ page.title | escape }} | {{ site.des | truncate: 45  }}{% else %}{{ site.title | escape }} | {{ site.des| truncate: 45 }}{% endif %}
+  </title>
 
+  <meta property="fb:app_id" content="125847997953374">
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <meta name="keywords" content="lakshman, lakshman basnet, nepal, nepali blog, nepali blogger, technology, IT">
+  <meta name="keywords" content="lakshman, lakshman basnet, nepal, nepali blog, nepali blogger, technology, IT">
 
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {{ site.des | truncate: 45  }}{% else %}{{ site.title | escape }} | {{ site.des| truncate: 45 }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}/thumbs/{{ page.image }}" />
+<meta property="og:site_name" content="Lakshman's Blog">
+<meta property="article:publisher" content="http://www.facebook.com/knowledgeserverplus" />
+<meta property="article:author" content="https://www.facebook.com/lakshmanbasnet" />
+<meta property="article:published_time" content="{{ page.date }}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:site" content="@lakshmanbasnet" />
+<meta name="twitter:creator" content="@lakshmanbasnet">
+<meta name="twitter:card" content="summary">
+
+
+ <link rel="alternate" href="https://blog.lakshmanbasnet.com" hreflang="en" />
+
+ <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
  
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+ <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
+ <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
 
-    <meta property="fb:app_id" content="125847997953374">
+    
 
   
 <noscript async> 
@@ -53,7 +76,7 @@
 </noscript>
 
 
-{% seo %}
+
 
 
 
