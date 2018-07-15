@@ -4,10 +4,8 @@ date: 2014-06-06 04:06:47 Z
 categories:
 - travel
 layout: post
-description: Dhorpatan Hunting Reserve is the one and only hunting reserve in Nepal.
-  It spreads over a large geographical area, and is home to many ethnics. Many animals,
-  birds can be found here.
-image: "/assets/dh/51.jpg"
+description: A adventurous, fun filled and cold travel diary on my few days trip to one and only Hunting Reserve of Nepal, Dhorpatan Hunting Reserve back in 2014.
+image: "/assets/dh/67.jpg"
 pin: true
 author: lakshman
 ---
@@ -64,7 +62,7 @@ we started our hiking, visited nearby places, local villages and more.
 
  <figure><img data-src="/assets/dh/83.jpg" alt="dhorpatan" class="lazyload"/> </figure>As the main Lama was murdered , then all the disciples went away. When we reached there, the doors were opened, solar lamps were glowing. This monastery was well infrastructured with Buddhist art. I felt that this should be preserved well.</p>
  <figure><img data-src="/assets/dh/79.jpg" alt="dhorpatan" class="lazyload"/> </figure>
- <figure><img data-src="/assets/dh/82.jpg"alt="dhorpatan" class="lazyload" alt="dhorpatan" class="lazyload"/> </figure>
+ <figure><img data-src="/assets/dh/82.jpg" alt="dhorpatan" class="lazyload" alt="dhorpatan" class="lazyload"/> </figure>
 <p>We went to Thapa community residing there, we also saw a cottage of former COAS of Nepal Army Pyarjung Thapa which had helipad too. The people there were educated and had better living standard.
 <figure><img data-src="/assets/dh/19.jpg" alt="dhorpatan" class="lazyload"/> </figure>
 
