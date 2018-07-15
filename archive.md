@@ -12,13 +12,13 @@ permalink: /archive
 {% capture next_month %}{{ post.previous.date | date: "%B" }}{% endcapture %}
 
 {% if forloop.first %}
-{{this_year}}<br>
-{{ this_month }}
+<small>{{this_year}}<br>
+{{ this_month }}</small>
 
 {% endif %}
 <ul class="post-list">
 
-<li><span class="post-meta">{{ post.date | date: '%Y %b %d'}} .. {{ post.categories }} &raquo;</span> <small><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></small></li>
+<li><h4><span class="post-meta">{{ post.date | date: '%Y %b %d'}} {{ post.categories }} &raquo;</span> <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4></li>
 </ul>
 
 
@@ -27,16 +27,16 @@ permalink: /archive
 
 {% if this_year != next_year %}
 <hr>
-{{next_year}}<br>
+<small>{{next_year}}<br>
 {{ next_month }}
 <ul class="post-list">
 {% else %}    
 {% if this_month != next_month %}
 
 {{ next_month }}
-
 {% endif %}
 {% endif %}
 {% endif %}
 {% endfor %}
+
 
