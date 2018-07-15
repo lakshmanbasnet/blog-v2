@@ -28,7 +28,7 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
   <div class="postf" style="margin-top: 15px;">
     <div class="pin"> 
 
-  <img src="/assets/pin.jpg" title="Pinned Post" alt="pin post lakshmanbasnet">
+  <img data-src="/assets/pin.jpg" class="lazyload" title="Pinned Post" alt="pin post lakshmanbasnet">
 
 </div>
 
@@ -41,7 +41,7 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
           
          
 <div class="pimage">
-     <img src="{{ post.image }}" alt="{{ post.title }}" style="padding-bottom: 10px;">
+     <img data-src="{{ post.image }}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 10px;">
 </div>
          <p class="post-meta">{% if post.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i>
 {{ post.author }}</span>
@@ -97,7 +97,7 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 
 
 <div class="pimage">
-     <img src="{{ post.image }}" alt="{{ post.title }}" style="padding-bottom: 10px;">
+     <img data-src="{{ post.image }}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 10px;">
 </div>
          <p class="post-meta">{% if post.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i>
 {{ post.author }}</span>

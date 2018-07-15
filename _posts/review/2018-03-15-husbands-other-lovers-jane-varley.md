@@ -20,7 +20,7 @@ Coming across several books, the first time I read a book by Jane Elizabeth Varl
 Okay. So, this book has a fascinating story at first. There’s two brothers in England with a handsome appearance with hell lot of money and with their prospective careers. James Agnew and his wife Susanna seem to have a happy and wealthy life but inside it is seen that James is an alcoholic and their eight year old marriage is the brink of divorce. Furthermore, it’s Susanna’s second marriage.
 
 
-<img src="/assets/husbands2.jpg" alt="Husbands & Other Lovers by Jane Varley - Review"><br>
+<img data-src="/assets/husbands2.jpg" class="lazyload" alt="Husbands & Other Lovers by Jane Varley - Review"><br>
 
 On the other hand, Robert Agnew who is James’ younger brother  is a well known businessman and has a psychotic personality. He has a daughter of eight and he is a divorcee. Throughout the novel we see how he had abused his wife and two other girlfriends with his sexual fantasies. Robert is also represented as a pornographic man with unusual bipolar symptoms.
 
@@ -28,7 +28,7 @@ So, the story takes off with a good note where we can see Susanna loving James s
 
 The story takes surprising twists and turns when we find James falling for his own brother’s girlfriend Jasmine. He lies with his caring wife and gets indulged in what we call ‘extra marital affair’.
 
-<img src="/assets/husbands3.jpg" alt="Husbands & Other Lovers by Jane Varley - Review"><br>
+<img data-src="/assets/husbands3.jpg" class="lazyload" alt="Husbands & Other Lovers by Jane Varley - Review"><br>
 
 
 Then this story seems too tedious. On the third part, it is seen that James divorces Susanna for Jasmine which is so ridiculous. Wait, How is it fair for a man to divorce the wife is so loving?
@@ -40,12 +40,12 @@ In addition, it seems the author totally forgot the character ‘Susanna’ who 
 Moreover, Robert who abused women is a big time womanizer and makes pornographic films and CDs isn’t bashed into the jail.
 It would have been better if he was punished legally. I was really hoping to either have him killed or imprisoned but sadly none happened.
 
-<img src="/assets/husbands4.jpg" alt="Husbands & Other Lovers by Jane Varley - Review"><br>
+<img data-src="/assets/husbands4.jpg" class="lazyload" alt="Husbands & Other Lovers by Jane Varley - Review"><br>
 
 Likewise, the character Jasmine seemed too weak and confusing. She seems to be yearning for men her entire life. She is portrayed as the weakling, the timid character who goes around laying down with every married or divorced men. First Robert and then James even she was well aware of the fact of James’ marriage. She seemed very desperate throughout this novel to have a night stand with James and is the most disliked character.
 
 
-<img src="/assets/husbands1.jpg" alt="Husbands & Other Lovers by Jane Varley - Review"><br>
+<img data-src="/assets/husbands1.jpg" class="lazyload" alt="Husbands & Other Lovers by Jane Varley - Review"><br>
 
 
 My Verdict
