@@ -360,7 +360,7 @@ pre {
  }
 .site-title {
     font-family: 'Gloria Hallelujah', cursive;
-    font-size: 26px !important;
+    font-size: 26px;
     font-weight: 300;
     
     letter-spacing: -1px;
@@ -1033,7 +1033,7 @@ word-wrap: break-word;
 }
 
 .pimage {
-  max-width:100%;
+max-width:100%;
 max-height:100%;
 }
 
@@ -1043,7 +1043,6 @@ i.ba {
   box-shadow: 0px 0px 4px #888;
   padding: 0.5em 0.6em;
   margin-top: 10px;
-
 
 }
 
@@ -1102,4 +1101,25 @@ i.ba {
     width: 100%;
     top: 0;
     left: 0;
+}
+
+.rhre {
+  border-bottom: 1px solid #e74c3c;
+}
+
+.tableofcontent {
+box-shadow:0 2px 5px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+background-color: #fff;
+word-wrap: break-word;
+text-align: left;
+margin: 20px;
+padding: 10px;
+}
+
+.ba {
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 4px #888;
+  padding: 0.5em 0.6em;
+  margin-top: 10px;
 }

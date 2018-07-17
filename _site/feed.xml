@@ -5,9 +5,210 @@
     <description>I am Lakshman Basnet, a Computer Science Student, Tech Enthusiast and Occasional Blogger from Nepal. | Lakshman's Blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 17 Jul 2018 07:50:05 +0000</pubDate>
-    <lastBuildDate>Tue, 17 Jul 2018 07:50:05 +0000</lastBuildDate>
+    <pubDate>Tue, 17 Jul 2018 15:01:37 +0000</pubDate>
+    <lastBuildDate>Tue, 17 Jul 2018 15:01:37 +0000</lastBuildDate>
     <generator>Jekyll v3.7.3</generator>
+    
+      <item>
+        <title>Disqus Comments on Jekyll Site</title>
+        <description>&lt;p&gt;Few hours before writing this article, I was trying to setup DISQUS Comment System in this Jekyll site. I went through Disqus’ official site’s documentation and did exactly same what was told there but for some reasons the comment system didn’t load at all. I looked over the internet, but still no luck .. and later, I started playing around and the comment section just loaded! :D Here is how I did it!
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6 sm-5 xs-5 tableofcontent&quot;&gt;
+	&lt;h3 class=&quot;rhre&quot;&gt;This post is about&lt;/h3&gt;
+	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#1&quot;&gt;&lt;h4&gt;1. What Disqus is&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#2&quot;&gt;&lt;h4&gt;2. Disqus Comment vs Facebook Comment&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#3&quot;&gt;&lt;h4&gt;3. Disqus Installation in Jekyll site&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;a href=&quot;#4&quot;&gt;&lt;h4&gt;4. Quick Notes&lt;/h4&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a name=&quot;1&quot;&gt;&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;First, if you are new to DISQUS comment, let me tell you what Disqus is all about. It comes from the word &lt;b&gt;discussion&lt;/b&gt;. It is a very popular Comment Management System, remember it somehow differs from Content Management System even though comment is also a content in itself. It is kind of social network of comment that can be embedded into any webpages. Comment management is really easier and smoother with Disqus.
+&lt;br /&gt;
+&lt;br /&gt;
+Wikipedia defines Disqus as:&lt;/p&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+Disqus (/dɪsˈkʌs/) is a worldwide blog comment hosting service for web sites and online communities that use a networked platform. The company's platform includes various features, such as social integration, social networking, user profiles, spam and moderation tools, analytics, email notifications, and mobile commenting. 
+&lt;/div&gt;
+&lt;p&gt;&lt;a name=&quot;2&quot;&gt;&lt;/a&gt;
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;DISQUS Comment vs Facebook Comment&lt;/h2&gt;
+&lt;p&gt;From 2016 to the time writing this post, I was using facebook comment plugin for managing comments in this blog site. And now I am switching to Disqus comments primarily for following reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;not all visitors are willing to comment through their personal facebook account&lt;/li&gt;
+  &lt;li&gt;setting up facebook developer app and making comment plugin work takes little more time than setting up Disqus&lt;/li&gt;
+  &lt;li&gt;Disqus has a very outstanding dashboard for comment management&lt;/li&gt;
+  &lt;li&gt;apart from comments there are several other features like ads, newsletter subscriptions, and more in different plans in Disqus&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a name=&quot;3&quot;&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h2&gt;Setting up Disqus in Jekyll site&lt;/h2&gt;
+&lt;p&gt;Now lets quickly dive into setting up Disqus Comment System in our Jekyll site.&lt;/p&gt;
+
+&lt;p&gt;For this, please follow the instructions followed below:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Sign Up and login to &lt;a href=&quot;https://disqus.com&quot; target=&quot;blank&quot;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;create a new site from &lt;a href=&quot;https://disqus.com/admin/create/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;New&lt;/code&gt;&lt;/a&gt;  tab&lt;/li&gt;
+  &lt;li&gt;fil in the details and appropriate category that best fits your site&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;next page will take you to select appropriate platform where we can select the platforms our site is made on&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;choose jekyll&lt;/li&gt;
+  &lt;li&gt;in step &lt;i class=&quot;ba&quot;&gt;&lt;strong&gt;1&lt;/strong&gt;&lt;/i&gt;, it says us to setup in YAML front matter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+&lt;b&gt;note&lt;/b&gt;: if you want comment section to appear in every posts, or you don't want to define `comments: true` than you don't need to declare it in YAML. You can skip the step below:
+&lt;/div&gt;
+
+&lt;p&gt;YAML front matter is something thats inside:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+sth goes here
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;The instruction is to add &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; in the front matter of every post where we need to load Disqus comment as below:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
+layout: default
+comments: true
+# other options
+---
+
+post content
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;in step &lt;i class=&quot;ba&quot;&gt;&lt;b&gt;2&lt;/b&gt;&lt;/i&gt;,&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Disqus instructs us to put the universal code inside, lets create a new file &lt;code class=&quot;highlighter-rouge&quot;&gt;disqus.html&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; where we will keep our disqus comment code. The general syntax is:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% if page.comments %}
+universal code here
+{% endif %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Here is how my &lt;code class=&quot;highlighter-rouge&quot;&gt;disqus.html&lt;/code&gt; file looks like:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;disqus_thread&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+
+&lt;span class=&quot;cm&quot;&gt;/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;disqus_config&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;url&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{{ page.url }}'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;  &lt;span class=&quot;c1&quot;&gt;// Replace PAGE_URL with your page's canonical URL variable&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;page&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;identifier&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'{{ page.url }}'&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// Replace PAGE_IDENTIFIER with your page's unique identifier variable&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// DON'T EDIT BELOW THIS LINE&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'script'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://Shortname.disqus.com/embed.js'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;setAttribute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'data-timestamp'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;());&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;head&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;d&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;body&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;appendChild&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;
+                            
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;https://Shortname.disqus.com/embed.js&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;replace &lt;strong&gt;shortname&lt;/strong&gt; with your from the one you created one previously in disqus&lt;/p&gt;
+
+&lt;p&gt;since the js code didn’t work, so I added script source manually at the end and it works well. :)&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;thumbnail&quot;&gt;
+&lt;b&gt;note&lt;/b&gt;: if you want comment to be displayed in every posts, then you don't need to put universal code inside as above.  
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Now, in &lt;code class=&quot;highlighter-rouge&quot;&gt;post.html&lt;/code&gt; file located in &lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt;,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;lets add the disquss comment code from &lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; right above the closing &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;/article&amp;gt;&lt;/code&gt; tag or anywhere you want the comments to appear&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% if page.comments %}
+	{% include disqus.html %}
+{% endif %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;what this code does is, if the post hass &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; in YAML front matter than it will load the disqus comment.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If you want comment to be displayed in every posts, like in mine case,&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;add just following lines in &lt;code class=&quot;highlighter-rouge&quot;&gt;post.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;{% include disqus.html %}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;we are done with setting up Disqus in our jekyll system, remember to put &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; if you have wrapped &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div id=&quot;disqus_thread&quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;  inside if page.comments and endif, to display comments in specific posts in &lt;code class=&quot;highlighter-rouge&quot;&gt;post.html&lt;/code&gt; file&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;go ahead and check if the comment system is loading!&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;you can return back to diqus.com and complete configuration and enjoy the dashboard!
+&lt;a name=&quot;4&quot;&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Quick notes:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;if you want to load comments in specific defined post only,
+    &lt;ul&gt;
+      &lt;li&gt;you need to wrap include disqus.html inside if page.comments … endif&lt;/li&gt;
+      &lt;li&gt;you need to define in which post to load comment by adding &lt;code class=&quot;highlighter-rouge&quot;&gt;comments: true&lt;/code&gt; in frontmatter&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;if you want comment to load in all posts
+    &lt;ul&gt;
+      &lt;li&gt;you don’t need to wrap include disqus.html inside anything&lt;/li&gt;
+      &lt;li&gt;no need to add any front matters&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Disqus might slow down your webpage loading speed, for this you can keep all the scripts at the end footer of your jekyll site or do lazy load.&lt;/p&gt;
+
+    &lt;p&gt;But remember to at least keep &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div id=&quot;disqus_thread&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt; inside disqus.html&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;you can play around and modify above steps and procedurs as you wish&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Do, comment below if this article hepled you or have any confusion!&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 17 Jul 2018 04:06:47 +0000</pubDate>
+        <link>http://localhost:4000/jekyll/disqus-comment-installation-jekyll</link>
+        <guid isPermaLink="true">http://localhost:4000/jekyll/disqus-comment-installation-jekyll</guid>
+        
+        
+        <category>jekyll</category>
+        
+      </item>
     
       <item>
         <title>Food &amp; Beverage and Hospitality  2018</title>
@@ -1841,7 +2042,7 @@ This drama is the best drama I’ve ever watched. There are many glimpses that b
 &lt;p&gt;Bar graph depicting rates of first marriages, second marriages, divorce and total marriages in UK from 1950 to 2000 ( least 150)&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 id=&quot;ielts-writing-task-2&quot;&gt;IELTS Writing Task 2&lt;/h2&gt;
+&lt;h2 id=&quot;ielts-writing-task-2&quot;&gt;IELTS Writing Task 2##&lt;/h2&gt;
 
 &lt;p&gt;The tendency for human beings to copy others can be shown in the poplarity of fashion in clothes and other consumer goods. To what extent do you agree or disagree ? ( 250 words)&lt;/p&gt;
 
@@ -2133,22 +2334,6 @@ Download ES file explorer or similar apps, and goto network section, you can add
         
         
         <category>IOT</category>
-        
-      </item>
-    
-      <item>
-        <title>Nepal International Beer Festival 2017</title>
-        <description>&lt;p&gt;Visit Nepal International Beer Festival website to know more.&lt;/p&gt;
-
-&lt;p&gt;Thank You :)&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 06 Dec 2017 03:52:47 +0000</pubDate>
-        <link>http://localhost:4000/events/nepal-international-beer-festival-2017</link>
-        <guid isPermaLink="true">http://localhost:4000/events/nepal-international-beer-festival-2017</guid>
-        
-        
-        <category>events</category>
         
       </item>
     

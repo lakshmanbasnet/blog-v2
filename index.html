@@ -34,8 +34,9 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
           </h1> </a> 
           
          
+
 <div class="pimage">
-     <img data-src="{{ post.image }}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 10px;">
+     <img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 10px;">
 </div>
          <p class="post-meta">{% if post.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i>
 {{ post.author }}</span>
@@ -83,17 +84,41 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 <div class="postf">
     
   
-          <h2 style="margin-bottom: 10px">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>
+          
           
     
 
 
 <div class="pimage">
-     <img data-src="{{ post.image }}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 10px;">
+     <img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 2px;">
 </div>
-         <p class="post-meta"><i class="fa fa-calendar" aria-hidden="true"></i>
+
+
+<h1>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</h1>
+
+
+         
+<p style="font-size: 13px;">
+      {{ post.description | strip_html | truncatewords: 24 }}
+</p> 
+    
+   <div class="row" style="margin-bottom: 0px; margin-top: 12px;">  
+    <div class="col-md-6 col-sm-6 col-xs-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
+  </div>
+    
+    
+   
+  <div class="col-md-6 col-sm-6 col-xs-6">
+    <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://blog.lakshmanbasnet.com{{ post.url | prepend: site.baseurl }}&display=popup&ref=plugin&src=share_button"><img src="/assets/share-facebook.png" style="height: 24px;" alt="fb"></a>
+  </div>
+
+    
+
+  </div>
+<small>
+<p class="post-meta"><hr class="hre"><i class="fa fa-calendar" aria-hidden="true"></i>
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
  {{ post.categories}}</span> 
     &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>
@@ -102,26 +127,7 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
   1 min
 {% else %}
   {{ words | divided_by:180 }} min
-{% endif %}<br></span></p>
-<p style="font-size: 15px;">
-      {{ post.description | strip_html | truncatewords: 22 }} &nbsp;<a class="btn btn-default btn-s" href="{{ post.url | prepend: site.baseurl }}" role="button">read more</a>
-</p> 
-    
-   <div class="row" style="margin-bottom: 5px; margin-top: 15px;">  
-    <div class="col-md-6 col-sm-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
-  </div>
-    
-    
-   
-  <div class="col-md-6 col-sm-6">
-    <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://blog.lakshmanbasnet.com{{ post.url | prepend: site.baseurl }}&display=popup&ref=plugin&src=share_button"><img src="/assets/share-facebook.png" style="height: 28px;" alt="fb"></a>
-  </div>
-
-    
-
-  </div>
-
-      
+{% endif %}</span></p></small>
 
 
 

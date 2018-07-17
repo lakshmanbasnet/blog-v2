@@ -1,6 +1,6 @@
 ---
 title: Nepal's 360 Photos and Videos by lakshman
-permalink: "/nepal-360/"
+permalink: "/nepal-360-photo/"
 layout: category
 ---
 
