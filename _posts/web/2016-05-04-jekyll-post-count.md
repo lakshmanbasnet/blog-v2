@@ -9,7 +9,7 @@ layout: post
 We can display the total number all posts or in particular with following code , I have used only one curly brace, make sure there are two {{ code}}
     
     {% raw %}
-    { site.posts | size }}
+    {{ site.posts | size }}
     {% endraw %} 
 
 
