@@ -90,7 +90,7 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 
 
 <div class="pimage">
-     <img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 2px;">
+     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 2px;"></a>
 </div>
 
 
