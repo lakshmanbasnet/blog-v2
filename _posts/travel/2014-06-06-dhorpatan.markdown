@@ -4,7 +4,7 @@ date: 2014-06-06 04:06:47 Z
 categories:
 - travel
 layout: post
-description: A adventurous, fun filled and cold travel diary on my few days trip to one and only Hunting Reserve of Nepal, Dhorpatan Hunting Reserve back in 2014.
+description: An adventurous, fun filled and cold travel diary on my few days trip to one and only Hunting Reserve of Nepal, Dhorpatan Hunting Reserve back in 2014.
 image: "/assets/dh/67.jpg"
 pin: true
 author: lakshman
