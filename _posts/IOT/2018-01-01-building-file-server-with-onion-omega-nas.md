@@ -7,6 +7,7 @@ layout: post
 description: Here you will learn how to setup a file server for your network using Onion Omega a linux powered computer, samba and external storage. This server is accessible from different devices/OS be it mobile or desktop. Login Credentials can also be setup for different users to prevent unwanted access.
 image: "/assets/omega1.jpg"
 author: Lakshman Basnet
+comments: true
 ---
 
 Here you will learn how to setup a file server for your network using Onion Omega a linux powered computer, samba and external storage. This server is accessible from different devices/OS be it mobile or desktop. Login Credentials can also be setup for different users to prevent unwanted access.
