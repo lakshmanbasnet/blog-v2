@@ -1,10 +1,10 @@
 ---
-title: NASA Space Apps Challenge 2017
+title: NASA Space Apps Challenge 2017 Kathmandu Nepal
 date: 2017-05-03
 categories:
 - technology
 layout: post
-description: Diary on Space Apps 2017, Why should you participate in hackathons like NASA Space Apps, about the event blog and more.
+description: International Space Apps 2017 held in Kathmandu, Nepal, Why should you participate in hackathons like NASA Space Apps, about the event blog and more.
 image: "/assets/space.jpg"
 author: Lakshman Basnet
 ---
