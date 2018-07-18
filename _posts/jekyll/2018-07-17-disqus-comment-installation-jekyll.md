@@ -138,7 +138,7 @@ lets add the disquss comment code from `_includes` right above the closing `</ar
 	{% endif %}
 	{% endraw %}
 
-what this code does is, if the post hass `comments: true` in YAML front matter than it will load the disqus comment.
+what this code does is, if the post has `comments: true` in YAML front matter than it will load the disqus comment.
 
 <br><br>
 

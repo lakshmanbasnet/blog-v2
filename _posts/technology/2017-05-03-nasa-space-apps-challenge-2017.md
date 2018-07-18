@@ -11,18 +11,26 @@ author: Lakshman Basnet
 
 <small>
 Disclaimer: This is personal blog diary about NASA Space Apps Challenge 2017, contents herein may have been adapted from different sources. Embedded for informative purpose only. Comment for any issues if any</small>
-<hr>
 
-Quick Navigation
-1. <a href="#why"> Why to attend NASA Space Apps Challenge?</a>
-2. <a href="#local_challenges"> Local Challenges for 2017</a>
-3. <a href="#day1">Day #1</a>
-4. <a href="#day2">Day #2</a>
-5. <a href="#we">What we did?</a>
-6. <a href="#winner">Interview with Winner Team RAIT on project Smart Agriculture</a>
-7. <a href="#smart_agricluture">Smart Agriculture Project Details</a>
-7. <a href="#photos">Space Apps 2017 Photos</a>
 
+<br>
+
+<div class="row">
+<div class="col-md-7 sm-5 xs-5 tableofcontent">
+	<h3 class="rhre">This post is about</h3>
+ <li class="hre"><a href="#why"> <h4>1. Why to attend NASA Space Apps Challenge?</h4></a></li>
+ <li class="hre"><a href="#local_challenges"> <h4>2. Local Challenges for 2017</h4></a></li>
+ <li class="hre"><a href="#day1"><h4>3. Day #1</h4></a></li>
+ <li class="hre"><a href="#day2"><h4>4. Day #2</h4></a></li>
+ <li class="hre"><a href="#we"><h4>5. What we did?</h4></a></li>
+ <li class="hre"><a href="#winner"><h4>6. Video Interview - Smart Agriculture, Winner</h4></a></li>
+ <li class="hre"><a href="#smart_agricluture"><h4>7. Smart Agriculture Project Details</h4></a></li>
+<a href="#photos"><h4>8. Space Apps 2017 Photos</h4></a>
+</div>
+
+</div>
+
+<br>
 For second time,  with great joy and excitement I participated  in NASA's International Space Apps Challenge 2017.
 
 2016 was my first participation and luckily got chance to add another to the record.
