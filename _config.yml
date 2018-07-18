@@ -14,7 +14,7 @@ permalink: pretty
 permalink: /:categories/:title
 
 email: 
-description: I am Lakshman Basnet, a Computer Science Student, Tech Enthusiast and Occasional Blogger from Nepal. | Lakshman's Blog
+description: Computer Science Student, Tech Enthusiast and Occasional Blogger from Nepal - Laxman Basnet | Lakshman's Blog
 des: Life, Travel & Technology Blogs by lakshman
 collections:
   photo-gallery: 
@@ -30,7 +30,7 @@ gems:
 sass:
   style: compressed
 
-paginate: 20
+paginate: 26
 markdown: kramdown
 highlighter: rouge
 kramdown:
