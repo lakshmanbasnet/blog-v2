@@ -30,7 +30,7 @@ gems:
 sass:
   style: compressed
 
-paginate: 26
+paginate: 30
 markdown: kramdown
 highlighter: rouge
 kramdown:
