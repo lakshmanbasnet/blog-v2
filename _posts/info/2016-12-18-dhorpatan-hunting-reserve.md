@@ -6,7 +6,7 @@ categories:
 layout: post
 description: Dhorpatan Hunting Resrve is the one and only hunting reserve in Nepal. All the detail information of DHR including data, visualization, facts and figures, photos and almost you all need to know about dhorpatan.
 image: "/assets/dh/dhth1.jpg"
-permalink: /dhorpatan-hunting-reserve
+permalink: /info/dhorpatan-hunting-reserve
 author: Lakshman Basnet
 ---
  Here below, I have tried to include every data, facts and figure, information and visualization. Hope it will be useful. Also, I think you might like my travelogue on my visit to Dhorpatan. Read [here](http://blog.lakshmanbasnet.com/travel/2014/06/06/dhorpatan.html). I collected source contents from Dhorpatan Hunting Reserve's brochure that is handed over to visitors. 
