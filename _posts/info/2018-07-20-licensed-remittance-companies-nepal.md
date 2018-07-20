@@ -1,0 +1,536 @@
+---
+title: Licensed Remittance Companies in Nepal
+date: 2018-07-20 12:15:00 Z
+categories:
+- info
+layout: post
+author: lakshman
+description: Nepal Rastra Bank has licensed around 49 companies for providing remittance services in Nepal. This list contains the organization name, address and their contact number.
+image: /assets/lb-th.png
+---
+
+Nepal is a remittance based company. Most of the people here in Nepal depend upon their family member working somewhere in foreign countries be it in developed countries or golf nations. 
+
+There are several reasons why young manpower are leaving their country with the aim of earning a better income abroad. 
+
+Some might consider as braindrain, but there are different reasons behind the scenes. Because of weak governance system, people have less faith upon the government. Employment opportunities are very limited, and even if someone gets a job, its really hard to feed one's family twice a day with the salary they get. For low skilled and semi skilled manpower, the situation is even more worse. ...
+
+To give their family a better living standard and make their family able to live happily fulfilling their basic need, many Nepalese fly abroad. And there is no doubt that the major source of income of entire nation is **remittance** sent by the Nepali workers working abroad to their family here. There won't be a huge debate if anyone says, Nepal is remittance dependent country, yes it is! It will be until, the scenario changes...
+
+Here below, 
+I have compiled list of private companies providing remittance services to Nepalese. According to Nepal Rastra Bank (NRB), 49 different companies have been licensed till date in remittance operation. 
+
+
+
+<div class="alert alert-info thumbnail">
+<h2> List of Licensed Remittance Companies in Nepal</h2></div>
+<div class="row">
+<!-- 1 -->
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Easylink Remittance Pvt. Ltd</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Sorhakhutte, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14388375</i>
+</div>
+</div>
+</div>
+
+
+<!-- 2 -->
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Annapurna Travel and Tours (P) Ld</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Ghantaghar, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14223530</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>IME Limited</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Panipokhari, Kathmandu </i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14430600 </i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>CG FINCO Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Sanepa, Lalitpur</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 15549792</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Sewa Remit Pvt. Ltd. </h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Kuleshwor, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14283728</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Prabhu Money Transfer Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Kamaladi, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14442561 </i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Lalit Money Transfer P. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Gongabu, Kathmandu</i>
+
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>United Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Lainchaur, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14441560</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Nepal Remit International Pvt. ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Kathmandu Plaza</i> <br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14168800</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Hulas Remittance Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Ganabahal, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 12161313</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Nepal Universal Money Transfer Service Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Dharmapath, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14227653</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Samsara Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Nagpokhari, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14444711</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Modern Money Express Nepal Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Kamalpokhari, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14441638</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>City Express Money Transfer Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Ghantaghar, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14231900</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Advance Money Transfer Pvt Ltd</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Sundhara, Kathamndu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14266344</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Nava Durga Money Transfer Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Dillibazar, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14423980</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Zenith Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Kathmandu Plaza</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14168548</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Surya Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Samakhusi, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14353445</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Panos Remmit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Koteshwor, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14602199</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Digitek Remittance Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Gairidhara, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14232068</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>C.G. Money Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Jhamsikhel, Lalitpur</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 15545891</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>J.M.E. Remit Company Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Durbar Marg, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 9851042851</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Yes Remit Pvt. Ltd. </h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Gairidhara-2, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14004711 </i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Times Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Kathmandu Mall, Sundhara</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14150170</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> I Pay Remit (P.) Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Gairidhara, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14435122</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> My Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Baluwatar, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14414427</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Kantipur Remit (P.) Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Newroad, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 9851130080</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> G.M.E. Remit (P.) Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Lainchaur, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 14024065</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Pashupati Nepal Remit (P.) Ltd. </h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Dillibazar, Kathmandu </i><br>
+<i class="fa fa-phone" aria-hidden="true"> </i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Sansar Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Durbar Marg, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 9851114202 </i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Mahakali Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> New Road, Kathmandu </i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 9851053372</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> K.M.E. International Remittance Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Gongabu, Kathmandu </i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 9851024897 </i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Maya Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true"> Pulchowk, Lalitpur </i><br>
+<i class="fa fa-phone" aria-hidden="true"> 977 15527795</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Goodwill Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Kamalpokhari, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9851024924</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Thamel Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Hattisar, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9851026514</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3>Gandaki Remit Pvt. Ltd. </h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  New Road, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9855060523</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Smart Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Kathmandu Mall, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9843356666</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> CFS Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Teku, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9851034844</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Global Mountain Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Pingalasthan, Kathamndu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 14113766</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Boom Remittance Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Soalteemode, Kalimati</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9849025038</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Overseas Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Nayabaneshwor, Shankmul</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9851192890</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Max Money Transfer Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Anamnagar, Kahmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9802900555</i>
+</div>
+</div>
+</div>
+
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Remit to Nepal Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Chakupat, Lalitpur-10</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9803871506</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Q. S. Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Lazimpat, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 14425521</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Buddha International Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Sinamangal, Kahmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 14478864</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Ramro Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Baluwatar, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 9851215045</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Cashway Money Transfer Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Battisputali, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 14489616</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> National Money Transfer Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Kalimati, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  977 14301307</i>
+</div>
+</div>
+</div>
+
+<div class="col-sm-6 col-md-4">
+<div class="thumbnail">
+<h3> Esara Remit Pvt. Ltd.</h3>
+<div class="caption">
+<i class="fa fa-map-marker" aria-hidden="true">  Baluwatar, Kathmandu</i><br>
+<i class="fa fa-phone" aria-hidden="true">  9851184771</i>
+</div>
+</div>
+</div>
+
+</div>
