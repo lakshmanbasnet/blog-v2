@@ -1,6 +1,6 @@
 ---
 title: Disqus Comments on Jekyll Site
-date: 2018-07-17 04:06:47 Z
+date: 2018-07-10 04:06:47 Z
 categories:
 - jekyll
 layout: post

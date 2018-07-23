@@ -72,12 +72,17 @@ layout: default
   <div class="post-content" itemprop="articleBody">
   
 
-    <div class="row">
+    <div class="row thumbnail"><br>
       <div class="col-md-6">
+
+         
+
   <i class="fa fa-calendar-check-o" aria-hidden="true"></i> {{ page.d }}<br>
   <i class="fa fa-map-marker" aria-hidden="true"></i> {{ page.venue }}
 
   <br>
+
+  
 
     {% if page.website != nil %}
   <i class="fa fa-firefox" aria-hidden="true"></i> <a href="http://{{ page.website }}">{{ page.website }}</a><br>  {% endif %}
@@ -94,17 +99,24 @@ layout: default
   <i class="fa fa-phone" aria-hidden="true"></i> {{ page.phone }}
   {% endif %}
 
+
   <br>
 
     </div>
 
     <div class="col-md-6">
-        <img src="{{ page.image }}" style="border-radius: 50%; height: 180px; width: 180px; border: 1px solid grey; padding: 4px;"> 
+        <img src="{{ page.image }}"> 
     </div>
   
 </div>
- 
-<hr>
+
+  {% if page.tagline != nil %}
+  <hr class="hre">
+  tagline: 
+  {{ page.tagline }}
+  <hr>
+  {% endif %}
+
   <b>Description</b><br>
   {{ page.description }}
 

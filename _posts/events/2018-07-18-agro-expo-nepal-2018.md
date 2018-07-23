@@ -1,6 +1,6 @@
 ---
 title: Agro Mart & Meet 2018
-date: 2018-07-14
+date: 2018-07-19
 categories:
 - events
 layout: event
@@ -11,6 +11,8 @@ venue: Bhrikutimandap Exhibition Hall, Kathmandu, Nepal
 website: www.agroexponepal.com
 email: info@agroexponepal.com
 author: Lakshman Basnet
+tagline: Moving from Subsistence to Commercial Agriculture
+fb: /agroexponepal
 ---
 
 <img data-src="/assets/agroexponepal1.jpg" class="lazyload" alt="agriculture event nepal">
