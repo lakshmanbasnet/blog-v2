@@ -3,8 +3,8 @@ layout: homedef
 image: /assets/photo_2016-11-09_20-46-47.jpg
 ---
 <br>
-Everything I  write and share here were faced by me in some part of my time. Have time? know more about me: <a href="/timeline">timeline</a>, <a href="/about">about</a>, and <a href="http://lakshmanbasnet.com" target="blank">portfolio</a>. You can get this blog's archive <a href="/archive">here</a>.
-Make sure you use <b>Like, share and comment </b> boxes. ;)  
+<b>Namaste!</b> I am Lakshman, a Computer Science Student, Open Source Enthusiast and Technology Lover, professional Digital Media Marketing Specialist and a passionate YouTube Content Creator from Nepal!
+<small>Posted below are my personal blogs on life, travel and technology! Enjoy reading! Much Love! :)</small>
 
 
 <!-- pin post start -->
@@ -18,45 +18,52 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 
   <img data-src="/assets/pin.jpg" class="lazyload" title="Pinned Post" alt="pin post lakshmanbasnet">
 
-</div>
+  </div>
 
   <div style="float: right; font-size: 11px;">
     Pinned Post &nbsp;
-  </div>
-          <h2 style="margin-bottom: 10px">
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h2>  
-          
-         
+  </div>    
+ 
+ <div class="row">        
+<div class="col-lg-6 col-md-6">
 
 <div class="pimage">
-     <img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 10px;">
+     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}"></a>
 </div>
-         <p class="post-meta">{% if post.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-user" aria-hidden="true"></i>
-{{ post.author }}</span>
- &nbsp; 
- {% endif %}<i class="fa fa-calendar" aria-hidden="true"></i>
+</div>
+
+<div class="col-lg-6 col-md-6">
+<h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+</h2>
+
+<p style="font-size: 13px;">
+      {{ post.description | strip_html | truncatewords: 30 }}
+</p> 
+         <small>
+<p class="post-meta"><hr class="hre"><i class="fa fa-calendar" aria-hidden="true"></i>
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
  {{ post.categories}}</span> 
     &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>
 {% assign words = content | number_of_words %}
 {% if words < 360 %}
-  1 min read
+  1 min
 {% else %}
-  {{ words | divided_by:180 }} min read
-{% endif %}<br></span></p>
-<p style="font-size: 18px;">
-      {{ post.description | strip_html | truncatewords: 70 }} &nbsp;<a class="btn btn-default btn-s" href="{{ post.url | prepend: site.baseurl }}" role="button">read more</a>
-</p> 
+  {{ words | divided_by:180 }} min
+{% endif %}</span></p></small>
     
-   <div class="row" style="margin-bottom: 15px; margin-top: 25px;">  
-    <div class="col-md-3 col-sm-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
+   <div class="row" style="margin-bottom: 0px; margin-top: 12px;">  
+    <div class="col-md-6 col-sm-6 col-xs-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
   </div>
     
     
    
-  <div class="col-md-3 col-sm-6" style="float: left;">
-    <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://blog.lakshmanbasnet.com{{ post.url | prepend: site.baseurl }}&display=popup&ref=plugin&src=share_button"><img src="/assets/share-facebook.png" style="height: 28px;" alt="fb"></a>
+  <div class="col-md-6 col-sm-6 col-xs-6">
+    <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://blog.lakshmanbasnet.com{{ post.url | prepend: site.baseurl }}&display=popup&ref=plugin&src=share_button"><img src="/assets/share-facebook.png" style="height: 24px;" alt="fb"></a>
+  </div>
+</div>
+</div></div>
+
   </div>
 
   
@@ -70,7 +77,6 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
 
 
 <!-- pin post end -->
-<br>
 <ul class="post-list">
   {% for post in paginator.posts %}
 
@@ -98,7 +104,7 @@ Make sure you use <b>Like, share and comment </b> boxes. ;)
       {{ post.description | strip_html | truncatewords: 24 }}
 </p> 
     
-   <div class="row" style="margin-bottom: 0px; margin-top: 12px;">  
+   <div class="row" style="margin-bottom: 0px; margin-top: 10px;">  
     <div class="col-md-6 col-sm-6 col-xs-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
   </div>
     
