@@ -1,5 +1,5 @@
 ---
-title: GAMCE 2019
+title: Global Adventure and Mountaineering Conference & Expo - GAMCE 2019
 date: 2018-06-04 03:52:47 Z
 categories:
 - events
