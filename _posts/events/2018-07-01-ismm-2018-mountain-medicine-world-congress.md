@@ -54,7 +54,7 @@ The 3 day's Congress will focus on following areas of mountain medicine and high
 <a name="3"></a>
 <br><br>
 <h2 class="rhre">Program Schedule of ISMM World Congress on Mountain Medicine 2018</h2>
-<iframe data-src="http://ismm2018.org/program.pdf" height="700px" width="760px" class="lazyload"></iframe>
+<iframe data-src="http://ismm2018.org/program.pdf" height="700px" width="760px"></iframe>
 
 
 <a name="4"></a>
