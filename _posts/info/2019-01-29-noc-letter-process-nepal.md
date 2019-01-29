@@ -1,5 +1,5 @@
 ---
-title: No Objection Certificate - NOC in Nepal Obtaining Process Everything You Need to Know
+title: Everything you need to know about obtaining NOC Letter
 date: 2019-01-29 02:39:00 Z
 categories:
 - info
@@ -16,7 +16,7 @@ Basically, when you possess a NOC letter, it means that the Ministry of Educatio
 Let me make this clear, 
 so you have received your offer letter or i20 from your desired foreign instituion and now you need to pay your admission fees from Nepal. You can pay your fees by different ways, one genuine way is to do SWIFT Bank Transfer to your college/university through licensed Banks in Nepal. To send money on your behalf, Banks in Nepal will require you to present NOC issued from Education Ministry.
 
-
+<br>
 
 Listed below are the major steps involved in obtaining NOC certificate.
 
@@ -30,7 +30,6 @@ Listed below are the major steps involved in obtaining NOC certificate.
 - offer/ i20 letter from university, 
 - academic transcript original and copy of last academic degree, if no original all notarized
 
-
 3. submit filled form and docs at counter 3 for ruju/ verification
 
 4. after officer at counter 3 has approved your documents and application go to counter 2 for voucher and payment 2000 each degree
@@ -42,14 +41,14 @@ Listed below are the major steps involved in obtaining NOC certificate.
 
 
 
-
+<br>
 
 This is the general process, and you will get your NOC letter within same day.
 
-
+<br><br>
 Incase, officer asks you to get permission/ letter from Nepal Health Professional Council(NHPC) then, you need to visit to NHPC office at Bansbari, Kathmandu and follow these steps:
-
-Documents required:
+<br>
+**Documents required:**
 
 - passport( original & copy),
 - citizenship(original & copy),
@@ -61,10 +60,10 @@ Documents required:
 - deposit voucher slip of NPR 1500 in NHPC SBI Bank account
 - directly go to room number 3 and submit there and come to room 1 and wait until they call ur name
 
-
+<br>
 
 note: I will make this post more informative with time, for now I just posted the draft for your information.
-
+<br><br>
 If you have any queries, comment down below, I will be more than happy to answer you. :)
 
 
