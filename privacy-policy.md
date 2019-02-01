@@ -11,3 +11,5 @@ Lakshmanbasnet.com and blog.lakshmanbasnet.com follow following privacy policy f
 - Google Analytics and Statcounter will be tracking visitors behavior
 - No, any data obtained from above sources is used for commercial purposes or provided to others.
 - Since, this site is a static site, with no databases, we don't store any visitors information or data!
+- visitors are believed to read Disclaimer of lakshmanbasnet.com at https://blog.lakshmanbasnet.com/disclaimer and consented to terms and conditions mentioned
+
