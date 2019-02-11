@@ -1,21 +1,21 @@
 ---
 title: Queen for Seven Days - Korean Drama Review
-date: 2019-02-11 04:06:47 Z
-categories:
-- review
+date: 2019-02-11
+categories: review
 layout: post
-description: Queen for Seven days is a 20 episodes drama loosely based on Queen Dangyeong who became the scapegoat of the power struggle in the Josoen politics. Queen Dangyeong was deposed and  had her title stripped just after the seventh day of her husband King Jungjong's reign. This story is also based on the triangle love of the two brothers - King and  the crown prince.
+description: Queen for Seven days is a 20 episodes drama loosely based on Queen Dangyeong who became the scapegoat of the power struggle in the Josoen politics. Queen Dangyeong was deposed and  had her title stripped just after the seventh day of her husband King Jungjong's reign. This story is also based on the triangle love of the two brothers, King and  the crown prince.
 image: /assets/Queenforsevendays1.jpg
 author: Soneesha
 ---
 
+
 <img data-src="/assets/Queenforsevendays1.jpg" class="lazyload" alt="Queen for Seven Days - Korean Drama Review"><br>
-I love Sageuk dramas. K dramas have always been  'heart soothing' medicines for me. I love the plot, performances of actors and everything about it! However, it's not everyday that you get to watch a 'One in a million' kind of drama and I have once again come across one :) 
+I love Sageuk dramas. K dramas have always been  'heart soothing' medicines for me. I love the plot, performances of actors and everything about it! However, it's not everyday that you get to watch a 'One in a million' kind of drama and I have once again come across one. :) 
 
-One of the most beautiful tale which has so much sad plots, twists & turns and of course this drama will really make you cry all the time for the 20 episodes :(
+One of the most beautiful tale which has so much sad plots, twists & turns and of course this drama will really make you cry all the time for the 20 episodes. :(
 
 
-I don't prefer sad stories however, I tried with this drama for once because of the several wonderful reviews and now, this story has made me write one :)
+I don't prefer sad stories however, I tried with this drama for once because of the several wonderful reviews and now, this story has made me write one. :)
 
 
 
@@ -72,7 +72,7 @@ and thus leaves palace in the end. In the last segment of the drama, it is shown
 
 King asks Queen not to leave and stay by his side while he reigns Joseon with justice.Queen in reply says that she has to go so that he does his job without any worries and political rivalries. He could call her 'home' and he can return to her (home) after he completes all his job as a king.
 
-The last two minutes of the drama showcases that Queen Dangyeong returns to the palace after 40 years to stay with the King for the final few years. The king still wears the same dress her wife sewn for him. The queen still wears the same hanbok he gifted her. Then the queen sits with her king and says 'My King, You are now home.'
+The last two minutes of the drama showcases that Queen Dangyeong returns to the palace after 40 years to stay with the King for the final few years. The king still wears the same dress her wife sewn for him. The queen still wears the same hanbok he gifted her. Then the queen sits with her king and says 'My King, You are now home'.
 
 
 <img data-src="/assets/Queenforsevendays6.jpg" class="lazyload" alt="Queen for Seven Days - Korean Drama Review"><br>
