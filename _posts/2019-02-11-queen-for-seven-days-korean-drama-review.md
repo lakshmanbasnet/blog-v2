@@ -1,6 +1,6 @@
 ---
 title: Queen for Seven Days - Korean Drama Review
-date: 2018-03-15 04:06:47 Z
+date: 2019-02-11 04:06:47 Z
 categories:
 - review
 layout: post
