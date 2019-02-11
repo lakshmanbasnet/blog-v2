@@ -4,7 +4,7 @@ date: 2019-02-11 04:06:47 Z
 categories:
 - review
 layout: post
-description: 'Queen for Seven days' is a 20 episodes drama loosely based on Queen Dangyeong who became the scapegoat of the power struggle in the Josoen politics. Queen Dangyeong was deposed and  had her title stripped just after the seventh day of her husband King Jungjong's reign. This story is also based on the triangle love of the two brothers - King and  the crown prince.
+description: Queen for Seven days is a 20 episodes drama loosely based on Queen Dangyeong who became the scapegoat of the power struggle in the Josoen politics. Queen Dangyeong was deposed and  had her title stripped just after the seventh day of her husband King Jungjong's reign. This story is also based on the triangle love of the two brothers - King and  the crown prince.
 image: /assets/Queenforsevendays1.jpg
 author: Soneesha
 ---
