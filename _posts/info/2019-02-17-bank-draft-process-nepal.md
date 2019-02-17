@@ -5,7 +5,7 @@ categories:
 - info
 layout: post
 author: Lakshman Basnet
-description: 
+description: This post is about how you can obtain Bank Draft from major bank in Nepal. I am sharing this information on the basis of how I obtained one from Nepal Bank Limited. This process is almost similar in every banks throughout the country. 
 image: https://i0.wp.com/marketbusinessnews.com/wp-content/uploads/2016/06/money-order-bank-draft-and-cashiers-check.jpg?resize=345%2C400&ssl=1
 ---
 
