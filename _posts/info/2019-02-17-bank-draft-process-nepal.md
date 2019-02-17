@@ -6,7 +6,7 @@ categories:
 layout: post
 author: Lakshman Basnet
 description: This post is about how you can obtain Bank Draft from major bank in Nepal. I am sharing this information on the basis of how I obtained one from Nepal Bank Limited. This process is almost similar in every banks throughout the country. 
-image: https://images.allsingaporestuff.com/styles/big_within_article/s3/field/image/lost_cheque_1.jpg?itok=vAMBxANK
+image: /assets/bank-draft.jpg
 ---
 
 This post is about how you can obtain Bank Draft from major bank in Nepal. I am sharing this information on the basis of how I obtained one from Nepal Bank Limited. This process is almost similar in every banks throughout the country. 
