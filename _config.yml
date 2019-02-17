@@ -24,7 +24,6 @@ collections:
 gems:
 - jekyll-seo-tag
 - jekyll-admin
-- jekyll-gist
 - jekyll-paginate
 
 sass:
