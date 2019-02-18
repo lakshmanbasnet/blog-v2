@@ -5,8 +5,8 @@
     <description>Computer Science Student, Tech Enthusiast and Occasional Blogger from Nepal - Laxman Basnet | Lakshman's Blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Feb 2019 13:09:14 +0000</pubDate>
-    <lastBuildDate>Sun, 17 Feb 2019 13:09:14 +0000</lastBuildDate>
+    <pubDate>Mon, 18 Feb 2019 10:11:56 +0000</pubDate>
+    <lastBuildDate>Mon, 18 Feb 2019 10:11:56 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -145,7 +145,7 @@ Once, you come to your destination country you can withdraw cash from relevant b
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Thumbnail image source: https://www.allsingaporestuff.com/article/cheque-found-raffles-place&lt;/p&gt;
+&lt;p&gt;Thumbnail image &lt;a href=&quot;https://www.allsingaporestuff.com/article/cheque-found-raffles-place&quot;&gt;source&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 17 Feb 2019 02:39:00 +0000</pubDate>
         <link>http://localhost:4000/info/bank-draft-process-nepal</link>
@@ -302,6 +302,24 @@ If you have any queries, comment down below, I will be more than happy to answer
         
         
         <category>info</category>
+        
+      </item>
+    
+      <item>
+        <title>Connecting Wifi in Guangzhou Baiyun Intl Airport</title>
+        <description>&lt;div class=&quot;abc&quot;&gt;
+&lt;iframe width=&quot;720&quot; height=&quot;405&quot; src=&quot;https://www.youtube.com/embed/4j40o4nxa6w?controls=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;/div&gt;
+
+&lt;p&gt;1min video on getting connected to wifi in Baiyun Intl Airport. Last time, I was in Guangzhou Baiyun International Airport, I found it difficult to know how could I connect my phone to wifi as I couldn’t understand Chinese and was just confused. I found many passengers there having hard time connecting to wifi, it would have been easier if tapping on Free Airport Wifi SSID in phone would connect us to internet in few clicks but the pain here is you need to get your id and password before, but where do you get it from? This video becomes helpful in such situations, you can see self service machines around airport where you can get your wifi id and password upon id verification. Comment down if you have any queries below!&lt;/p&gt;
+</description>
+        <pubDate>Sun, 27 Jan 2019 04:06:47 +0000</pubDate>
+        <link>http://localhost:4000/knowledgeserverplus/wifi-connection-baiyun-intl-airport</link>
+        <guid isPermaLink="true">http://localhost:4000/knowledgeserverplus/wifi-connection-baiyun-intl-airport</guid>
+        
+        
+        <category>knowledgeserverplus</category>
         
       </item>
     
@@ -1681,90 +1699,6 @@ universal code here
         
         
         <category>jekyll</category>
-        
-      </item>
-    
-      <item>
-        <title>XII ISMM World Congress on Mountain Medicine 2018 - Kathmandu, Nepal</title>
-        <description>&lt;p&gt;&lt;a name=&quot;1&quot;&gt;&lt;/a&gt;
-&lt;img data-src=&quot;https://ismm2018.org/images/slideshow/pAqi4-ismm.jpg&quot; class=&quot;lazyload&quot; alt=&quot;ISMM 2018 event nepal&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;ISMM World Congress on Mountain Medicine 2018 is being hosted by Mountain Medicine Society of Nepal (MMSN) and organized by Mountain Medicine Society of Nepal (MMSN), International Society for Mountain Medicine (ISMM), eurac research and Himalayan Rescue Association, Nepal.&lt;/p&gt;
-
-&lt;p&gt;&lt;small&gt;This article(and its content) have been developed and presented here solely for informative purpose with contents from ISMM 2018’s official site www.ismm2018.org. &lt;/small&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-&lt;div class=&quot;col-md-6 sm-5 xs-5 tableofcontent&quot;&gt;
-	&lt;h3 class=&quot;rhre&quot;&gt;This post is about&lt;/h3&gt;
-	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#1&quot;&gt;&lt;h4&gt;1. About World Congress on Mountain Medicine 2018&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#2&quot;&gt;&lt;h4&gt;2. Congress Areas&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#3&quot;&gt;&lt;h4&gt;3. Program Schedule&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;a href=&quot;#4&quot;&gt;&lt;h4&gt;4. Useful Links&lt;/h4&gt;&lt;/a&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a name=&quot;2&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 class=&quot;rhre&quot;&gt; Congress Areas&lt;/h2&gt;
-&lt;p&gt;The 3 day’s Congress will focus on following areas of mountain medicine and high alititude physiology.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Day 1: Mountain Emergency Medicine&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Day 2: High Altitude Research&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Day 3: Travel Medicine in the Himalayas&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a name=&quot;3&quot;&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 class=&quot;rhre&quot;&gt;Program Schedule of ISMM World Congress on Mountain Medicine 2018&lt;/h2&gt;
-&lt;iframe data-src=&quot;http://ismm2018.org/program.pdf&quot; height=&quot;700px&quot; width=&quot;760px&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a name=&quot;4&quot;&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3 class=&quot;rhre&quot;&gt; Useful Links of XII World Congress on Mountain Medicine 2018&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Conference General Information: &lt;a href=&quot;https://ismm2018.org/article/Generalinfo&quot;&gt;ismm2018.org/article/Generalinfo&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Conference Online Registration: &lt;a href=&quot;https://ismm2018.org/article/Registrationform&quot;&gt;ismm2018.org/article/Registrationform&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Accommodation Information: &lt;a href=&quot;https://ismm2018.org/article/Hotel&quot;&gt;ismm2018.org/article/Hotel&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Accommodaiton Registration: &lt;a href=&quot;https://ismm2018.org/article/Registrationform&quot;&gt;ismm2018.org/article/Registrationform&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Scientific Program: &lt;a href=&quot;https://ismm2018.org/article/ProgramSchedule&quot;&gt;ismm2018.org/article/ProgramSchedule&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Speakers: &lt;a href=&quot;https://ismm2018.org/article/meetthespeakers&quot;&gt;ismm2018.org/article/meetthespeakers&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Visa Information: &lt;a href=&quot;https://ismm2018.org/article/Nepalivisa&quot;&gt;ismm2018.org/article/Nepalivisa&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Contact Address: &lt;a href=&quot;https://ismm2018.org/article/contact&quot;&gt;ismm2018.org/article/contact&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information about the event please visit www.ismm2018.org or Contact Congress Secretariat at addresses mentioned in &lt;a href=&quot;https://ismm2018.org/article/contact&quot;&gt;Official Site&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;
-article and content source: Official website of XII World Congress on Mountain Medicine, 2018, www.ismm2018.org&lt;/p&gt;
-</description>
-        <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/events/ismm-2018-mountain-medicine-world-congress</link>
-        <guid isPermaLink="true">http://localhost:4000/events/ismm-2018-mountain-medicine-world-congress</guid>
-        
-        
-        <category>events</category>
         
       </item>
     

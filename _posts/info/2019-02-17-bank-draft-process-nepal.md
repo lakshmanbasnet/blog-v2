@@ -140,4 +140,4 @@ Have any queries? Comment section is always open!
 
 <br><br>
 
-Thumbnail image source: https://www.allsingaporestuff.com/article/cheque-found-raffles-place
+Thumbnail image [source](https://www.allsingaporestuff.com/article/cheque-found-raffles-place)
