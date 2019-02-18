@@ -1,5 +1,5 @@
 ---
-title: Latest YouTube Videos from Knowledge Server Plus 
+title: YouTube Videos from Knowledge Server Plus 
 permalink: "/knowledgeserverplus/"
 layout: category
 ---
