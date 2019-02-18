@@ -7,7 +7,7 @@ layout: post
 topic: technology
 duration: 6m
 description: Using and Controlling your Samsung Gear 360 Camera with your iPhone might be worrisome in the beginning. This video is for your easiness to get started with Connecting, Controlling and Using Samsung Gear 360 Camera with your iPhone/ iOS device. This is a simple video covering the topics from very beginning to advanced level. 
-image: https://i.ytimg.com/vi/4j40o4nxa6w/hqdefault.jpg
+image: https://i.ytimg.com/vi/xHOX3TB1VHg/hqdefault.jpg
 author: Lakshman Basnet
 ---
 
