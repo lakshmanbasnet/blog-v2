@@ -9,7 +9,7 @@ image: "/assets/lb-th.png"
 author: Lakshman Basnet
 ---
 <a name="google-adsense-nepal"></a>
-If you are an Google Adsense publisher based in Nepal, receiving your hardearned Adsense revenue don't give you several options. Withdrawing your payment is possible either through:
+If you are a Google Adsense publisher based in Nepal, receiving your hardearned Adsense revenue don't give you several options. Withdrawing your payment is possible either through:
 
 
 - Western Union Remittance
