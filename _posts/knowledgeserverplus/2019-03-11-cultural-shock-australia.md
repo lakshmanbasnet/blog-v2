@@ -7,7 +7,7 @@ layout: post
 topic: social
 duration: 8m
 description: Sonisha explains how she overcame cultural shock after she arrived in Australia, and how she coped with it. Watch this < 8 m video, where she briefs what cultutal shock is, and different aspects of it.
-image: https://i.ytimg.com/vi/Db6KsNi23_4/hqdefault.jpg
+image: /assets/sonisha.PNG
 author: Sonisha Basnet
 ---
 <div class="abc">
