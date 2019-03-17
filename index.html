@@ -44,23 +44,14 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 <p class="post-meta"><hr class="hre"><i class="fa fa-calendar" aria-hidden="true"></i>
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
  {{ post.categories}}</span> 
-    &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>
-{% assign words = content | number_of_words %}
-{% if words < 360 %}
-  1 min
-{% else %}
-  {{ words | divided_by:180 }} min
-{% endif %}</span></p></small>
+    
+</span></p></small>
     
    <div class="row" style="margin-bottom: 0px; margin-top: 12px;">  
-    <div class="col-md-6 col-sm-6 col-xs-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
-  </div>
     
     
-   
-  <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://blog.lakshmanbasnet.com{{ post.url | prepend: site.baseurl }}&display=popup&ref=plugin&src=share_button"><img src="/assets/share-facebook.png" style="height: 24px;" alt="fb"></a>
-  </div>
+    
+
 </div>
 </div></div>
 
@@ -105,14 +96,11 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 </p> 
     
    <div class="row" style="margin-bottom: 0px; margin-top: 10px;">  
-    <div class="col-md-6 col-sm-6 col-xs-6 fb-save" data-uri="{{ post.url | prepend: site.baseurl }}">
-  </div>
+    
     
     
    
-  <div class="col-md-6 col-sm-6 col-xs-6">
-    <a href="https://www.facebook.com/sharer/sharer.php?kid_directed_site=0&sdk=joey&u=https://blog.lakshmanbasnet.com{{ post.url | prepend: site.baseurl }}&display=popup&ref=plugin&src=share_button"><img src="/assets/share-facebook.png" style="height: 24px;" alt="fb"></a>
-  </div>
+  
 
     
 
@@ -121,13 +109,7 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 <p class="post-meta"><hr class="hre"><i class="fa fa-calendar" aria-hidden="true"></i>
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
  {{ post.categories}}</span> 
-    &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>
-{% assign words = content | number_of_words %}
-{% if words < 360 %}
-  1 min
-{% else %}
-  {{ words | divided_by:180 }} min
-{% endif %}</span></p></small>
+    </span></p></small>
 
 
 
