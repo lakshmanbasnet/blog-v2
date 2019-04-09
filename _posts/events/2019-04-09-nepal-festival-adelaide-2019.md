@@ -4,11 +4,10 @@ date: 2019-09-04
 categories:
 - events
 layout: event
-description:  Non Resident Nepali Association of South Australia (NRNA SA) is organizing Nepal Festival Adelaide 2019 in Adelaide, South Australia on 14 April 2019.
-image: /assets/nepal-festival-adelaide-2019.jpg
+description:  Non Resident Nepali Association of South Australia (NRNA SA) is organizing Nepal Festival Adelaide 2019 in Adelaide, South Australia on 14 April 2019 in association and support from different communities and organizations. 
 d: April 14 2019
 venue: Lights Square, Adelaide, South Australia
-
+website: nrn.org.au
 email: nrnasau@gmail.com
 author: Lakshman Basnet
 tagline: One Country Many Stories
@@ -16,9 +15,6 @@ fb: /events/353323388726145/
 ---
 
 <img data-src="/assets/nepal-festival-adelaide-2019.jpg" class="lazyload" alt="nepal festival adelaide 2019">
-
-
-Non Resident Nepali Association of South Australia (NRNA SA) is organizing Nepal Festival Adelaide 2019 in Adelaide, South Australia on 14 April 2019 in association and support from different communities and organizations. 
 
 
 
