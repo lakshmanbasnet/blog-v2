@@ -12,6 +12,7 @@ email: nrnasau@gmail.com
 author: Lakshman Basnet
 tagline: One Country Many Stories
 fb: /events/353323388726145/
+image: /assets/nepal-festival-adelaide-2019.jpg
 ---
 
 <img data-src="/assets/nepal-festival-adelaide-2019.jpg" class="lazyload" alt="nepal festival adelaide 2019">
