@@ -1,6 +1,6 @@
 ---
 title: Nepal Festival Adelaide 2019
-date: 2019-09-04
+date: 2019-04-09
 categories:
 - events
 layout: event
