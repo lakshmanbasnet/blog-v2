@@ -44,7 +44,8 @@ layout: page
 <a name="certifications"></a><br><br>
 
 ### certifications ###
-- Email Marketing Certified, April 2019, Hubspot Academy
+- Email Marketing Certified, 2019, Hubspot Academy
+- SEO Fundamentals, 2019, SEMrush
 - Google Ads Certified, Feb 2019, Google Ads
 - Inbound Certified, Feb 2019, Hubspot
 - Advanced Photography, July 2015, Canon Imaging School, Nepal
