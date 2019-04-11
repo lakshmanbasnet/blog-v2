@@ -44,11 +44,11 @@ layout: page
 <a name="certifications"></a><br><br>
 
 ### certifications ###
-- Email Marketing Certified, 2019, Hubspot Academy
-- SEO Fundamentals, 2019, SEMrush
-- Google Ads Certified, Feb 2019, Google Ads
-- Inbound Certified, Feb 2019, Hubspot
-- Advanced Photography, July 2015, Canon Imaging School, Nepal
+- Email Marketing Certified, Hubspot Academy
+- SEO Fundamentals, SEMrush
+- Google Ads Certified, Google Ads
+- Inbound Certified, Hubspot
+- Advanced Photography, Canon Imaging School, Nepal
 
 
 <a name="events-organized"></a><br><br>
