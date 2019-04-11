@@ -35,6 +35,7 @@ layout: page
 ### community affiliations ###
 - Google Local Guides , Level 8 , Google Maps
 - Trusted StreetView Photographer , Google
+- Linux Australia, Member
 - Google Local Guides Nepal
 - Robotics Association of Nepal
 - Brush Up Online
@@ -54,7 +55,7 @@ layout: page
 ### events organized ### 
 (/organization/ management team)
 
-- ISMM 2018
+- [XII WORLD CONGRESS ON MOUNTAIN MEDICINE, 2018 (ISMM 2018)](https://ismm2018.org/)
 - AIRDC 2018
 - Nepal Land and Housing Developers Association Property Expo & Summit 2018
 - ISO-PC 305 Meeting
