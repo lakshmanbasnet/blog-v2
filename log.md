@@ -9,10 +9,9 @@ layout: page
 	<h3 class="rhre">index</h3>
 	<li class="hre"><a href="#events-participation"><h4>A. events</h4></a></li>
 	<li class="hre"><a href="#affiliations"><h4>B. affiliations</h4></a></li>
-	<li class="hre"><a href="#certifications"><h4>C. certifications</h4></a></li>
-	<li class="hre"><a href="#courses"><h4>D. courses</h4></a></li>
-	<li class="hre"><a href="#places"><h4>E. places visited</h4></a></li>
-	<a href="#events-organized"><h4>F. events organized</h4></a>
+	<li class="hre"><a href="#certifications"><h4>C. certifications/ courses</h4></a></li>
+	<li class="hre"><a href="#places"><h4>D. places visited</h4></a></li>
+	<a href="#events-organized"><h4>E. events organized</h4></a>
 
 
 </div>
@@ -43,7 +42,8 @@ layout: page
 
 <a name="certifications"></a><br><br>
 
-### certifications ###
+### courses and certifications ###
+- Google My Business Basics
 - Email Marketing Certified, Hubspot Academy
 - SEO Fundamentals, SEMrush
 - Google Ads Certified, Google Ads
