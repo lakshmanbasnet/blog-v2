@@ -39,18 +39,13 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 
 <p style="font-size: 13px;">
       {{ post.description | strip_html | truncatewords: 30 }}
-</p> 
+</p>
          <small>
 <p class="post-meta"><hr class="hre"> <div style="text-align:right"><span itemprop="name"> by {{ post.author }} in {{ post.categories }} </span> 
     
            </span></div></p></small>
     
-   <div class="row" style="margin-bottom: 0px; margin-top: 12px;">  
-    
-    
-    
-
-</div>
+   
 </div></div>
 
   </div>
@@ -68,46 +63,25 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 <!-- pin post end -->
 <ul class="post-list">
   {% for post in paginator.posts %}
-<div class="row">
-<div class="col-lg-12" style="float: left;">
-<div class="postf">
-    
-  
-          
-          
-    
-
+ <div class="row">        
+<div class="col-lg-6 col-md-6">
 
 <div class="pimage">
      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 2px;"></a>
 </div>
+</div>
 
+<div class="col-lg-6 col-md-6">
+<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </h2>
 
-<h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-</h2>
-
-
-         
 <p style="font-size: 13px;">
-      {{ post.description | strip_html | truncatewords: 24 }}
-</p> 
-    
-   <div class="row" style="margin-bottom: 0px; margin-top: 10px;">  
-    
-    
-    
-   
-  
-
-    
-
-  </div>
-<small>
+      {{ post.description | strip_html | truncatewords: 30 }}
+</p>
+         <small>
 <p class="post-meta"><hr class="hre"> <div style="text-align:right"><span itemprop="name"> by {{ post.author }} in {{ post.categories }} </span> 
     
            </span></div></p></small>
-
+</div>
 
 
   </div></div></div>
