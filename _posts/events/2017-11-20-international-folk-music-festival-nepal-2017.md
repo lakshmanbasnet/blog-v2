@@ -5,7 +5,6 @@ categories:
 - events
 layout: event
 description: International Folk Music Film Festival Nepal 2017 is being organized in Rastriya Nachghar Jamal from November 22 - 25, 2017.
-image: http://mediaprocessor.websimages.com/width/570/crop/0,0,570x427/infim.webs.com/1111.jpg
 d: November 22 - 25, 2017
 venue: Rastriya Nachghar, Kathmandu Nepal
 fb: /infim2011/
