@@ -5,7 +5,7 @@ categories:
 - events
 layout: event
 description: Nepal International Beer Festival 2017 is being organized in Kathmandu Nepal on December 16, 2017.
-image: http://www.h-of-r.com/wp-content/uploads/2017/11/himalayan-beer-festival-208x300.png
+image: https://lakshmanbasnet.com/img/nepalintlbeerfestival.jpg
 d: December 16, 2017
 venue: Tangalwood, Kathmandu Nepal
 website: nepalinternationalbeerfestival.com
