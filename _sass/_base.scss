@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $text-color;
-    text-decoration: none !important;
+    text-decoration: none;
 
     &:visited {
         color: $text-color;
@@ -107,7 +107,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: none !important;
+        text-decoration: none;
     }
 }
 
