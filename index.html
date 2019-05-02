@@ -41,9 +41,9 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
       {{ post.description | strip_html | truncatewords: 30 }}
 </p> 
          <small>
-<p class="post-meta" style="text-align:right"><hr class="hre"> <span itemprop="name"> by {{ post.author }} in {{ post.categories }} </span> 
+<p class="post-meta"><hr class="hre"> <div style="text-align:right"><span itemprop="name"> by {{ post.author }} in {{ post.categories }} </span> 
     
-</span></p></small>
+           </span></div></p></small>
     
    <div class="row" style="margin-bottom: 0px; margin-top: 12px;">  
     
@@ -104,9 +104,9 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 
   </div>
 <small>
-<p class="post-meta"><hr class="hre"> <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
- {{ post.categories}}</span> 
-    </span></p></small>
+<p class="post-meta"><hr class="hre"> <div style="text-align:right"><span itemprop="name"> by {{ post.author }} in {{ post.categories }} </span> 
+    
+           </span></div></p></small>
 
 
 
