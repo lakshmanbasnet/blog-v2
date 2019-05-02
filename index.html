@@ -41,8 +41,7 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
       {{ post.description | strip_html | truncatewords: 30 }}
 </p> 
          <small>
-<p class="post-meta"><hr class="hre"><i class="fa fa-calendar" aria-hidden="true"></i>
-<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
+<p class="post-meta"><hr class="hre"> <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
  {{ post.categories}}</span> 
     
 </span></p></small>
