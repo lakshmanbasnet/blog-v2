@@ -55,7 +55,7 @@ layout: default
 
 
   <header class="post-header">
-    <h4 class="post-title" itemprop="name headline">{{ page.title }}</h3>
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
     <p class="post-meta"><i class="fa fa-calendar" aria-hidden="true"></i>
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">posted on {{ page.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
  {{ page.categories}}</span> 
@@ -133,7 +133,7 @@ layout: default
 
 <hr>
 <h2 align="middle">
-  More Events in Nepal
+  More Events
 </h2>
     {% for post in site.posts %}
       {% if page.categories == post.categories %}
