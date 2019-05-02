@@ -11,121 +11,106 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 
 <ul class="post-list">
   {% for post in site.posts %}
-        {% if post.pin == true %}
-      
-  <div class="postf" style="margin-top: 15px;">
-    <div class="pin"> 
+   {% if post.pin == true %}
+    <div class="postf" style="margin-top: 15px;">
+    	<div class="pin"> 
+			<img data-src="/assets/pin.jpg" class="lazyload" title="Pinned Post" alt="pin post lakshmanbasnet">
+		</div>
 
-  <img data-src="/assets/pin.jpg" class="lazyload" title="Pinned Post" alt="pin post lakshmanbasnet">
+			<div style="float: right; font-size: 11px;">Pinned Post &nbsp;</div>    
 
-  </div>
+		<div class="row">        
+			<div class="col-lg-6 col-md-6">
 
-  <div style="float: right; font-size: 11px;">
-    Pinned Post &nbsp;
-  </div>    
- 
- <div class="row">        
-<div class="col-lg-6 col-md-6">
+				<div class="pimage">
+					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}"></a>
+				</div>
+			</div>
 
-<div class="pimage">
-     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}"></a>
-</div>
-</div>
+			<div class="col-lg-6 col-md-6">
+				<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
 
-<div class="col-lg-6 col-md-6">
-<h2>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-</h2>
-
-<p style="font-size: 13px;">
-      {{ post.description | strip_html | truncatewords: 30 }}
-</p>
-         <small>
-<p class="post-meta"><hr class="hre"> <div style="text-align:right"><span itemprop="name"> by {{ post.author }} in {{ post.categories }} </span> 
-    
-           </span></div></p></small>
-    
-   
-</div>
-
-  </div>
-
-  
-
- 
-    </li>
-    {% endif %}
-  {% endfor %}
-
-  </ul>
+				<p style="font-size: 13px;">{{ post.description | strip_html | truncatewords: 40 }}</p>
+				<small><p class="post-meta">
+					<hr class="hre">
+					<div style="text-align:right">
+					<span itemprop="name"> by {{ post.author }} in {{ post.categories }} </span> 
+					</div></p>
+				</small>
+			</div>
+		</div>
+	</div>
+	{% endif %}
+	{% endfor %}
+</ul>
 
 
 <!-- pin post end -->
+
+
 <ul class="post-list">
-  {% for post in paginator.posts %}
- <div class="row">        
-<div class="col-lg-6 col-md-6">
+	{% for post in paginator.posts %}
+		<div class="row">        
+			<div class="col-lg-6 col-md-6">
+				<div class="pimage">
+					<a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 2px;"></a>
+				</div>
+			</div>
 
-<div class="pimage">
-     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img data-src="{% if post.image %} {{ post.image | escape }} {% else %} /assets/lb-th.png {% endif %}" class="lazyload" alt="{{ post.title }}" style="padding-bottom: 2px;"></a>
-</div>
-</div>
+			<div class="col-lg-6 col-md-6">
+				<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </h2>
+				<p style="font-size: 13px;">{{ post.description | strip_html | truncatewords: 30 }}</p>
 
-<div class="col-lg-6 col-md-6">
-<h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </h2>
-
-<p style="font-size: 13px;">
-      {{ post.description | strip_html | truncatewords: 30 }}
-</p>
-         <small>
-<p class="post-meta"><hr class="hre"> <div style="text-align:right"><span itemprop="name"> by {{ post.author }} in {{ post.categories }} </span> 
-    
-           </span></div></p></small>
-</div>
-
-
-  </div></div></div>
-  {% endfor %}
-
-  </ul>
+				<small>
+				<p class="post-meta">
+					<hr class="hre">
+					<div style="text-align:right">
+						<span itemprop="name"> by {{ post.author }} in {{ post.categories }} </span>
+					</div>
+				</p>
+				</small>
+			</div>
+		</div>
+	{% endfor %}
+</ul>
 
 
 
 <!-- Pagination Links -->
 <div style="margin: auto;
-    width: 50%;
-    
-    padding: 10px;"> 
+width: 50%;
+
+padding: 10px;"> 
 
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
 <nav aria-label="...">
-  <ul class="pager">
-  {% if paginator.previous_page %}
-    <li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &larr;Newer<span aria-hidden="true"></span></a></li> &nbsp;&nbsp;
-  {% else %}
-    <span> Newer</span> &nbsp;&nbsp;
+<ul class="pager">
+{% if paginator.previous_page %}
+<li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &larr;Newer<span aria-hidden="true"></span></a></li> &nbsp;&nbsp;
+{% else %}
+<span> Newer</span> &nbsp;&nbsp;
 
-  {% endif %}
+{% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %} &nbsp;&nbsp;
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-    {% else %} &nbsp;&nbsp;
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a> &nbsp;&nbsp;
-    {% endif %}
-  {% endfor %}
+{% for page in (1..paginator.total_pages) %}
+{% if page == paginator.page %} &nbsp;&nbsp;
+<em>{{ page }}</em>
+{% elsif page == 1 %}
+<a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+{% else %} &nbsp;&nbsp;
+<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a> &nbsp;&nbsp;
+{% endif %}
+{% endfor %}
 
 
-  {% if paginator.next_page %}
-    <li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span aria-hidden="true">&rarr;</span></a></li>
-  {% else %}
-    <span>Older</span>
-  {% endif %}
+{% if paginator.next_page %}
+<li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span aria-hidden="true">&rarr;</span></a></li>
+{% else %}
+<span>Older</span>
+{% endif %}
 
-  </ul>
+</ul>
 </nav>
 </div>
 {% endif %}
