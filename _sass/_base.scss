@@ -89,6 +89,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    color: #000;
 }
 
 
@@ -98,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
     color: $brand-color;
-    text-decoration: none;
+    text-decoration: none !important;
 
     &:visited {
         color: darken($brand-color, 15%);
@@ -106,7 +107,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: none;
+        text-decoration: none !important;
     }
 }
 
@@ -1021,9 +1022,9 @@ text-align: left;
 }
 
 .postf:hover {
-    -moz-box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.4), 0 13px 23px 0 rgba(0, 0, 0, 0.39);
-    -webkit-box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.4), 0 13px 23px 0 rgba(0, 0, 0, 0.39);
-    box-shadow: 0 13px 13px 0 rgba(0, 0, 0, 0.4), 0 13px 23px 0 rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.4), 0 12px 22px 0 rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.4), 0 12px 22px 0 rgba(0, 0, 0, 0.39);
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.4), 0 12px 22px 0 rgba(0, 0, 0, 0.39);
 }
 
 
