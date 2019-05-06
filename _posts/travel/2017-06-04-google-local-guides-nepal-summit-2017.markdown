@@ -36,16 +36,16 @@ My friend Aadesh and me, went to Koteshwor to cath the reserved bus at around 8 
 
 We were about 20 participants in the bus, and in about an hour we reached Nagarkot.
 
-<figure><img src="/assets/g2.jpg" alt="Buddhist Flags at Peace Stupa Nagarkot google local guides Nepal map marker"><figcaption>Buddhist Flags at Peace Stupa Nagarkot</figcaption></figure>
+
 <br>
 
 We dropped off at Peace Stupa and had some photographs.
 
-<figure><img src="/assets/g5.jpg" alt="Buddhist Flags at Peace Stupa Nagarkot google local guides Nepal map marker"><figcaption>Nepal Local Guides at Peace Stupa Nagarkot <small>Photo: Abhishek Pandey</small></figcaption></figure>
+<figure><img src="/assets/g5.jpg" alt="google local guides Nepal map marker"><figcaption>Nepal Local Guides at Peace Stupa Nagarkot <small> Photo: Abhishek Pandey</small></figcaption></figure>
 <br>
 also We got Nepal Local Guides Badge. 
 
-<figure><img src="/assets/g3.jpg" alt="Nepal Local Guides Badge Nagarkot google local guides Nepal map marker"><figcaption>Nepal Local Guides Badge <small>Photo: Abhishek Pandey</small></figcaption></figure>
+<figure><img src="/assets/g3.jpg" alt="Nepal Local Guides Badge Nagarkot google local guides Nepal map marker"><figcaption>Nepal Local Guides Badge <small> Photo: Abhishek Pandey</small></figcaption></figure>
 
 <br>
 
