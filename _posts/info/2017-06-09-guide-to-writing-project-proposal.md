@@ -150,7 +150,7 @@ You can also include at least 5 websites, apps , books etc that are someway rela
 
 <br>
 
-<h2> 5.3 Data Collection <h2/>(requirement collection)
+<h2> 5.3 Data Collection </h2>(requirement collection)
 
 In data collection, you mention how you are going to collect various data that are needed for your project development.
 
