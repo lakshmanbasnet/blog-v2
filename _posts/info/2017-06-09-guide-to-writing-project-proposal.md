@@ -132,7 +132,7 @@ While talking about the software development model in our case, in methodoly you
 Its main content should be:
 
 <br>
-**5.1 Software Development Model** (with justification)
+## 5.1 Software Development Model ## (with justification)
 	
 In software development model,
 
@@ -140,7 +140,7 @@ In software development model,
 - the reason for choosing this model despite of other models.
 
 <br>
-**5.2 Study of existing system** (literature review)
+## 5.2 Study of existing system ## (literature review)
 
 Literature review is the study and research of similar systems/applications that are already developed or are alreay in market which are in someway similar to yours.
 
@@ -150,7 +150,7 @@ You can also include at least 5 websites, apps , books etc that are someway rela
 
 <br>
 
-**5.3 Data Collection** (requirement collection)
+## 5.3 Data Collection ## (requirement collection)
 
 In data collection, you mention how you are going to collect various data that are needed for your project development.
 
