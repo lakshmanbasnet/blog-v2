@@ -13,7 +13,7 @@ author: Lakshman Basnet
 
 If you are applying for any universities abroad, they require your educational documents to be verified with stamp from different organizations here in Nepal. Here I am sharing with you all the general process for verifying documents starting from University ending to Embassy. It can be staged into four major phases.
 
-## 1. In the `University`##
+## 1. In the `University` ##
 
 * First thing to do, is getting your educational documents verified from your university
 * You need to visit to University's central office, if you are a graduate of TU then you need to go to Balkhu
@@ -24,7 +24,7 @@ If you are applying for any universities abroad, they require your educational d
 * if you reach office on time it might get finished within an hour
 
 
-## 2. `Education Ministry`, Kesharmahal##
+## 2. `Education Ministry`, Kesharmahal ##
 
 * Take the verified documents from TU to Education Wing at Thamel, Kesharmahal
 * The queue won't be long
@@ -33,7 +33,7 @@ If you are applying for any universities abroad, they require your educational d
 * if there's no queue it won't take more than a couple of minutes to finish
 
 
-## 3. `Ministry of Foreign Affairs`, Tripureshwor##
+## 3. `Ministry of Foreign Affairs`, Tripureshwor ##
 
 * Take the verified document from education wing
 * don't get amazed to see a really huge crowd here 
