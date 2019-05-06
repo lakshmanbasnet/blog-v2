@@ -64,7 +64,7 @@ any font of Sans Series only(Times new roman, Calibri etc.)
 Lets dive into contents now.
 
 
-## Title##
+## Title ##
 
 - should be catchy and specific to domain not broad
 - try to make your title not so long, minimize use of many words
@@ -72,7 +72,7 @@ Lets dive into contents now.
 
 <br>
 
-## 1. Introduction##
+## 1. Introduction ##
 
 - introduction is short and right to the point of information
 - write what exactly your project does
@@ -84,7 +84,7 @@ This mobile application provides user to track, record, monetize his/her family 
 
 <br>
 
-## 2. Problem Definition##
+## 2. Problem Definition ##
 
 - make it critical
 - the problem should be stated in such a way that if there is no project there would be a great loss/impact
@@ -95,7 +95,7 @@ These days, parents are having a diffcult time as many children go to different 
 
 <br>
 
-## 3. Objective##
+## 3. Objective ##
 
 - mention the main aim of your project, think about the outcome
 - always start from **To**
@@ -111,7 +111,7 @@ These days, parents are having a diffcult time as many children go to different 
 
 <br>
 
-## 4. Scope and limitation##
+## 4. Scope and limitation ##
 
 - In scope write about what consequences your project outcome can bring
 - mention what extra feature you would like to add, or write about the scalabity and extendability of your product
@@ -125,7 +125,7 @@ Whereas in limitation
 
 <br>
 
-## 5. Methodology##
+## 5. Methodology ##
 
 While talking about the software development model in our case, in methodoly you write about the methods you are going to use to achieve your objectives.
 
@@ -163,14 +163,14 @@ Some of the data sources for technological projects might be:
 
 <br>
 
-## 5.4 Requirement Analysis##
+## 5.4 Requirement Analysis ##
 
 - Change user requirement into system requirement
 - group to functional and non functional requirement
 
 <br>
 
-## 5.5 Feasibility Analysis##
+## 5.5 Feasibility Analysis ##
 
 Write about the feasibility of your product after development. Mention about various feasible areas like operational, economial, technical etc.
 
@@ -180,7 +180,7 @@ This software is operationly, economically, technically feasible.
 
 <br>
 
-## 5.6 Testing##
+## 5.6 Testing ##
 
 When you develop an application/ software testing is inevitable to minimize various errors and make your product more accurate and optimized.
 
@@ -193,7 +193,7 @@ In this section, briefly write about the different testing approaches you will b
 
 <br>
 
-## 5.7 Tools used##
+## 5.7 Tools used ##
 
 We make use of different available tools and technologies to develop our product. 
 
@@ -210,7 +210,7 @@ Backend/database: Ruby on Rails(ruby 2.4.0p0, Rails 5.1.0), PostgreSQL 9.6.3
 
 <br>
 
-## 6. Overview of system##
+## 6. Overview of system ##
 
 - Pictorial representaion of your sytem comes under overview of the system.
 - diagram should explain how the overall system works
@@ -237,13 +237,13 @@ ER diagram
 
 <br>
 
-## 7. Time schedule (GANTT chart)##
+## 7. Time schedule (GANTT chart) ##
 
 In time schedule, you give the brief summary of how much time the project will take including all steps. Represent them in GANTT chart.
 
 <br>
 
-## 8. Expected outcome##
+## 8. Expected outcome ##
 
 - write about what your product should do
 - remember meeting the objective 
@@ -251,7 +251,7 @@ In time schedule, you give the brief summary of how much time the project will t
 
 <br>
 
-## 9. Bibliography##
+## 9. Bibliography ##
 
 Mention some books, publications and their authors that you may  reference to somewhere during the project
 
