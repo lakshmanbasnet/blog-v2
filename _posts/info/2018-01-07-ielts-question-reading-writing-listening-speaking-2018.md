@@ -17,7 +17,7 @@ This is a set of questions that were asked in recently held IELTS exam on Jan 6,
 
 <br>
 
-## IELTS SPEAKING TEST QUESTIONS
+## IELTS SPEAKING TEST QUESTIONS ##
 
 - home, current place, work, 
 - books, what kind of books you read, names and significance,the meaning of my name, books adapted to movies, compare and contrast betn movies and books,
@@ -37,25 +37,25 @@ This is a set of questions that were asked in recently held IELTS exam on Jan 6,
 3.1 Levels of persuasion by sales people
 
 
-
-
 <br>
+
+
 ## IELTS WRITING ##
 
 1. Bar graph depicting rates of first marriages, second marriages, divorce and total marriages in UK from 1950 to 2000
 
 2. The tendency for human beings to copy others can be shown in the poplarity of fashion in clothes and other consumer goods. To what extent do you agree or disagree ?
 
-
-
 <br>
+
+
 ## IELTS Writing Task 1 ##
 
 Bar graph depicting rates of first marriages, second marriages, divorce and total marriages in UK from 1950 to 2000 ( least 150)
 
-
 <br>
-## IELTS Writing Task 2##
+
+## IELTS Writing Task 2 ##
 
 The tendency for human beings to copy others can be shown in the poplarity of fashion in clothes and other consumer goods. To what extent do you agree or disagree ? ( 250 words)
 
