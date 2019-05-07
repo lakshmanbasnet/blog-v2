@@ -13,10 +13,13 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 &nbsp;why and how?</h3>
        </div>
   <div class="panel-body">
-    I love making videos on YouTube, publishing different web contents and doing creatives. <br>
+    Since long, I am trying to contribute a little from my side by love making videos on YouTube, publishing different web contents and doing creatives. 
+    <br>
+    I know you also want to join in making this world a better one, I understand you are super busy and don't have enough schedule or don't know where to start. 
+    Don't worry, join hands with me, support me, you will be making a direct impact while you can concentrate on your business. <br><br>
 
 <i class="fa fa-hand-o-right" aria-hidden="true"></i>
- If you like what I am doing and think that I can do even better, or would like to show some love and encourage me to work harder, you can make small contribution today.
+ If you like what I am doing and think that I can do even better, or would like to show some love and encourage me to work harder, you can make small contribution today.<br>
 
 <br>
 
@@ -34,13 +37,13 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
        </div>
       
   <div class="panel-body">
- <i class="fa fa-check" aria-hidden="true"></i>&nbsp; I can provide you any of my professionals services for you in return. Please refer to <a href="https://lakshmanbasnet.com/#services">https://lakshmanbasnet.com/#services</a> or <a href="https://lakshmanbasnet.com/resume">https://lakshmanbasnet.com/resume</a> to find what I can do for you.
+ <i class="fa fa-check" aria-hidden="true"></i>&nbsp; I can provide you any of my professionals services for you in return.<br><br> Please refer to <a href="https://lakshmanbasnet.com/#services">https://lakshmanbasnet.com/#services</a> or <a href="https://lakshmanbasnet.com/resume">https://lakshmanbasnet.com/resume</a> to find what I can do for you.<br><br>
 
 <i class="fa fa-check" aria-hidden="true"></i>&nbsp; I will list out your name/ business in supporters section across all my networks of web, blog, youtube and site, or keep it confidential if you don't want.<br>
 
 <i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;vote of thanks ... <i class="fa fa-heart-o" aria-hidden="true"></i>
-    
-    Thank you so much! :)
+    <br><br>
+    Thank you so much! :)<br>
 Have a lovely day! 
     </div>
     </div>
