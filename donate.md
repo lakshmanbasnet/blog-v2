@@ -14,7 +14,7 @@ If you like what I am doing and think that I can do even better, or would like t
 Using following PayPal Donate option through secured online channel, you can donate any amount through any cards or online wallets in less than a minutes.
 </div>
 
-<div style="text-align:center;margin:14px;">
+<div style="text-align:center;margin:34px;">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations" />
 <input type="hidden" name="business" value="S3LWXHKVEUTLW" />
