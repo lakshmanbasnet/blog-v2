@@ -40,6 +40,7 @@ Have a lovely day!
     </div>
     </div>
     </div>
+    </div>
     
 
 <div class="jumotron" style="text-align:center;margin:34px;">
