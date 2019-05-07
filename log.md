@@ -44,10 +44,12 @@ layout: page
 
 ### courses and certifications ###
 - Google My Business Basics
-- Email Marketing Certified, Hubspot Academy
+- Google Ads Search, Google Academy for Ads
+- Content Marketing, Hubspot Academy
+- Inbound, Hubspot Academy
+- Email Marketing, Hubspot Academy
+- Google Ads Fundamental, Google Academy for Ads
 - SEO Fundamentals, SEMrush
-- Google Ads Certified, Google Ads
-- Inbound Certified, Hubspot
 - Advanced Photography, Canon Imaging School, Nepal
 
 
