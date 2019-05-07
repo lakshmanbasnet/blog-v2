@@ -10,16 +10,18 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
     <div class="panel panel-default">
        <div class="panel-heading">
          <h3 class="panel-title"><i class="fa fa-question" aria-hidden="true"></i>
-&nbsp;why?</h3>
+&nbsp;why and how?</h3>
        </div>
   <div class="panel-body">
-    I love making videos on YouTube, publishing different web contents and doing creatives. 
+    I love making videos on YouTube, publishing different web contents and doing creatives. <br>
 
-If you like what I am doing and think that I can do even better, or would like to show some love and encourage me to work harder, you can make small contribution today.
+<i class="fa fa-hand-o-right" aria-hidden="true"></i>
+ If you like what I am doing and think that I can do even better, or would like to show some love and encourage me to work harder, you can make small contribution today.
 
 <br>
 
-Using following PayPal Donate option through secured online channel, you can donate any amount through any cards or online wallets in less than a minutes.
+<i class="fa fa-hand-o-right" aria-hidden="true"></i>
+ Using following PayPal Donate option through secured online channel, you can donate any amount through any cards or online wallets in less than a minutes.
   </div>
 </div>
 </div>
@@ -34,9 +36,9 @@ Using following PayPal Donate option through secured online channel, you can don
   <div class="panel-body">
  <i class="fa fa-check" aria-hidden="true"></i>&nbsp; I can provide you any of my professionals services for you in return. Please refer to <a href="https://lakshmanbasnet.com/#services">https://lakshmanbasnet.com/#services</a> or <a href="https://lakshmanbasnet.com/resume">https://lakshmanbasnet.com/resume</a> to find what I can do for you.
 
-<i class="fa fa-check" aria-hidden="true"></i>&nbsp; I will list out your name/ business in supporters section across all my networks of web, blog, youtube and site, or keep it confidential if you don't want.
+<i class="fa fa-check" aria-hidden="true"></i>&nbsp; I will list out your name/ business in supporters section across all my networks of web, blog, youtube and site, or keep it confidential if you don't want.<br>
 
-<i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;vote of thanks ...
+<i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;vote of thanks ... <i class="fa fa-heart-o" aria-hidden="true"></i>
     
     Thank you so much! :)
 Have a lovely day! 
