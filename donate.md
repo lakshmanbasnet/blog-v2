@@ -5,20 +5,23 @@ layout: nosidebar
 image: /assets/photo_2016-11-09_20-46-47.jpg
 ---
 
+<img src="/assets/photo_2016-11-09_20-46-47.jpg" alt="lakshman basnet">
+<br>
 I love making videos on YouTube, publishing different web contents and doing creatives. 
 
 If you like what I am doing and think that I can do even better, or would like to show some love and encourage me to work harder, you can make small contribution today.
 
 Using following PayPal Donate option through secured online channel, you can donate any amount through any cards or online wallets in less than a minutes.
 
-
+<div class="abc" style="text-align:center">
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_donations" />
-<input type="hidden" name="business" value="lxbsnt@gmail.com" />
-<input type="hidden" name="currency_code" value="AUD" />
+<input type="hidden" name="business" value="S3LWXHKVEUTLW" />
+<input type="hidden" name="currency_code" value="USD" />
 <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 <img alt="" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
 </form>
+</div>
 
 
 ** What can I do for you in return? **
