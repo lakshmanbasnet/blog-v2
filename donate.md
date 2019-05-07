@@ -1,7 +1,7 @@
 ---
-title: Donate
+title: Contribute today to make this world a better place!
 permalink: "/donate/"
-layout: nosidebar
+layout: page
 image: /assets/photo_2016-11-09_20-46-47.jpg
 ---
 
