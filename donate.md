@@ -8,7 +8,7 @@ I love making videos on YouTube, publishing different web contents and doing cre
 
 If you like what I am doing and think that I can do even better, or would like to show some love and encourage me to work harder, you can make small contribution today.
 
-<img src="/assets/photo_2016-11-09_20-46-47.jpg" alt="lakshman basnet" height:60%>
+<img src="/assets/photo_2016-11-09_20-46-47.jpg" alt="lakshman basnet" style="height:60%">
 <br>
 
 Using following PayPal Donate option through secured online channel, you can donate any amount through any cards or online wallets in less than a minutes.
