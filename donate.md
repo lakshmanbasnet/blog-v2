@@ -9,7 +9,8 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
   <div class="col-md-6">
     <div class="panel panel-default">
        <div class="panel-heading">
-         <h3 class="panel-title">why?</h3>
+         <h3 class="panel-title"><i class="fa fa-question" aria-hidden="true"></i>
+&nbsp;why?</h3>
        </div>
   <div class="panel-body">
     I love making videos on YouTube, publishing different web contents and doing creatives. 
@@ -26,16 +27,16 @@ Using following PayPal Donate option through secured online channel, you can don
 <div class="col-md-6">
     <div class="panel panel-default">
        <div class="panel-heading">
-         <h3 class="panel-title">... in return?</h3>
+         <h3 class="panel-title"><i class="fa fa-retweet" aria-hidden="true"></i>
+ ... in return?</h3>
        </div>
       
   <div class="panel-body">
-    
-    - I can provide you any of my professionals services for you in return. Please refer to <a href="https://lakshmanbasnet.com/#services>https://lakshmanbasnet.com/#services</a> or <a href="https://lakshmanbasnet.com/resume">https://lakshmanbasnet.com/resume</a> to find what I can do for you.
+ <i class="fa fa-check" aria-hidden="true"></i>&nbsp; I can provide you any of my professionals services for you in return. Please refer to <a href="https://lakshmanbasnet.com/#services">https://lakshmanbasnet.com/#services</a> or <a href="https://lakshmanbasnet.com/resume">https://lakshmanbasnet.com/resume</a> to find what I can do for you.
 
-- I will list out your name/ business in supporters section across all my networks of web, blog, youtube and site, or keep it confidential if you don't want.
+<i class="fa fa-check" aria-hidden="true"></i>&nbsp; I will list out your name/ business in supporters section across all my networks of web, blog, youtube and site, or keep it confidential if you don't want.
 
-- vote of thanks ...
+<i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;vote of thanks ...
     
     Thank you so much! :)
 Have a lovely day! 
