@@ -13,7 +13,7 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 &nbsp;why and how?</h3>
        </div>
   <div class="panel-body">
-    Since long, I am trying to contribute a little from my side by love making videos on YouTube, publishing different web contents and doing creatives. 
+    Since long, I am trying to contribute a little from my side by making videos on YouTube, publishing different web contents and doing creatives. 
     <br><br>
     I know you also want to join in making this world a better one, I understand you are super busy and don't have enough schedule or don't know where to start. <br><br>
     Don't worry, join hands with me, support me, you will be making a direct impact while you can concentrate on your business. <br><br>
