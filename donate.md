@@ -39,9 +39,9 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
   <div class="panel-body">
  <i class="fa fa-check" aria-hidden="true"></i>&nbsp; I can provide you any of my professionals services for you in return.<br><br> Please refer to <a href="https://lakshmanbasnet.com/#services">https://lakshmanbasnet.com/#services</a> or <a href="https://lakshmanbasnet.com/resume">https://lakshmanbasnet.com/resume</a> to find what I can do for you.<br><br>
 
-<i class="fa fa-check" aria-hidden="true"></i>&nbsp; I will list out your name/ business in supporters section across all my networks of web, blog, youtube and site, or keep it confidential if you don't want.<br>
+<i class="fa fa-check" aria-hidden="true"></i>&nbsp; I will list out your name/ business in supporters section across all my networks of web, blog, youtube and site, or keep it confidential if you don't want.<br><br>
 
-<i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;vote of thanks ... <i class="fa fa-heart-o" aria-hidden="true"></i>
+<b><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;vote of thanks ... <i class="fa fa-heart-o" aria-hidden="true"></i></b>
     <br><br>
     Thank you so much! :)<br>
 Have a lovely day! 
