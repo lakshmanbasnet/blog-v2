@@ -28,8 +28,10 @@ Using following PayPal Donate option through secured online channel, you can don
        <div class="panel-heading">
          <h3 class="panel-title">... in return?</h3>
        </div>
+      
   <div class="panel-body">
-    - I can provide you any of my professionals services for you in return. Please refer to [https://lakshmanbasnet.com/#services](https://lakshmanbasnet.com/#services) or [https://lakshmanbasnet.com/resume](https://lakshmanbasnet.com/resume) to find what I can do for you.
+    
+    - I can provide you any of my professionals services for you in return. Please refer to <a href="https://lakshmanbasnet.com/#services>https://lakshmanbasnet.com/#services</a> or <a href="https://lakshmanbasnet.com/resume">https://lakshmanbasnet.com/resume</a> to find what I can do for you.
 
 - I will list out your name/ business in supporters section across all my networks of web, blog, youtube and site, or keep it confidential if you don't want.
 
