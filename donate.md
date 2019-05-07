@@ -38,7 +38,8 @@ Using following PayPal Donate option through secured online channel, you can don
     Thank you so much! :)
 Have a lovely day! 
     </div>
-    
+    </div>
+    </div>
     
 
 <div class="jumotron" style="text-align:center;margin:34px;">
