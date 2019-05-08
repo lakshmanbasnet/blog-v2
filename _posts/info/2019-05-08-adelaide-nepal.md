@@ -5,7 +5,7 @@ categories:
 - info
 layout: post
 author: Lakshman Basnet
-description: I am trying to bring  everything together here in this Everything about Nepal in Adelaide be it Nepali restaurants, communities, businesses or grocery stores in Adelaide, South Australia.
+description: I am trying to bring  everything together here. Everything about Nepal in Adelaide.Be it a Nepali restaurant, a community, businesses or grocery store.
 ---
 
 
