@@ -12,11 +12,11 @@ description: I am trying to bring  everything together here. Everything about Ne
 Hi! 
 
 This post is all about Nepal, Nepali people in Adelaide and everything a Nepali needs to know or can get Nepali here in Adelaide, South Australia.
-
+<br>
 Me, myself have moved to Adelaide recently and I am trying to list all Nepali stuff here, so that new comers, visitors or any one seeking more information about Nepal and Nepalese community will get information they need here.
-
+<br>
 I will be regularly updating this page, if you find anything missing or would like to see any updates, kindly comment down below.
-
+<br>
 <br>
 
 <div class="row">
