@@ -42,3 +42,7 @@ I will be regularly updating this page, if you find anything missing or would li
 </div>
 <a name="restaurants"></a>
 <br><br>
+
+came to an end? 
+
+I am still to complete this page, visit again soon. :)
