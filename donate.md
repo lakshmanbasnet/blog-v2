@@ -1,5 +1,5 @@
 ---
-title: Contribute today to make this world a better place!
+title: Contribute
 permalink: "/donate/"
 layout: nosidebar
 image: /assets/photo_2016-11-09_20-46-47.jpg
