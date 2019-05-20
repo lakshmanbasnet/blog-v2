@@ -1,5 +1,5 @@
 ---
-title: Hosting a website with Github totally free
+title: Free website hosting with Github
 date: 2016-07-06 06:06:47 Z
 categories:
 - web
