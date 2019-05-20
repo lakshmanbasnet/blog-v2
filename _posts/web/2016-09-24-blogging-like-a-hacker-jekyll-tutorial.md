@@ -1,5 +1,5 @@
 ---
-title: Blogging like a Hacker - Complete Jekyll Tutorial from sratch
+title: Blogging like a Hacker - Jekyll Tutorial
 date: 2016-09-24 04:06:47 Z
 categories:
 - web
