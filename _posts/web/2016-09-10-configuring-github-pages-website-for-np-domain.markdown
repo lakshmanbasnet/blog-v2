@@ -1,5 +1,5 @@
 ---
-title: Configuring .np domain for Github-pages websites
+title: Configuring .np domain for Github page
 date: 2016-09-10 04:06:47 Z
 categories:
 - web
