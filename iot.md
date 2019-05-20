@@ -1,6 +1,6 @@
 ---
 title: Blog posts in Internet of Things
-permalink: "/IOT/"
+permalink: "/iot/"
 layout: category
 ---
 
