@@ -1,5 +1,5 @@
 ---
-title: Top 15 Best Places to Visit/Date in Kathmandu Valley
+title: 15 Best Places to Visit in Kathmandu
 date: 2017-04-08 04:06:47 Z
 categories:
 - travel
