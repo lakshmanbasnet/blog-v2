@@ -1,5 +1,5 @@
 ---
-title: Sitemap generator for Jekyll site!
+title: Jekyll sitemap generator!
 date: 2016-05-12 04:06:47 Z
 categories:
 - web
