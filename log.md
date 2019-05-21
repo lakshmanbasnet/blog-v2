@@ -48,7 +48,7 @@ layout: page
 - Google Ads Display, Google Academy for Ads <a href="/assets/certs/lakshman-basnet-google-ads-display-certification.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 - Google Ads Search, Google Academy for Ads <a href="/assets/certs/lakshman-basnet-google-ads-search-certification.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 - Content Marketing, Hubspot Academy <a href="/assets/certs/lakshman-basnet-content-marketing.png" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
-- Inbound, Hubspot Academy <a href="/assets/certs/" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+- Inbound, Hubspot Academy <a href="/assets/certs/lakshman-basnet-inbound.png" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 - Email Marketing, Hubspot Academy <a href="/assets/certs/lakshman-basnet-email-marketing.png" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 - Google Ads Fundamental, Google Academy for Ads <a href="/assets/certs/lakshman-basnet-google-ads-fundamental.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 - SEO Fundamentals, SEMrush
