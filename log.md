@@ -43,7 +43,7 @@ layout: page
 <a name="certifications"></a><br><br>
 
 ### courses and certifications ###
-- 3CX Basic Certified Engineer v16 <a href="/assets/certs/Lakshman-Basnet-3CX-Basic.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+- 3CX Basic Certified Engineer v16 <a href="/assets/certs/lakshman-basnet-3cx-certification.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 - Google My Business Basics <a href="/assets/certs/lakshman-basnet-google-my-business.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 - Google Ads Display, Google Academy for Ads <a href="/assets/certs/lakshman-basnet-google-ads-display-certification.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 - Google Ads Search, Google Academy for Ads <a href="/assets/certs/lakshman-basnet-google-ads-search-certification.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
