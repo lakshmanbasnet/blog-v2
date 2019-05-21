@@ -43,13 +43,14 @@ layout: page
 <a name="certifications"></a><br><br>
 
 ### courses and certifications ###
-- Google My Business Basics
-- Google Ads Display, Google Academy for Ads
-- Google Ads Search, Google Academy for Ads
-- Content Marketing, Hubspot Academy
-- Inbound, Hubspot Academy
-- Email Marketing, Hubspot Academy
-- Google Ads Fundamental, Google Academy for Ads
+- 3CX Basic Certified Engineer v16 <a href="/assets/certs/Lakshman-Basnet-3CX-Basic.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+- Google My Business Basics <a href="/assets/certs/lakshman-basnet-google-my-business.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+- Google Ads Display, Google Academy for Ads <a href="/assets/certs/lakshman-basnet-google-ads-display-certification.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+- Google Ads Search, Google Academy for Ads <a href="/assets/certs/lakshman-basnet-google-ads-search-certification.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+- Content Marketing, Hubspot Academy <a href="/assets/certs/lakshman-basnet-content-marketing.png" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+- Inbound, Hubspot Academy <a href="/assets/certs/" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+- Email Marketing, Hubspot Academy <a href="/assets/certs/lakshman-basnet-email-marketing.png" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
+- Google Ads Fundamental, Google Academy for Ads <a href="/assets/certs/lakshman-basnet-google-ads-fundamental.pdf" target="blank"> <i class="fa fa-eye" aria-hidden="true"></i></a>
 - SEO Fundamentals, SEMrush
 - Advanced Photography, Canon Imaging School
 
