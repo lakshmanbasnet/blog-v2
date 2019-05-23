@@ -61,17 +61,17 @@ layout: page
 ### events organized ### 
 (/organization/ management team)
 
-- XII WORLD CONGRESS ON MOUNTAIN MEDICINE, 2018 (ISMM 2018) [website](https://ismm2018.org/)
-- 21st Association of Insurers and Reinsurers in Developing Countries Conference 2018 (AIRDC) [website](https://airdc2018.com/)
+- XII WORLD CONGRESS ON MOUNTAIN MEDICINE, 2018 (ISMM 2018) [<i class="fa fa-external-link" aria-hidden="true"></i>](https://ismm2018.org/)
+- 21st Association of Insurers and Reinsurers in Developing Countries Conference 2018 (AIRDC) [<i class="fa fa-external-link" aria-hidden="true"></i>](https://airdc2018.com/)
 - Nepal Land and Housing Developers Association Property Expo & Summit 2018
-- ANSI ISO-PC 305 Meeting [website](https://sanitation.ansi.org/)
-- Global Adventure & Mountaineering Conference and Expo 2018 (GAMCE 2018) [website](http://mountainadventure.events)
-- Nepal International Beer Festival 2017 [website](http://nepalinternationalbeerfestival.com/)
-- Ruslan Food Beverage and Hospitality Exhibition 2017 [website](http://fbhnepal.com)
-- Nimbus Agro Trade & Investment Exhibition and Conference 2017 [website](http://agroexponepal.com)
-- National Cyber Olympiad Nepal 2014, 2015, 2016 [website](http://brushuponline.edu.np)
+- ANSI ISO-PC 305 Meeting [<i class="fa fa-external-link" aria-hidden="true"></i>](https://sanitation.ansi.org/)
+- Global Adventure & Mountaineering Conference and Expo 2018 (GAMCE 2018) [<i class="fa fa-external-link" aria-hidden="true"></i>](http://mountainadventure.events)
+- Nepal International Beer Festival 2017 [<i class="fa fa-external-link" aria-hidden="true"></i>](http://nepalinternationalbeerfestival.com/)
+- Ruslan Food Beverage and Hospitality Exhibition 2017 [<i class="fa fa-external-link" aria-hidden="true"></i>](http://fbhnepal.com)
+- Nimbus Agro Trade & Investment Exhibition and Conference 2017 [<i class="fa fa-external-link" aria-hidden="true"></i>](http://agroexponepal.com)
+- National Cyber Olympiad Nepal 2014, 2015, 2016 [<i class="fa fa-external-link" aria-hidden="true"></i>](http://brushuponline.edu.np)
 - Seminar on Online Work in Nepal, February 24 2016, Kathmandu, Nepal [video](https://www.youtube.com/watch?v=gitFmq7uLU0)
-- Blogging with Jekyll Workshop, September 2016 [website](https://www.techrise.me/events)
+- Blogging with Jekyll Workshop, September 2016 [<i class="fa fa-external-link" aria-hidden="true"></i>](https://www.techrise.me/events)
 
 <a name="places"></a><br><br>
 
