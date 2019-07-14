@@ -9,7 +9,7 @@ description: Obtaining NOC letter from Ministry of Education requires lot of for
 image: /assets/lb-th.png
 ---
 
-Ministry of Education, Scholarship Wing in Kaiser Mahal, Kathmandu issues No Objection Letter popularly known as NOC Certificate for all Nepali applicants who have studied or have taken equvalency degree of Nepal. 
+Ministry of Education, Scholarship Wing in Kaiser Mahal, Kathmandu issues No Objection Letter popularly known as NOC Certificate for all Nepali applicants who have studied or have taken equivalency degree of Nepal. 
 
 Basically, when you possess a NOC letter, it means that the Ministry of Education, Nepal Government has no problem with you in studying in foreign nation, or you haven't received scholarship from Nepal Government or the final reason is you have legal permission to send/pay/get fees in foreign currency to foreign nation for educational purposes.
 

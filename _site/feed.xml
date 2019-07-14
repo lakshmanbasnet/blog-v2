@@ -5,9 +5,149 @@
     <description>Computer Science Student, Tech Enthusiast and Occasional Blogger from Nepal - Laxman Basnet | Lakshman's Blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Mar 2019 04:08:32 +0000</pubDate>
-    <lastBuildDate>Sun, 17 Mar 2019 04:08:32 +0000</lastBuildDate>
+    <pubDate>Sun, 14 Jul 2019 11:32:07 +0000</pubDate>
+    <lastBuildDate>Sun, 14 Jul 2019 11:32:07 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Solved - Reset Wordpress admin password no email, no phpmyadmin access</title>
+        <description>&lt;p&gt;I have a small wordpress blog running live through Digital Ocean server. I don’t publish new posts quite often and it had been a while since I had logged in to my wordpress admin panel. I tried logging in but I couldn’t. I simply forgot what password I had set, I tried every passwords but didn’t work.&lt;/p&gt;
+
+&lt;p&gt;My problem here was:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;I tried &lt;strong&gt;lost password&lt;/strong&gt;? link to reset password but I didn’t receive any reset emails (may be because I had turned off &lt;code class=&quot;highlighter-rouge&quot;&gt;mail()&lt;/code&gt; function or for other reasons)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;since I was hosting with digital ocean’s wordpress default image, I didn’t have phpmyadmin and couldn’t change password through phpmyadmin, (there could be other way around accessing database but it tool me some time to find out how to do it and I eventually gave up)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;I couldn’t reset password, and following is what I found on the internet and it worked for me.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;reset-wordpress-password-through-file-manager---functionsphp&quot;&gt;Reset Wordpress password through file manager - functions.php&lt;/h2&gt;
+
+&lt;p&gt;For this, you need to have access or get connected to your server. You might need to browse through &lt;strong&gt;FTP&lt;/strong&gt;s, &lt;strong&gt;SSH&lt;/strong&gt; or any other way.&lt;/p&gt;
+
+&lt;p&gt;I did a SSH login via terminal to my digital ocean droplet, and navigated to find where  my wordpress’s functions.php file was located.&lt;/p&gt;
+
+&lt;p&gt;For me the location was:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;root@myserver:/var/www/html/wp-content/themes/mytheme# 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Generally, you will find your &lt;code class=&quot;highlighter-rouge&quot;&gt;functions.php&lt;/code&gt; file inside &lt;code class=&quot;highlighter-rouge&quot;&gt;themes&lt;/code&gt; folder in &lt;code class=&quot;highlighter-rouge&quot;&gt;wp-content&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You will need editor to add a line to functions.php.&lt;/p&gt;
+
+&lt;p&gt;To edit with vim,&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vi functions.php
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;add this line under the line containing &lt;code class=&quot;highlighter-rouge&quot;&gt;&lt;span class=&quot;cp&quot;&gt;&amp;lt;?php&lt;/span&gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wp_set_password('new-password', 1);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Save your file, in vim use keys: i to inset, ctrl+o, :wq to write and quit.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;new-password&lt;/code&gt;: password you would like to create
+&lt;code class=&quot;highlighter-rouge&quot;&gt;1&lt;/code&gt;: user id number, if you are unsure about id number, you can use &lt;code class=&quot;highlighter-rouge&quot;&gt;wp user list&lt;/code&gt; command or if you have few user accounts you can try my way: I have 3 user accounts and I tried resetting password to each account as:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wp_set_password('new-password', 1);
+wp_set_password('new-password', 2);
+wp_set_password('new-password', 3);
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This actually worked for me.&lt;/p&gt;
+
+&lt;p&gt;Now goto your wordpress login url, when you try logging in, you will find that you won’t be able to login, as this would reset password.&lt;/p&gt;
+
+&lt;p&gt;Now, return back to above &lt;code class=&quot;highlighter-rouge&quot;&gt;functions.php&lt;/code&gt; file and remove the lines that you just added and try logging in, and you will get access into it.&lt;/p&gt;
+
+&lt;p&gt;Comment down, if you are confused anywhere. :)&lt;/p&gt;
+</description>
+        <pubDate>Sun, 14 Jul 2019 04:06:47 +0000</pubDate>
+        <link>http://localhost:4000/web/reset-admin-password-no-email</link>
+        <guid isPermaLink="true">http://localhost:4000/web/reset-admin-password-no-email</guid>
+        
+        
+        <category>web</category>
+        
+      </item>
+    
+      <item>
+        <title>All About Nepal in Adelaide</title>
+        <description>&lt;p&gt;Hi!&lt;/p&gt;
+
+&lt;p&gt;This post is all about Nepal, Nepali people in Adelaide and everything a Nepali needs to know or can get Nepali here in Adelaide, South Australia.
+&lt;br /&gt;
+Me, myself have moved to Adelaide recently and I am trying to list all Nepali stuff here, so that new comers, visitors or any one seeking more information about Nepal and Nepalese community will get information they need here.
+&lt;br /&gt;
+I will be regularly updating this page, if you find anything missing or would like to see any updates, kindly comment down below.
+&lt;br /&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-6 sm-5 xs-5 tableofcontent&quot;&gt;
+	&lt;h3 class=&quot;rhre&quot;&gt;This post is about&lt;/h3&gt;
+	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#restaurants&quot;&gt;&lt;h4&gt;1. Nepali Restaurants in Adelaide&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#grocery-stores&quot;&gt;&lt;h4&gt;2. Nepali Grocery Stores in Adelaide&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#communties&quot;&gt;&lt;h4&gt;3. Helping Nepali Communities in Adelaide&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#schools&quot;&gt;&lt;h4&gt;4. Nepali Schools &lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#social-networks&quot;&gt;&lt;h4&gt;5. Useful Adelaide based Nepali Social Networks for room, jobs and everything&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#consulates&quot;&gt;&lt;h4&gt;6. Nepal Government Offices/ Consulate&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#training-institutes&quot;&gt;&lt;h4&gt;7. Training Insitutes&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#sports-club&quot;&gt;&lt;h4&gt;8. Nepali Sports Club in Adelaide&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+   &lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#businesses&quot;&gt;&lt;h4&gt;9. Nepali Businesses&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#universities&quot;&gt;&lt;h4&gt;10. Universities in Adelaide &lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#nrna&quot;&gt;&lt;h4&gt;11. NRN Association in South Australia &lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#jobs-search&quot;&gt;&lt;h4&gt;12. How to search jobs in Adelaide &lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
+	&lt;a href=&quot;#educational-consultancies&quot;&gt;&lt;h4&gt;13. Educational Consultancies &lt;/h4&gt;&lt;/a&gt;
+	
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;p&gt;&lt;a name=&quot;restaurants&quot;&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;came to an end?&lt;/p&gt;
+
+&lt;p&gt;I am still to complete this page, visit again soon. :)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 08 May 2019 02:39:00 +0000</pubDate>
+        <link>http://localhost:4000/info/adelaide-nepal</link>
+        <guid isPermaLink="true">http://localhost:4000/info/adelaide-nepal</guid>
+        
+        
+        <category>info</category>
+        
+      </item>
+    
+      <item>
+        <title>Nepal Festival Adelaide 2019</title>
+        <description>&lt;p&gt;&lt;img data-src=&quot;/assets/nepal-festival-adelaide-2019.jpg&quot; class=&quot;lazyload&quot; alt=&quot;nepal festival adelaide 2019&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nepal Festival 2019 is one of the biggest events,if not the biggest of its kind organised by Nepali diaspora around the world . NRNA Australia SCC SA is proud to present grand Nepal Festival 2019 on sunday 14th April ( Nepali New Years Day). It’s a celebration of our diverse culture, traditions, costumes, food, language, religion and ways of life . The biannual event showcases our rich history, culture and our identity at its best . The major attractions of the event encompass the functions like Nepal Parade , Cultural shows, Nepal House, Cooking Show, Mr/Ms Nepal SA Competition, many national and international artists’ performances, food varieties and other business stalls.&lt;/p&gt;
+
+&lt;p&gt;&lt;small&gt;
+Description and image source: Nepal Festival Adelaide 2019 &lt;a href=&quot;https://www.facebook.com/events/353323388726145/&quot;&gt;facebook event page&lt;/a&gt; &lt;/small&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 09 Apr 2019 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/events/nepal-festival-adelaide-2019</link>
+        <guid isPermaLink="true">http://localhost:4000/events/nepal-festival-adelaide-2019</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
     
       <item>
         <title>Cultural Shock and Australia</title>
@@ -343,7 +483,7 @@ I wanted her to have a happy life with her King whom she waited all years to see
     
       <item>
         <title>Everything you need to know about obtaining NOC Letter</title>
-        <description>&lt;p&gt;Ministry of Education, Scholarship Wing in Kaiser Mahal, Kathmandu issues No Objection Letter popularly known as NOC Certificate for all Nepali applicants who have studied or have taken equvalency degree of Nepal.&lt;/p&gt;
+        <description>&lt;p&gt;Ministry of Education, Scholarship Wing in Kaiser Mahal, Kathmandu issues No Objection Letter popularly known as NOC Certificate for all Nepali applicants who have studied or have taken equivalency degree of Nepal.&lt;/p&gt;
 
 &lt;p&gt;Basically, when you possess a NOC letter, it means that the Ministry of Education, Nepal Government has no problem with you in studying in foreign nation, or you haven’t received scholarship from Nepal Government or the final reason is you have legal permission to send/pay/get fees in foreign currency to foreign nation for educational purposes.&lt;/p&gt;
 
@@ -570,924 +710,6 @@ Have a good day!&lt;/p&gt;
         
         
         <category>info</category>
-        
-      </item>
-    
-      <item>
-        <title>Licensed Remittance Companies in Nepal</title>
-        <description>&lt;p&gt;Nepal is a remittance based company. Most of the people here in Nepal depend upon their family member working somewhere in foreign countries be it in developed countries or golf nations.&lt;/p&gt;
-
-&lt;p&gt;There are several reasons why young manpower are leaving their country with the aim of earning a better income abroad.&lt;/p&gt;
-
-&lt;p&gt;Some might consider as braindrain, but there are different reasons behind the scenes. Because of weak governance system, people have less faith upon the government. Employment opportunities are very limited, and even if someone gets a job, its really hard to feed one’s family twice a day with the salary they get. For low skilled and semi skilled manpower, the situation is even more worse. …&lt;/p&gt;
-
-&lt;p&gt;To give their family a better living standard and make their family able to live happily fulfilling their basic need, many Nepalese fly abroad. And there is no doubt that the major source of income of entire nation is &lt;strong&gt;remittance&lt;/strong&gt; sent by the Nepali workers working abroad to their family here. There won’t be a huge debate if anyone says, Nepal is remittance dependent country, yes it is! It will be until, the scenario changes…&lt;/p&gt;
-
-&lt;p&gt;Here below, 
-I have compiled list of private companies providing remittance services to Nepalese. According to Nepal Rastra Bank (NRB), 49 different companies have been licensed till date in remittance operation.&lt;/p&gt;
-
-&lt;div class=&quot;alert alert-info thumbnail&quot;&gt;
-&lt;h2&gt; List of Licensed Remittance Companies in Nepal&lt;/h2&gt;&lt;/div&gt;
-&lt;div class=&quot;row&quot;&gt;
-&lt;!-- 1 --&gt;
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Easylink Remittance Pvt. Ltd&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Sorhakhutte, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14388375&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;!-- 2 --&gt;
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Annapurna Travel and Tours (P) Ld&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Ghantaghar, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14223530&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;IME Limited&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Panipokhari, Kathmandu &lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14430600 &lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;CG FINCO Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Sanepa, Lalitpur&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 15549792&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Sewa Remit Pvt. Ltd. &lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Kuleshwor, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14283728&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Prabhu Money Transfer Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Kamaladi, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14442561 &lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Lalit Money Transfer P. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Gongabu, Kathmandu&lt;/i&gt;
-
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;United Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Lainchaur, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14441560&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Nepal Remit International Pvt. ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Kathmandu Plaza&lt;/i&gt; &lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14168800&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Hulas Remittance Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Ganabahal, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 12161313&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Nepal Universal Money Transfer Service Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Dharmapath, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14227653&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Samsara Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Nagpokhari, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14444711&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Modern Money Express Nepal Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Kamalpokhari, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14441638&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;City Express Money Transfer Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Ghantaghar, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14231900&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Advance Money Transfer Pvt Ltd&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Sundhara, Kathamndu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14266344&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Nava Durga Money Transfer Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Dillibazar, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14423980&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Zenith Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Kathmandu Plaza&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14168548&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Surya Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Samakhusi, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14353445&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Panos Remmit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Koteshwor, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14602199&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Digitek Remittance Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Gairidhara, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14232068&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;C.G. Money Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Jhamsikhel, Lalitpur&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 15545891&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;J.M.E. Remit Company Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Durbar Marg, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 9851042851&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Yes Remit Pvt. Ltd. &lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Gairidhara-2, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14004711 &lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Times Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Kathmandu Mall, Sundhara&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14150170&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; I Pay Remit (P.) Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Gairidhara, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14435122&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; My Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Baluwatar, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14414427&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Kantipur Remit (P.) Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Newroad, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 9851130080&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; G.M.E. Remit (P.) Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Lainchaur, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 14024065&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Pashupati Nepal Remit (P.) Ltd. &lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Dillibazar, Kathmandu &lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; &lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Sansar Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Durbar Marg, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 9851114202 &lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Mahakali Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; New Road, Kathmandu &lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 9851053372&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; K.M.E. International Remittance Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Gongabu, Kathmandu &lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 9851024897 &lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Maya Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt; Pulchowk, Lalitpur &lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt; 977 15527795&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Goodwill Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Kamalpokhari, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9851024924&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Thamel Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Hattisar, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9851026514&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt;Gandaki Remit Pvt. Ltd. &lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  New Road, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9855060523&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Smart Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Kathmandu Mall, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9843356666&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; CFS Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Teku, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9851034844&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Global Mountain Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Pingalasthan, Kathamndu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 14113766&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Boom Remittance Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Soalteemode, Kalimati&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9849025038&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Overseas Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Nayabaneshwor, Shankmul&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9851192890&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Max Money Transfer Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Anamnagar, Kahmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9802900555&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Remit to Nepal Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Chakupat, Lalitpur-10&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9803871506&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Q. S. Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Lazimpat, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 14425521&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Buddha International Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Sinamangal, Kahmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 14478864&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Ramro Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Baluwatar, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 9851215045&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Cashway Money Transfer Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Battisputali, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 14489616&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; National Money Transfer Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Kalimati, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  977 14301307&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div class=&quot;col-sm-6 col-md-4&quot;&gt;
-&lt;div class=&quot;thumbnail&quot;&gt;
-&lt;h3&gt; Esara Remit Pvt. Ltd.&lt;/h3&gt;
-&lt;div class=&quot;caption&quot;&gt;
-&lt;i class=&quot;fa fa-map-marker&quot; aria-hidden=&quot;true&quot;&gt;  Baluwatar, Kathmandu&lt;/i&gt;&lt;br /&gt;
-&lt;i class=&quot;fa fa-phone&quot; aria-hidden=&quot;true&quot;&gt;  9851184771&lt;/i&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;/div&gt;
-</description>
-        <pubDate>Fri, 20 Jul 2018 12:15:00 +0000</pubDate>
-        <link>http://localhost:4000/info/licensed-remittance-companies-nepal</link>
-        <guid isPermaLink="true">http://localhost:4000/info/licensed-remittance-companies-nepal</guid>
-        
-        
-        <category>info</category>
-        
-      </item>
-    
-      <item>
-        <title>Agro Mart &amp; Meet 2018</title>
-        <description>&lt;p&gt;&lt;img data-src=&quot;/assets/agroexponepal1.jpg&quot; class=&quot;lazyload&quot; alt=&quot;agriculture event nepal&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;For the second time, House of Rajkarnicar is organizing a mega event of agriculture sector in Kathmandu, Nepal. Agro Expo Nepal 2018 will have more than hundreds of exhibitors exhibiting on food, beverage and hospitality domain. Similarly there will be conference on agro domain where hundreds will be participating and industry expert from government and private sector will be sharing their expertise.&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;div class=&quot;row&quot;&gt;
-&lt;div class=&quot;col-md-6 sm-5 xs-5 tableofcontent&quot;&gt;
-	&lt;h3 class=&quot;rhre&quot;&gt;This post is about&lt;/h3&gt;
-	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#1&quot;&gt;&lt;h4&gt;1. About Agro Mart &amp;amp; Meet 2018 event&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#2&quot;&gt;&lt;h4&gt;2. Exhibitors Profile in agroexponepal&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#3&quot;&gt;&lt;h4&gt;3. Visitors Profile&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;a href=&quot;#4&quot;&gt;&lt;h4&gt;4. Useful Links&lt;/h4&gt;&lt;/a&gt;
-
-&lt;/div&gt;
-
-&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-&lt;a name=&quot;1&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;rhre&quot;&gt;About Agro Mart &amp;amp; Meet 2018&lt;/h2&gt;
-&lt;p&gt;The Agro Mart &amp;amp; Meet 2018 is focused exclusively on agriculture including aquaculture, horticulture, floriculture, poultry &amp;amp; apiary, livestock and cash-crop farming. The theme for the event is “Progressing from Subsistence to Commercial Agriculture”. The Agro Mart &amp;amp; Meet 2018 is expected to host about 150 exhibitors at the Mart and about 300 participants at the Meet. 
-The Agro Mart &amp;amp; Meet 2018 is expected to attract about 40,000 visitors. The event is both a business-to-business event as well as business-to-consumer event.&lt;/p&gt;
-
-&lt;p&gt;source: &lt;a href=&quot;http://agroexponepal.com&quot;&gt;agroexponepal.com&lt;/a&gt;
-&lt;a name=&quot;2&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h2 class=&quot;rhre&quot;&gt; Exhibitor's Prduct Profile in agroexponepal&lt;/h2&gt;
-&lt;p&gt;The exhibition wills show-case products, technologies and services for agriculture, aquaculture &amp;amp; fishery, horticulture, poultry &amp;amp; livestock, cash-crop farming, apiaries and floriculture which include the following.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Grains &amp;amp; Pulses, Fruits &amp;amp; Vegetables&lt;/li&gt;
-  &lt;li&gt;Spices, Nuts&lt;/li&gt;
-  &lt;li&gt;Flowers, Honey&lt;/li&gt;
-  &lt;li&gt;Tea, Coffee and Tobacco&lt;/li&gt;
-  &lt;li&gt;Fish and Seafood&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Cow, Buffalo, Goat. Chicken, Pig, Rabbit, Ostrich&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Tractors, Combine Harvesters, Tillers&lt;/li&gt;
-  &lt;li&gt;Farm and Garden Equipment and Manual Tools&lt;/li&gt;
-  &lt;li&gt;Fertilizers and Agro Chemicals&lt;/li&gt;
-  &lt;li&gt;Agricultural Cures, Pesticides &amp;amp; Insecticides&lt;/li&gt;
-  &lt;li&gt;Agri-Biotechnology, Nanotechnology&lt;/li&gt;
-  &lt;li&gt;Seeds, Seedlings, Saplings&lt;/li&gt;
-  &lt;li&gt;Tissue Culture Laboratories &amp;amp; Soil Test Equipment&lt;/li&gt;
-  &lt;li&gt;Climate Control &amp;amp; Automation Equipment&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Plasticulture&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Animal Feed and Supplements&lt;/li&gt;
-  &lt;li&gt;Animal Husbandry Machinery&lt;/li&gt;
-  &lt;li&gt;Animal Care and Veterinarian Supplies&lt;/li&gt;
-  &lt;li&gt;Breeding and Laboratory Equipment and Services&lt;/li&gt;
-  &lt;li&gt;Poultry Equipment and Supplies&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Hatcheries &amp;amp; Fingerling Supplies&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Hydroponics Equipment &amp;amp; Supplies&lt;/li&gt;
-  &lt;li&gt;Aquatic Pest Control&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Fish Cages, Fish Nets &amp;amp; Containment Equipment&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Energy Systems&lt;/li&gt;
-  &lt;li&gt;Irrigation Systems and Equipment&lt;/li&gt;
-  &lt;li&gt;Watershed Management Products&lt;/li&gt;
-  &lt;li&gt;Generators, Pumps and Pipes&lt;/li&gt;
-  &lt;li&gt;Cold chain Equipment for Perishable Produces&lt;/li&gt;
-  &lt;li&gt;Cold storage &amp;amp; Refrigeration Appliances&lt;/li&gt;
-  &lt;li&gt;Perishable Cargo Handling&lt;/li&gt;
-  &lt;li&gt;Refrigerated Van &amp;amp; Trucks&lt;/li&gt;
-  &lt;li&gt;Digital Temperature Controller &amp;amp; Data Logger&lt;/li&gt;
-  &lt;li&gt;Poly houses, Greenhouses, Shedding Nets&lt;/li&gt;
-  &lt;li&gt;Post-harvest Bulk Storage&lt;/li&gt;
-  &lt;li&gt;Packaging Supplies and Equipment&lt;/li&gt;
-  &lt;li&gt;Grading, Sorting, Wrapping, Sealing &amp;amp; Lamination&lt;/li&gt;
-  &lt;li&gt;Elevator, Conveyors, Rotary Separators&lt;/li&gt;
-  &lt;li&gt;Fork Lift &amp;amp; Handling Equipment&lt;/li&gt;
-  &lt;li&gt;Banks, Financial Institutions and Insurance&lt;/li&gt;
-  &lt;li&gt;Professional Consultancies&lt;/li&gt;
-  &lt;li&gt;Agriculture Trade Publications&lt;/li&gt;
-  &lt;li&gt;Organic Certification Agencies&lt;/li&gt;
-  &lt;li&gt;Food &amp;amp; Beverage Processing Equipment&lt;/li&gt;
-  &lt;li&gt;Government Agencies, INGOs and NGOs&lt;/li&gt;
-  &lt;li&gt;Agriculture Colleges and Training Centers
-&lt;a name=&quot;3&quot;&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 class=&quot;rhre&quot;&gt;Visitors Profile of Agro Mart &amp;amp; Meet 2018&lt;/h2&gt;
-&lt;ul&gt;
-  &lt;li&gt;Hoteliers&lt;/li&gt;
-  &lt;li&gt;Farmers and Growers&lt;/li&gt;
-  &lt;li&gt;Gardeners and Florists&lt;/li&gt;
-  &lt;li&gt;Poultry and Livestock Breeders&lt;/li&gt;
-  &lt;li&gt;Cooperative societies&lt;/li&gt;
-  &lt;li&gt;Apiary, horticulture, aquaculture, floriculture entrepreneurs and professionals&lt;/li&gt;
-  &lt;li&gt;Tea, coffee and tobacco entrepreneurs and professionals&lt;/li&gt;
-  &lt;li&gt;Agro investors, bankers and insurers&lt;/li&gt;
-  &lt;li&gt;Agriculture Produce Exporters&lt;/li&gt;
-  &lt;li&gt;Agriculture Produce Wholesalers and Distributors&lt;/li&gt;
-  &lt;li&gt;Food &amp;amp; Beverage manufacturers&lt;/li&gt;
-  &lt;li&gt;Grocery Retailers&lt;/li&gt;
-  &lt;li&gt;Hotels and Restaurants&lt;/li&gt;
-  &lt;li&gt;General consumers&lt;/li&gt;
-  &lt;li&gt;Agriculture students and researchers&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a name=&quot;4&quot;&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h3 class=&quot;rhre&quot;&gt; Useful Links of Agro Mart &amp;amp; Meet 2018&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Exhibition Booking: &lt;a href=&quot;http://agroexponepal.com/online-exhibition.php&quot;&gt;agroexponepal.com/online-exhibition.php&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Agro Meet Registration: &lt;a href=&quot;http://agroexponepal.com/online-contestant.php&quot;&gt;agroexponepal.com/online-contestant.php&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Contact Address: &lt;a href=&quot;http://agroexponepal.com/page/contact-us&quot;&gt;agroexponepal.com/page/contact-us&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Exhibitors: &lt;a href=&quot;http://agroexponepal.com/page/exhibitor-manual&quot;&gt;agroexponepal.com/page/exhibitor-manual&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Dates and Schedules: &lt;a href=&quot;http://agroexponepal.com/page/dates-schedules&quot;&gt;agroexponepal.com/page/dates-schedules&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;For more information about the event please visit www.agroexponepal.com or Contact House of Rajkarnicar at 977 01-5543018 /9, info@h-of-r.com, www.rajkarnicar.com.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/events/agro-expo-nepal-2018</link>
-        <guid isPermaLink="true">http://localhost:4000/events/agro-expo-nepal-2018</guid>
-        
-        
-        <category>events</category>
-        
-      </item>
-    
-      <item>
-        <title>Online Shopping Sites in Nepal</title>
-        <description>&lt;p&gt;Nepal is slowly marching ahead in technological revolution. Internet and mobile penetration is rapidly increasing day by day. With the advent in technology, different online shopping sites have emerged since long and are providing ecommerce services to Nepalese people.&lt;/p&gt;
-
-&lt;div class=&quot;ba&quot;&gt;&lt;small&gt;
-You might enjoy reading &lt;a href=&quot;/technology/top-trending-technological-innovations-in-nepal&quot;&gt;this&lt;/a&gt; article that I published a year before on Top Trending Technological Innovations in Nepal.
-&lt;/small&gt;&lt;/div&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;div class=&quot;row&quot;&gt;
-&lt;div class=&quot;col-md-6 sm-5 xs-5 tableofcontent&quot;&gt;
-	&lt;h3 class=&quot;rhre&quot;&gt;This post is about&lt;/h3&gt;
-	&lt;li class=&quot;hre&quot;&gt;&lt;a href=&quot;#1&quot;&gt;&lt;h4&gt;1. Mode of Payment in Nepali ecommerce sites&lt;/h4&gt;&lt;/a&gt;&lt;/li&gt;
-	&lt;a href=&quot;#2&quot;&gt;&lt;h4&gt;2. List of Online Shopping Sites in Nepal&lt;/h4&gt;&lt;/a&gt;
-	
-&lt;/div&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;&lt;a name=&quot;1&quot;&gt;&lt;/a&gt;
-&lt;br /&gt;&lt;/p&gt;
-
-&lt;h2 class=&quot;rhre&quot;&gt;Common Mode of Payment in Nepali ecommerce sites&lt;/h2&gt;
-&lt;p&gt;Some online shopping sites, accept instant online payment options like paypal, credit and debit cards, while local payment gateways like eSewa and Khalti are also of great choice among several other service providers. Out of all, Cash on Delivery(COD) is the most used payment option in context of Nepal.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;International Payment Gateways&lt;/strong&gt; (Credit /Debit Cards, Paypal)&lt;br /&gt;
-Very few ecommerce sites accept international payment gateways while some might accept local cards
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Local Payment Gateways&lt;/strong&gt;&lt;br /&gt;
-Major Nepali online shopping sites local payment gateways like eSewa, Khalti etc. These payment gateways are popular among Nepalese and have good active userbase.
-&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Cash on Delivery&lt;/strong&gt;&lt;br /&gt;
-Most preferred payment method by customers, Cash on Delivery (COD) is widely used.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;p&gt;With time, many sites came online, many are continuing their services while some have given up somewhere.&lt;/p&gt;
-
-&lt;p&gt;Here below, I have tried listing some ecommerce sites currently in operation in Nepal. I particularly mean the online shopping sites being operated from Nepal.&lt;/p&gt;
-
-&lt;p&gt;Even though, I will try my best to keep updating this list with time, if I have missed any do comment below!
-&lt;br /&gt;&lt;br /&gt;
-&lt;a name=&quot;2&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2&gt;List of ecommerce sites in Nepal&lt;/h2&gt;
-
-&lt;div class=&quot;alert alert-info thumbnail&quot;&gt;
-	&lt;small&gt;note: the table below doesn't below any hierarchy! S. No. is just for ease of read. &lt;/small&gt;
-&lt;/div&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;S. No.&lt;/th&gt;
-      &lt;th&gt;Brand Name&lt;/th&gt;
-      &lt;th&gt;Website&lt;/th&gt;
-      &lt;th&gt;product type&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;1.&lt;/td&gt;
-      &lt;td&gt;Daraz&lt;/td&gt;
-      &lt;td&gt;daraz.com.np&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;2.&lt;/td&gt;
-      &lt;td&gt;Sasto Deal&lt;/td&gt;
-      &lt;td&gt;sastodeal.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;3.&lt;/td&gt;
-      &lt;td&gt;Muncha&lt;/td&gt;
-      &lt;td&gt;muncha.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;4.&lt;/td&gt;
-      &lt;td&gt;Butta&lt;/td&gt;
-      &lt;td&gt;butta.us&lt;/td&gt;
-      &lt;td&gt;clothing&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;5.&lt;/td&gt;
-      &lt;td&gt;Hamrobazar.com&lt;/td&gt;
-      &lt;td&gt;hamrobazar.com&lt;/td&gt;
-      &lt;td&gt;new and second hand classified market&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;6.&lt;/td&gt;
-      &lt;td&gt;Metro Tarkari&lt;/td&gt;
-      &lt;td&gt;metrotarkari.com&lt;/td&gt;
-      &lt;td&gt;online grocer&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;7.&lt;/td&gt;
-      &lt;td&gt;thamel.com&lt;/td&gt;
-      &lt;td&gt;thamel.com&lt;/td&gt;
-      &lt;td&gt;Gifts&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;8.&lt;/td&gt;
-      &lt;td&gt;Threadpaints&lt;/td&gt;
-      &lt;td&gt;threadpaints.com&lt;/td&gt;
-      &lt;td&gt;clothing&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;9.&lt;/td&gt;
-      &lt;td&gt;Shopmandu&lt;/td&gt;
-      &lt;td&gt;shopmandu.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;10.&lt;/td&gt;
-      &lt;td&gt;Dokoman&lt;/td&gt;
-      &lt;td&gt;dokoman.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;11.&lt;/td&gt;
-      &lt;td&gt;Foodmandu&lt;/td&gt;
-      &lt;td&gt;foodmandu.com&lt;/td&gt;
-      &lt;td&gt;Food ordering and Delivery&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;12.&lt;/td&gt;
-      &lt;td&gt;Bigpasal&lt;/td&gt;
-      &lt;td&gt;bigpasal.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;13.&lt;/td&gt;
-      &lt;td&gt;eSewapasal (previously bhatbhatenionline.com)&lt;/td&gt;
-      &lt;td&gt;esewapasal.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;14.&lt;/td&gt;
-      &lt;td&gt;Bhoj&lt;/td&gt;
-      &lt;td&gt;bhojdeals.com&lt;/td&gt;
-      &lt;td&gt;food ordering and delivery&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;15.&lt;/td&gt;
-      &lt;td&gt;Socheko&lt;/td&gt;
-      &lt;td&gt;socheko.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;16.&lt;/td&gt;
-      &lt;td&gt;Smart Doko&lt;/td&gt;
-      &lt;td&gt;smartdoko.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;17.&lt;/td&gt;
-      &lt;td&gt;Mero Shopping&lt;/td&gt;
-      &lt;td&gt;meroshopping.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;18.&lt;/td&gt;
-      &lt;td&gt;NepBay&lt;/td&gt;
-      &lt;td&gt;nepbay.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;19.&lt;/td&gt;
-      &lt;td&gt;Phuche.com&lt;/td&gt;
-      &lt;td&gt;pchuche.com&lt;/td&gt;
-      &lt;td&gt;kid’s item&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;20.&lt;/td&gt;
-      &lt;td&gt;Thulo.com&lt;/td&gt;
-      &lt;td&gt;thulo.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;21.&lt;/td&gt;
-      &lt;td&gt;Bhakari&lt;/td&gt;
-      &lt;td&gt;bhakari.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;22.&lt;/td&gt;
-      &lt;td&gt;Food Mario&lt;/td&gt;
-      &lt;td&gt;foodmario.com&lt;/td&gt;
-      &lt;td&gt;Home cooked food item ordering and delivery service&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;23.&lt;/td&gt;
-      &lt;td&gt;Oliz Store&lt;/td&gt;
-      &lt;td&gt;olizstore.com&lt;/td&gt;
-      &lt;td&gt;Electronics and apple products&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;24.&lt;/td&gt;
-      &lt;td&gt;Moonbao&lt;/td&gt;
-      &lt;td&gt;moonbao.com&lt;/td&gt;
-      &lt;td&gt;multi product&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;25.&lt;/td&gt;
-      &lt;td&gt;.. &lt;i&gt;&lt;small&gt;comment below&lt;/small&gt;&lt;/i&gt;&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;26.&lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-      &lt;td&gt; &lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;&lt;br /&gt;
-&lt;br /&gt;
-Did I miss any Nepali ecommerce sites?&lt;/p&gt;
-
-&lt;p&gt;Or do you want your site to be listed?&lt;/p&gt;
-
-&lt;p&gt;Comment below! :)&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 Jul 2018 00:00:00 +0000</pubDate>
-        <link>http://localhost:4000/technology/online-shopping-sites-nepal</link>
-        <guid isPermaLink="true">http://localhost:4000/technology/online-shopping-sites-nepal</guid>
-        
-        
-        <category>technology</category>
         
       </item>
     
