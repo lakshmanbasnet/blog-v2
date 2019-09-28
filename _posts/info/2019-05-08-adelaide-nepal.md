@@ -42,6 +42,52 @@ I will be regularly updating this page, if you find anything missing or would li
 </div>
 <a name="restaurants"></a>
 <br><br>
+<h2>Nepali Restaurants in Adelaide</h2>
+
+
+### 1. Taste of Nepal ###
+300 The Parade, Norwood SA 5068  
+http://tasteofnepal.com.au **|** [Map](https://goo.gl/maps/xDXDs1zGbaf7FSi18)
+
+<hr>
+
+### 2. Momo n more ###
+55A Bray St, Plympton Park SA 5038  
+http://momo-n-more.com.au  **|** [Map](https://goo.gl/maps/aNiNPE299M4MhubJ6)
+
+<hr>
+### 3. The Gurkha's Restaurant ###
+73 Angas St, Adelaide SA 5000  
+https://www.gurkhasfood.com.au/ **|** [Map](https://goo.gl/maps/xCNEFWiEGvfK6sKn8)
+
+<hr>
+### 4. Himalayan Kitchen ###  
+73 Melbourne St, North Adelaide SA 5006  
+http://thehimalayankitchen.com **|** [Map](https://goo.gl/maps/bNKdUGdJXm9SudrT9)
+
+<hr>
+### 5. Namaste Nepalese Restaurant ###
+41 George St, Parkside SA 5063  
+https://namasterestaurant.com.au **|** [Map](https://goo.gl/maps/xCNEFWiEGvfK6sKn8)
+
+<hr>
+### 6. Yeti Nepalese ###  
+ 
+1/147 Goodwood Rd, Goodwood SA 5034  
+http://yetirestaurant.com.au **|** [Map](https://goo.gl/maps/nrY3QfheZyD9qrP88)
+
+<hr>
+
+### 7. Sunrise Cafe & Kebab House ###
+428B Marion Rd, Plympton SA 5038  
+https://www.sunrisecafeandkebab.com.au **|** [Map](https://goo.gl/maps/4kHxViDbKXD4yYhd7)
+
+<hr>
+
+### 8. Fresh Chulo Restaurant ###
+512-514 Cross Rd, Glandore SA 5037 **|** [Map](https://goo.gl/maps/p7Ztajj7W6dtjBhB9)  
+
+
 
 came to an end? 
 
