@@ -10,7 +10,24 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 {% include header.html %}
 <br><br><br>
 <div class="page-content">
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '2389938521319802',
+      xfbml      : true,
+      version    : 'v5.0'
+    });
+    FB.AppEvents.logPageView();
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
   {% include sidebar-left.html %}
 
 
@@ -31,24 +48,5 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 </div>
 
 {% include footer.html %}
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '125847997953374',
-      xfbml      : true,
-      version    : 'v2.8'
-    });
-    FB.AppEvents.logPageView();
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-
 
 </html>

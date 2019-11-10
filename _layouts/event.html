@@ -7,17 +7,18 @@ layout: default
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '125847997953374',
+      appId      : '2389938521319802',
       xfbml      : true,
-      version    : 'v2.7'
+      version    : 'v5.0'
     });
+    FB.AppEvents.logPageView();
   };
 
   (function(d, s, id){
      var js, fjs = d.getElementsByTagName(s)[0];
      if (d.getElementById(id)) {return;}
      js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
 </script>
