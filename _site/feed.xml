@@ -5,9 +5,23 @@
     <description>Computer Science Student, Tech Enthusiast and Occasional Blogger from Nepal - Laxman Basnet | Lakshman's Blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Oct 2019 12:25:08 +0000</pubDate>
-    <lastBuildDate>Fri, 11 Oct 2019 12:25:08 +0000</lastBuildDate>
+    <pubDate>Sun, 10 Nov 2019 10:43:17 +0000</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2019 10:43:17 +0000</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Galkot Ghumte Mahotsav 2076</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/galkot-ghumte-mahotsav1.jpg&quot; alt=&quot;2nd Galkot Ghumte Festival in Galkot, Baglung&quot; /&gt;&lt;br /&gt;&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 09 Nov 2019 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/events/galkot-ghumte-mahotsav-2076</link>
+        <guid isPermaLink="true">http://localhost:4000/events/galkot-ghumte-mahotsav-2076</guid>
+        
+        
+        <category>events</category>
+        
+      </item>
     
       <item>
         <title>All about Visit Nepal 2020</title>
@@ -822,24 +836,6 @@ If you have any queries, comment down below, I will be more than happy to answer
         
         
         <category>info</category>
-        
-      </item>
-    
-      <item>
-        <title>Connecting Wifi in Guangzhou Baiyun Intl Airport</title>
-        <description>&lt;div class=&quot;abc&quot;&gt;
-&lt;iframe width=&quot;720&quot; height=&quot;405&quot; src=&quot;https://www.youtube.com/embed/4j40o4nxa6w?controls=0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;/div&gt;
-
-&lt;p&gt;1min video on getting connected to wifi in Baiyun Intl Airport. Last time, I was in Guangzhou Baiyun International Airport, I found it difficult to know how could I connect my phone to wifi as I couldn’t understand Chinese and was just confused. I found many passengers there having hard time connecting to wifi, it would have been easier if tapping on Free Airport Wifi SSID in phone would connect us to internet in few clicks but the pain here is you need to get your id and password before, but where do you get it from? This video becomes helpful in such situations, you can see self service machines around airport where you can get your wifi id and password upon id verification. Comment down if you have any queries below!&lt;/p&gt;
-</description>
-        <pubDate>Sun, 27 Jan 2019 04:06:47 +0000</pubDate>
-        <link>http://localhost:4000/knowledgeserverplus/wifi-connection-baiyun-intl-airport</link>
-        <guid isPermaLink="true">http://localhost:4000/knowledgeserverplus/wifi-connection-baiyun-intl-airport</guid>
-        
-        
-        <category>knowledgeserverplus</category>
         
       </item>
     
