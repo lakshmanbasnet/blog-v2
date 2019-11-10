@@ -109,13 +109,3 @@ And
 </script>
 
 
-<hr>
-
-## Online Certifications ##
-
-1. <b>Secret Sauce of Great Writing</b> on Udemy, Instructor: Shani Raja
-
-<a href="https://www.udemy.com/certificate/UC-QC10OQO7/" target="blank"><img src="https://udemy-certificate.s3.amazonaws.com/image/UC-QC10OQO7.jpg"></a>
-
- 
-
