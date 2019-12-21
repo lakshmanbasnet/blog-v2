@@ -1,0 +1,32 @@
+I"N<p>Kazam is considered the most loved and liked screen recorder for different operating systems.
+It has different features of recording screenshot or screencast and you can choose full screen or particular area.</p>
+
+<figure><img src="/assets/kazam.png" alt="" /> </figure>
+
+<p>To install it in your Fedora device, run the following commands:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://downloadcontent.opensuse.org/repositories/home:/Kenzy:/packages/Fedora_23/noarch/kazam-1.4.5-3.1.noarch.rpm
+</code></pre></div></div>
+
+<p>and</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo rpm -ivh kazam-1.4.5-3.1.noarch.rpm
+</code></pre></div></div>
+
+<p>Second command didn’t work for me, so I went with third one:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo dnf install kazam-1.4.5-3.1.noarch.rpm
+</code></pre></div></div>
+
+<p>And it will be installed.</p>
+
+<p>Following are some shorcuts for using Kazam that might be useful for you:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>SUPER-CTRL-Q - Quit
+SUPER-CTRL-W - Show/Hide main window
+SUPER-CTRL-R - Start Recording
+SUPER-CTRL-F - Finish Recording
+</code></pre></div></div>
+
+<p>Super generally refers to windows key.</p>
+:ET

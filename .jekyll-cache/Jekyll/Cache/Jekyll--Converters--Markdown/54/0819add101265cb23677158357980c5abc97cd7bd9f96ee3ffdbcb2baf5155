@@ -1,0 +1,25 @@
+I"<p>First Install latest version of Java:
+Run following commands in your terminal</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">sudo</span> <span class="n">add</span><span class="o">-</span><span class="n">apt</span><span class="o">-</span><span class="n">repository</span> <span class="n">ppa</span><span class="ss">:webupd8team</span><span class="o">/</span><span class="n">java</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">update</span>
+<span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">oracle</span><span class="o">-</span><span class="n">java8</span><span class="o">-</span><span class="n">installer</span></code></pre></figure>
+
+<p>After that</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">oracle</span><span class="o">-</span><span class="n">java8</span><span class="o">-</span><span class="n">set</span><span class="o">-</span><span class="n">default</span></code></pre></figure>
+
+<p>Now proceed towards installing Android Studio:</p>
+<ul>
+<li>Download Android Studio from <a href="https://developer.android.com/sdk/index.html#downloads" target="blank">here</a>
+<li>Unzip/Extract the archive file into  location you like,  
+
+<li>To launch Android Studio, navigate to the folder you just extracted, get inside bin directory from android-studio  [ android-studio/bin ]  directory in a terminal and execute 
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="p">.</span><span class="nf">/</span><span class="n">studio</span><span class="p">.</span><span class="nf">sh</span></code></pre></figure>
+
+
+&lt;/ul&gt;
+
+And you are done, read  the instructions and continue to setup.
+</li></li></li></ul>
+:ET

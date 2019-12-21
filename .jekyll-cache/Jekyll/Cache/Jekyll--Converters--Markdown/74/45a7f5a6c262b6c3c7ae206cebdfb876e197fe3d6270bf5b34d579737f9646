@@ -1,0 +1,254 @@
+I"]*<p>Here you will learn how to setup a file server for your network using Onion Omega a linux powered computer, samba and external storage. This server is accessible from different devices/OS be it mobile or desktop. Login Credentials can also be setup for different users to prevent unwanted access.</p>
+
+<p><img src="/assets/omega1.jpg" alt="onion omega project file server" style="max-height: 400px; width: 720px;" /><br />
+This is just a quick note, that I have prepared after I successfully configured the Omega Server with Onion Omega 2+, Samba Server, External USB Storage. I will make this more informative with time.</p>
+
+<p>Before we begin, let us know what things I used:
+<br /></p>
+<h2 id="essentials">Essentials</h2>
+<ul>
+  <li>Onion Omega 2+</li>
+  <li>Expansion dock for powering up, and USB connection</li>
+  <li>USB pen drive (you can use sd card too :) )</li>
+  <li>wifi connection</li>
+</ul>
+
+<p><br /></p>
+
+<p>Okay, let us start now!</p>
+
+<h2 id="1-wifi-setup">1. wifi setup</h2>
+
+<p>If you haven’t already connected your omega to your wifi network, you can do it through console’s GUI at <code class="highlighter-rouge">http:192.168.3.1</code> or through command with CLI interface:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Omega-EEB7:~# wifisetup
+</code></pre></div></div>
+
+<p>You will get output like:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Onion Omega Wifi Setup
+
+Select from the following:
+1) Scan for Wifi networks
+2) Type network info
+q) Exit
+
+Selection: 1
+</code></pre></div></div>
+
+<p>Upon doing this you will be guided on screen, it will be done in few seconds.</p>
+
+<p>remember to do this you need to power up your Omega first and get connected to its wifi. If you want to know more please check onion’s documentation here on …</p>
+
+<p><br /></p>
+
+<h2 id="2-setting-up-external-storage">2. Setting up External Storage</h2>
+
+<p>Before we plugin external USB storage, or sd card lets check the output of:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ls /tmp/mounts
+</code></pre></div></div>
+
+<p>You might get empty since there is no any storage attached. If we redo after attaching USB device or sd card:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>root@Omega-EEB7:~# ls /tmp/mounts
+USB-A1
+</code></pre></div></div>
+
+<p>Here in USB-A1 is shown as output as our storage device has been detected.</p>
+
+<p>Now lets proceed further..</p>
+
+<p><br /></p>
+<h2 id="3-samba-software-installation-on-onion-omega">3. Samba Software Installation on Onion Omega</h2>
+
+<p>In this tutorial, we be using samba server to setup our file server. Lets download them with following commands:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>opkg update
+</code></pre></div></div>
+
+<p>to update the installed packages</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>opkg list | grep samba
+</code></pre></div></div>
+
+<p>to list the available software <code class="highlighter-rouge">samba</code> packages with their version.</p>
+
+<p>in my case output was:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>samba36-client - 3.6.25-6 - Samba 3.6 SMB/CIFS client
+samba36-server - 3.6.25-6 - The Samba software suite is a collection of programs that implements the SMB protocol for UNIX systems, allowing you to serve files and printers to Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred to as the LanManager or Netbios protocol.
+</code></pre></div></div>
+
+<p>Lets install the <code class="highlighter-rouge">samba##-server</code> package with the samba version available</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>opkg install samba36-server
+</code></pre></div></div>
+
+<p><br /></p>
+
+<h2 id="4-configuring-samba">4. Configuring Samba</h2>
+<p>So, we have installed samba into our omega. But it needs to get configured properly to make it work.</p>
+
+<p>We need to edit few things here in two files:</p>
+
+<p>i. /etc/config/samba</p>
+
+<p>ii. in /etc/samba/smb.conf.template</p>
+
+<p>here we go, 
+ii. /etc/config/samba</p>
+
+<p>Lets open open the samba file in vim</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>vi /etc/config/samba
+</code></pre></div></div>
+
+<p>after opening, let us add some text at the bottom.</p>
+
+<p>You might get confused if you haven’t used vim editor before. After opening the file just press <code class="highlighter-rouge">i</code> key to insert or goto edit mode.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>option 'interface' 'apcli0'
+</code></pre></div></div>
+
+<p>Here, <code class="highlighter-rouge">apcli0</code> is the wifi interface of our Onion Omega. We are instructing samba to listen to this interface for communication.</p>
+
+<p>You can give your server a good name in <code class="highlighter-rouge">name field</code> in my case, I would give <code class="highlighter-rouge">omega_server</code></p>
+
+<p>In <code class="highlighter-rouge">description</code>, you can add descriptive text about the server. And leave rest as it is.</p>
+
+<p>Now, to share a folder/directory, let us add following chunk of codes at the bottom of our samba file:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>config 'sambashare'
+    option 'name'                   'serve'
+    option 'path'                   '/tmp/mounts/USB-A1'
+    option 'users'                  'root'
+    option 'read_ only'             'no'
+    option 'guest_ok'               'no'
+    option 'writeable'              'yes'
+    option 'browseable'             'yes'
+    option 'create_mask"            '0644'
+    option ' directory_mask'        '0755'
+    option 'force_user'             'root'
+</code></pre></div></div>
+
+<p>You can give any good name to <code class="highlighter-rouge">sambashare</code> .</p>
+
+<p><code class="highlighter-rouge">name</code> is the folder that will appear in network, you can give any name</p>
+
+<p><code class="highlighter-rouge">path</code> is the path to share, here path to our usb storage</p>
+
+<p><code class="highlighter-rouge">users</code> here we are defining users so that only with valid login credentials can access our server. In our case, <code class="highlighter-rouge">root</code> is the username.</p>
+
+<p><code class="highlighter-rouge">read_only</code> defines if it is just read only</p>
+
+<p><code class="highlighter-rouge">guest_ok</code> : Guest can access or not</p>
+
+<p><code class="highlighter-rouge">writeable</code> : if the user has write access</p>
+
+<p>.. likewise :D</p>
+
+<p>now, this is how my final file looks like:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>config samba
+    option 'name'                   'omega_server'
+    option 'workgroup'              'WORKGROUP'
+    option 'description'            'Omega Server'
+    option 'homes'                  '1'
+    option 'interface'              'apcli0'
+config 'sambashare'
+    option 'name'                   'serve'
+    option 'path'                   '/tmp/mounts/USB-A1'
+    option 'users'                  'root'
+    option 'read_ only'             'no'
+    option 'guest_ok'               'no'
+    option 'writeable'              'yes'
+    option 'browseable'             'yes'
+    option 'create_mask"            '0644'
+    option ' directory_mask'        '0755'
+    option 'force_user'             'root'
+~
+~
+</code></pre></div></div>
+
+<p>To save the file first pess <code class="highlighter-rouge">Esc</code> key, then pressing <code class="highlighter-rouge">Shift+O</code>  would generate <code class="highlighter-rouge">:</code> at the bottom of your screen then press <code class="highlighter-rouge">wq</code> , w is for write and q for quit.</p>
+
+<p><br />
+ii. in /etc/samba/smb.conf.template</p>
+
+<p>here lets change the value of <code class="highlighter-rouge">invalid users</code> as</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>invalid users = #
+</code></pre></div></div>
+
+<p>save it!</p>
+
+<p><br /></p>
+
+<h2 id="5-login-credentials-for-users">5. Login Credentials for Users</h2>
+
+<p>We have added root user in our samba setting but haven’t setup any passwords for security.</p>
+
+<p>To setup password samba has <code class="highlighter-rouge">smbpasswd</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>smbpasswd -a root
+</code></pre></div></div>
+
+<p>now, we can setup the password.</p>
+
+<p><br /></p>
+
+<h2 id="6-making-the-omega-server-live">6. Making the Omega Server live</h2>
+
+<p>Since, we have made some changes in samba configuration file, lets restart our samba server with</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/etc/init.d/samba restart
+</code></pre></div></div>
+
+<p>Some useful samba commands that might be useful:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Syntax: /etc/init.d/samba [command]
+
+Available commands:
+    start   Start the service
+    stop    Stop the service
+    restart Restart the service
+    reload  Reload configuration files (or restart if that fails)
+    enable  Enable service autostart
+    disable Disable service autostart
+</code></pre></div></div>
+
+<p><br /></p>
+
+<p>Our server is live now and ready to get explored.</p>
+
+<h2 id="7-accessing-the-omega-server">7. Accessing the Omega Server</h2>
+
+<p><img src="/assets/omega2.jpg" alt="onion omega project network file server IOT" style="max-height: 400px;" /><br /></p>
+
+<p>Accessing the server is pretty easy from any devices from any operating system</p>
+
+<ol>
+  <li>
+    <p>Linux
+In linux, open the Netowork section in file explorer where you can get different networks. 
+If it isn’t listed there you can choose the option <strong>connect to server</strong> and give the address as <code class="highlighter-rouge">smb://omega-####.local</code>
+replace ### with last four digit of your omega’s MAC address</p>
+  </li>
+  <li>
+    <p>Windows 
+Open file explorer, and goto network, if you don’t see in network, go back and click on map network drive and give the address manually</p>
+  </li>
+  <li>
+    <p>Mobile
+Download ES file explorer or similar apps, and goto network section, you can add the server address, when you are logged in you can access the server and read/write to it.</p>
+  </li>
+</ol>
+
+<p><br /></p>
+
+<p>Hope you were able to make it, I will be making a video on this soon to ease your process, and making this tutorial post more descriptive.</p>
+
+<p>Have a great time!</p>
+
+:ET

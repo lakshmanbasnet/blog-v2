@@ -1,0 +1,26 @@
+I"Q<p>Windows boot option missing after installing redhat/ centos in dualboot</p>
+
+<p>Before starting, make sure that your windows drive(NTFS) is mounted in rhel system. Otherwise you won’t see windows OS in steps following below.</p>
+
+<p>To mount windows ntfs drive, please check <a href="" target="blank"> this</a> quick tutorial post for RHEL 7.</p>
+
+<p>Check that windows is detected. Run following command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grub2-mkconfig
+</code></pre></div></div>
+
+<p>If Windows was listed anywhere, lets save the new configuration file by first making a backup first, just in case.</p>
+
+<p>backup:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo cp /boot/grub2/grub.cfg /boot/grub2/grub.cfg.old
+</code></pre></div></div>
+
+<p>save the config file:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo grub2-mkconfig -o /boot/grub2/grub.cfg   
+</code></pre></div></div>
+
+<p>Reboot your system, now you must see Windows option in boot menu.</p>
+
+:ET

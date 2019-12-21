@@ -1,0 +1,298 @@
+I"�#<div class="abc">
+<figure><img src="/assets/project-proposal.jpg" alt="project proposal" /><figcaption>[source](http://st.depositphotos.com/1845839/1973/v/950/depositphotos_19730767-word-cloud---project-proposal.jpg)</figcaption></figure>
+</div>
+<p><br /></p>
+
+<p>This is a brief guide to Proposal Writing for your Project. Somewhere in your study, or in life, you might have to write proposals before doing your projects.</p>
+
+<p>Generally Proposals are to be submitted to higher authorities or your university/company to inform them what you are doing and how will you do using what type of resources in what time.</p>
+
+<p><i><small>Proposals are written when people need to ask permission to make a purchase, do a project, or write a paper; the proposal is a formal way of putting forth an idea and asking for action to be taken on that idea.</small></i>
+<a href="http://examples.yourdictionary.com/what-is-example-informal-written-proposal.html">source</a></p>
+
+<p>Here below, I have described the most precised and general way of writing project proposal.</p>
+
+<p>This guide is prepared in reference to the proposal for Bsc CSIT of TU, however it is almost similar in every field.</p>
+
+<hr />
+
+<p>All the topics are explained in brief below:</p>
+
+<p>Before starting to the main contents, lets know about the general format, fonts and more.</p>
+
+<ul>
+  <li>proposal should be short enough to explain your project</li>
+  <li>don’t use page breaks to start a new topic, continue writing next topic after a topic finishes with some gap</li>
+</ul>
+
+<h3>Page setup</h3>
+
+<ul>
+  <li>
+    <p><strong>line spacing</strong>: 1.5</p>
+  </li>
+  <li>
+    <p><strong>Margins</strong>( in inch):Left 1.5, Right 1,Top 1 and Bottom 1</p>
+  </li>
+</ul>
+
+<h3>Font</h3>
+
+<p>any font of Sans Series only(Times new roman, Calibri etc.)</p>
+
+<h3>Font Size</h3>
+
+<ul>
+  <li><strong>Title</strong>: 14</li>
+  <li><strong>Sub heading</strong>: 12 bold</li>
+  <li><strong>Normal texts</strong>: 12</li>
+</ul>
+
+<p><strong>Latex</strong>: APA format
+<br /></p>
+<hr />
+
+<p>Lets dive into contents now.</p>
+
+<h2 id="title">Title</h2>
+
+<ul>
+  <li>should be catchy and specific to domain not broad</li>
+  <li>try to make your title not so long, minimize use of many words</li>
+  <li>give your application/product a good name</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="1-introduction">1. Introduction</h2>
+
+<ul>
+  <li>introduction is short and right to the point of information</li>
+  <li>write what exactly your project does</li>
+  <li>in about 2-3 lines</li>
+</ul>
+
+<p><strong>Example</strong>:</p>
+
+<p>This mobile application provides user to track, record, monetize his/her family members’ travel activities through the use of GPS technology and location services.</p>
+
+<p><br /></p>
+
+<h2 id="2-problem-definition">2. Problem Definition</h2>
+
+<ul>
+  <li>make it critical</li>
+  <li>the problem should be stated in such a way that if there is no project there would be a great loss/impact</li>
+</ul>
+
+<p><strong>Example</strong>:</p>
+
+<p>These days, parents are having a diffcult time as many children go to different places and don’t tell parents their exact location.</p>
+
+<p><br /></p>
+
+<h2 id="3-objective">3. Objective</h2>
+
+<ul>
+  <li>mention the main aim of your project, think about the outcome</li>
+  <li>always start from <strong>To</strong></li>
+  <li>objectives should be: specific, measurable , achievable, realistic, timebound</li>
+  <li>keep 3-4 objectives</li>
+</ul>
+
+<p><strong>Example</strong>:</p>
+
+<ul>
+  <li>To develop a mobile application that tracks user’s daily activities</li>
+  <li>To make it easier for parents to know where there children are in real time</li>
+</ul>
+
+<p>…</p>
+
+<p><br /></p>
+
+<h2 id="4-scope-and-limitation">4. Scope and limitation</h2>
+
+<ul>
+  <li>In scope write about what consequences your project outcome can bring</li>
+  <li>mention what extra feature you would like to add, or write about the scalabity and extendability of your product</li>
+  <li>
+    <p>you can write about what impacts it can create when it goes on large scale
+<br />
+Whereas in limitation</p>
+  </li>
+  <li>write about some of the things you couldn’t include but always wanted to</li>
+  <li>mention the performance limitations, real time working dependance</li>
+  <li>writing about the accuracy of the data you take and processed result will make your proposal more precised</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="5-methodology">5. Methodology</h2>
+
+<p>While talking about the software development model in our case, in methodoly you write about the methods you are going to use to achieve your objectives.</p>
+
+<p>Its main content should be:</p>
+
+<p><br /></p>
+<h2> 5.1 Software Development Model </h2>
+<p>(with justification)</p>
+
+<p>In software development model,</p>
+
+<ul>
+  <li>you mention which software development model you will be using, and</li>
+  <li>the reason for choosing this model despite of other models.</li>
+</ul>
+
+<p><br /></p>
+<h2> 5.2 Study of existing system </h2>
+<p>(literature review)</p>
+
+<p>Literature review is the study and research of similar systems/applications that are already developed or are alreay in market which are in someway similar to yours.</p>
+
+<p>Discuss about any such application, their outcome or quote any sayings here. Including date, author name, developer name might be good and attractive.</p>
+
+<p>You can also include at least 5 websites, apps , books etc that are someway related to your project or give you inspiration to do.</p>
+
+<p><br /></p>
+
+<h2> 5.3 Data Collection </h2>
+<p>(requirement collection)</p>
+
+<p>In data collection, you mention how you are going to collect various data that are needed for your project development.</p>
+
+<p>Mention about the primary and seconday sources of your data.</p>
+
+<p>Some of the data sources for technological projects might be:</p>
+<ul>
+  <li>web surfing,</li>
+  <li>review,</li>
+  <li>questionnaire, and so on.</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="54-requirement-analysis">5.4 Requirement Analysis</h2>
+
+<ul>
+  <li>Change user requirement into system requirement</li>
+  <li>group to functional and non functional requirement</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="55-feasibility-analysis">5.5 Feasibility Analysis</h2>
+
+<p>Write about the feasibility of your product after development. Mention about various feasible areas like operational, economial, technical etc.</p>
+
+<p><strong>Example</strong>:</p>
+
+<p>This software is operationly, economically, technically feasible.</p>
+
+<p><br /></p>
+
+<h2 id="56-testing">5.6 Testing</h2>
+
+<p>When you develop an application/ software testing is inevitable to minimize various errors and make your product more accurate and optimized.</p>
+
+<p>In this section, briefly write about the different testing approaches you will be using.</p>
+
+<ul>
+  <li>Unit testing</li>
+  <li>Integrated testing</li>
+  <li>System testing</li>
+  <li>Acceptance test</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="57-tools-used">5.7 Tools used</h2>
+
+<p>We make use of different available tools and technologies to develop our product.</p>
+
+<ul>
+  <li>
+    <p>In tools used section we mention the various such tools we will be using or are planning to use.</p>
+  </li>
+  <li>Just write their purpose and recommended is their versions for use</li>
+  <li>don’t write definition of tools</li>
+</ul>
+
+<p><strong>Example</strong>:</p>
+
+<p>Frontend: HTML5/CSS3, Javascript</p>
+
+<p>Backend/database: Ruby on Rails(ruby 2.4.0p0, Rails 5.1.0), PostgreSQL 9.6.3</p>
+
+<p><br /></p>
+
+<h2 id="6-overview-of-system">6. Overview of system</h2>
+
+<ul>
+  <li>Pictorial representaion of your sytem comes under overview of the system.</li>
+  <li>
+    <p>diagram should explain how the overall system works
+You can include any of the following:</p>
+  </li>
+  <li>Diagram of server, user, setup</li>
+</ul>
+
+<p>and 
+use case diagram</p>
+
+<p>Or DM</p>
+
+<p>or:</p>
+
+<p>Flowchart</p>
+
+<p>DFD (best to use this)</p>
+
+<p>Decision table</p>
+
+<p>ER diagram</p>
+
+<p><br /></p>
+
+<h2 id="7-time-schedule-gantt-chart">7. Time schedule (GANTT chart)</h2>
+
+<p>In time schedule, you give the brief summary of how much time the project will take including all steps. Represent them in GANTT chart.</p>
+
+<p><br /></p>
+
+<h2 id="8-expected-outcome">8. Expected outcome</h2>
+
+<ul>
+  <li>write about what your product should do</li>
+  <li>remember meeting the objective</li>
+  <li>good to write about the time taken for processing</li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="9-bibliography">9. Bibliography</h2>
+
+<p>Mention some books, publications and their authors that you may  reference to somewhere during the project</p>
+
+<p>You can include:1-2 books, websites etc</p>
+
+<p><br /></p>
+
+<hr />
+
+<p><strong>External resources for you</strong></p>
+
+<ul>
+  <li>
+    <p><a href="https://drive.google.com/file/d/0B4J6MOPWRDQtYjJRZW5yaVRTQWs/view?usp=sharing">Proposal Writeup</a>, slides by Asst. Prof. Sarbin Sayami, CDCSIT, TU</p>
+  </li>
+  <li>
+    <p><a href="Thousandprojects.com">Thousandprojects.com</a></p>
+  </li>
+</ul>
+
+<p>This is a class note I wrote as our project guide explained how to write Project Proposal for Bsc CSIT Seventh(7th) Sem.</p>
+
+<p>Hope this was useful, comment down for any feedbacks! :)</p>
+:ET

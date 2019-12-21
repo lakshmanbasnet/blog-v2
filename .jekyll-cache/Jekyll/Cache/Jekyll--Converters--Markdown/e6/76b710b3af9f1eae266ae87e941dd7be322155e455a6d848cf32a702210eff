@@ -1,0 +1,17 @@
+I"\<p>Installing Sublime Text Editor in Redhat OS is easy.</p>
+
+<p>You can easily do with the tarball download from their official site: <a href="https://www.sublimetext.com/3">https://www.sublimetext.com/3</a></p>
+
+<p>Or,</p>
+
+<p>if you are lazy to do all, there is a quick solution for you.</p>
+
+<p>With a single command it will be on your system.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># curl -L git.io/sublimetext | sh
+</code></pre></div></div>
+
+<p>You can run Sublime with <code class="highlighter-rouge">subl .</code> command.</p>
+
+<p>Good day! :)</p>
+:ET

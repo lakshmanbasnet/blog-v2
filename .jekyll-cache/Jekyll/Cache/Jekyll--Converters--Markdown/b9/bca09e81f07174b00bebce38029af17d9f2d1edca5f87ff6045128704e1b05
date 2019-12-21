@@ -1,0 +1,24 @@
+I"¼<p>NTFS drives can be mounted with <code class="highlighter-rouge">NTFS-3G</code> Package. There might be several other ways too, but for me this has been the best choice.</p>
+
+<p>To install NTFS-3G</p>
+
+<p>First enable EPEL Repository if not previously enabled.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+
+rpm -ivh epel-release-latest-7.noarch.rpm
+</code></pre></div></div>
+
+<p>Install NTFS-3G package</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum install ntfs-3g -y
+</code></pre></div></div>
+
+<p>Doing this, it will automatically mount the NTFS drives, if not mounted you do with:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mount -t ntfs-3g /dev/sda1 /mnt/windows
+</code></pre></div></div>
+
+<p>just replace sda1 with your drive location</p>
+
+:ET

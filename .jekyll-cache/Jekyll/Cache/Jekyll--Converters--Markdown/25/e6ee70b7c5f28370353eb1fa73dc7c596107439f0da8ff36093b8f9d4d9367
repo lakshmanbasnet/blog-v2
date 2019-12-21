@@ -1,0 +1,16 @@
+I"@<p>To install Netbeans in Redhat Linux follow this step:</p>
+
+<p>Download Netbeans sh file from <a href="http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-javase-linux.sh">http://download.netbeans.org/netbeans/8.2/final/bundles/netbeans-8.2-javase-linux.sh</a></p>
+
+<p>after downloading, navigate to Downloads folder and give permission to the netbeans sh file with</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod -R 777 netbeans-8.2-javase-linux.sh
+</code></pre></div></div>
+
+<p>then execeute following command to run installer</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./netbeans-8.2-javase-linux.sh
+</code></pre></div></div>
+
+<p>It will install netbeans and alert you if any packages are needed like jdk and more.</p>
+:ET

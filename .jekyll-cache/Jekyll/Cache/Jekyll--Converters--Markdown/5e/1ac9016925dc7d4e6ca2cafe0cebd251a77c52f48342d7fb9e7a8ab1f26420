@@ -1,0 +1,15 @@
+I"v<p>To make jekyll automatically generate sitemap for your Jekyll Powered site.</p>
+
+<p>Put this code into <code class="highlighter-rouge">Gemfile</code> and run <code class="highlighter-rouge">bundle install</code> :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'jekyll-sitemap'
+</code></pre></div></div>
+
+<p>and add the following to <code class="highlighter-rouge">_config.yml</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gems:
+ 	 - jekyll-sitemap
+</code></pre></div></div>
+
+<p>Don’t forget to start server to see changes. :)</p>
+:ET

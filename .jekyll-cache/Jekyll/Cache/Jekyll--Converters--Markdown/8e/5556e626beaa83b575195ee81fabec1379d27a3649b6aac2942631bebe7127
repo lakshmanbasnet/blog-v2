@@ -1,0 +1,14 @@
+I"s<p><img src="/assets/fbcover.jpg" alt="akamaihd why is used" align="centre" /></p>
+
+<p>Facebook processes 600 Tb of data each day and has 1.71 billion active monthly  users. Every single minute huge size of user data are uploaded to facebook and at the same time needs to be delivered to user too. Facebook is a large network and it has to deliver data at faster speeds to each and every user. So, to deliver in the quickest time, it needs to use CDN(Content Delivery Network).</p>
+
+<h4 id="what-is-cdn-">What is CDN ?</h4>
+<div class="ab">	<small>A content delivery network (CDN) is a system of distributed servers (network) that deliver webpages and other Web content to a user based on the geographic locations of the user, the origin of the webpage and a content delivery server.
+</small>
+</div>
+
+<p><br />
+<img src="/assets/bf1.png" alt="akamaihd why is used" align="middle" /></p>
+
+<p>Facebook uses akamaihd.net as CDN. So, what happens is when we upload photos, the photos are uploaded to akamaihd server not actually to facebook. Whenever we make request to view a photo on facebook, our request is sent to the nearest possible akamaihd server. This server returns the requested photo in minimum number of time delay from the neares possible server. CDN are used to deliver contents, data in fastest time to minimize the waiting time delays. Even instagram uses the akamaihd as CDN.</p>
+:ET

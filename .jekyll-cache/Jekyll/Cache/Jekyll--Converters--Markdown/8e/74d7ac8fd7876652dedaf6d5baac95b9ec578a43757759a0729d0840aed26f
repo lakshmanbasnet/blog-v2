@@ -1,0 +1,29 @@
+I"�<p><img src="/assets/livestream.png" alt="" />
+In this post I will explain you how easily you can broadcast your live videos to facebook using facebook live.</p>
+
+<p>You can either watch video below or follow the instructions below. I recommend you to watch video.</p>
+
+<div class="abc">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/S5L68Ot4ZgA?showinfo=0" frameborder="0" allowfullscreen=""></iframe>	
+</div>
+
+<ul>
+  <li>download broadcasting software , I use <a href="2016-07-04-how -to-do-live-streaming-on-facebook-from-a-computer.markdown" target="blank"> Open Broad Caster Software</a> since its free and open source and available for all platforms.</li>
+  <li>login to your facebook, and move to your facebook page’s admin panel</li>
+  <li>on the top bar click on publishing tools</li>
+  <li>click on video library in left bar</li>
+  <li>tap on live button in top right</li>
+  <li>copy the server URL and stream key and paste into OBS’s setting in stream section</li>
+  <li>make sure your video resolution is set to 1280x720 as facebook recommends this resolution for live videos</li>
+  <li>add your video and audio sources(webcam, microphone, screencapture etc ) in OBS</li>
+  <li>click on start streamin</li>
+  <li>go back to facebook in your browser and click on Preview</li>
+  <li>wait for some time, after you see the video add titles and tags</li>
+  <li>when you are ready GO LIVE !!!</li>
+  <li>After your are done, click on END LIVE</li>
+  <li>Facebook will save your live video, and it appears as a post in newsfeed too.</li>
+</ul>
+
+<p>That’s it, this is how you can stream live to facebook page, groups and personal timeline from your laptop or desktop.</p>
+
+:ET

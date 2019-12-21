@@ -1,0 +1,3 @@
+I"J<p><img src="/assets/sublime.png" alt="screenshot sublime" />
+Everytime you open Sublime Text Editor even with <code class="highlighter-rouge">subl .</code> command, it might open two sublime editor windows with one previous session. You can generally stop previous session from being automatically opened by two simple ways:</p>
+:ET

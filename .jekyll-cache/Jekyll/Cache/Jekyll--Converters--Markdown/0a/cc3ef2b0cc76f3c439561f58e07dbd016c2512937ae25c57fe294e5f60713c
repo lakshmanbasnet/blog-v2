@@ -1,0 +1,166 @@
+I"²<div class="row">
+  <div class="container">
+
+        <div class="navbar">
+          <a href="#">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+
+            <div class="profile-pic">
+      <img src="/assets/2016/cover.JPG" alt="" />
+      
+    </div>
+            <span> <b> 2016 </b></span>
+        </div>
+        
+        <div class="header1">
+          <div class="color-overlay">
+            <div class="date-right">
+              <div class="day-name">Great year</div>
+              <div class="month">Learning and doing a lot of new things</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline">
+          <ul>
+
+
+            <li>
+              <div class="bullet pink"></div>
+              <div class="time">October</div>
+              <div class="desc">
+                <h3>Went home for Vacation</h3>
+                <h4>Galkot, Baglung</h4>
+              </div>
+            </li>
+
+            <li>
+              <div class="bullet green"></div>
+              <div class="time">Sep 23</div>
+              <div class="desc">
+                <h3>Conducted Jekyll Workshop</h3>
+                <h4>TECHRISE, Jwagal, Kupondole</h4>
+              </div>
+            </li>
+
+
+             <li>
+              <div class="bullet orange"></div>
+              <div class="time">Sep1-4</div>
+              <div class="desc">
+                <h3>Organized National Cyber Olympiad- Inter School ICT Quiz</h3>
+                <h4>Kathmandu</h4>
+              </div>
+            </li>
+
+            <li>
+              <div class="bullet orange"></div>
+              <div class="time">Aug 2</div>
+              <div class="desc">
+                <h3>Joined TECHRISE</h3>
+                <h4>Business Developer</h4>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="bullet green"></div>
+              <div class="time">April 23,24</div>
+              <div class="desc">
+                <h3>Participated in NASA International Space Apps Challenge</h3>
+                <h4>Tradetower, Thapathali</h4>
+                <div class="people">
+                  <img src="/assets/2016/nasa.jpg" alt="" />
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="bullet pink"></div>
+              <div class="time">April 2016</div>
+              <div class="desc">
+                <h3>Left Job</h3>
+                <h4>Naulo Jyoti School</h4>
+              </div>
+            </li>
+
+            <li>
+              <div class="bullet orange"></div>
+              <div class="time">Feb 24</div>
+              <div class="desc">
+                <h3>Organized Seminar on Online Work in Nepal</h3>
+                <h4>Russian Center of Science and Culture</h4>
+              </div>
+            </li>
+
+
+          </ul>
+
+
+
+  </div>  
+
+</div>
+
+
+
+
+<div class="container">
+
+        <div class="navbar1">
+          <a href="#">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </a>
+
+            <div class="profile-pic">
+      <img src="/assets/2016/c1.jpg" alt="" />
+      
+    </div>
+            <span> <b> 2015 </b></span>
+        </div>
+  
+  <div class="header">
+          <div class="color-overlay">
+            <div class="date-right">
+              <div class="day-name">Wonderful year</div>
+              <div class="month">Did and achieved so many things</div>
+            </div>
+          </div>
+        </div>
+  <div class="timeline">
+    <ul>
+      <li>
+        <div class="bullet pink"></div>
+        <div class="time">Dec 24,25</div>
+        <div class="desc">
+          <h3>Travelled to Daman</h3>
+          <h4>College Tour,Makwanpur</h4>
+        </div>
+      </li>
+
+      <li>
+        <div class="bullet orange"></div>
+        <div class="time">Sep 1-4</div>
+        <div class="desc">
+          <h3>Organized National Cyber Olympiad- Inter School ICT Quiz</h3>
+          <h4>Kathmandu</h4>
+        </div>
+      </li>
+
+      <li>
+        <div class="bullet green"></div>
+        <div class="time">March</div>
+        <div class="desc">
+          <h3>Joined TECHRISE as Remote Student</h3>
+          <h4>Coding Bootcamp in Nepal</h4>
+          
+        </div>
+      </li>
+      
+      
+    </ul>
+  </div>  
+</div>
+</div>
+:ET

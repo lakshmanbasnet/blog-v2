@@ -1,0 +1,18 @@
+I"O<p>To view remote origin:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote -v
+</code></pre></div></div>
+
+<p>To add a remote origin:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin git@github.com:username/repo.git 
+</code></pre></div></div>
+
+<p>or
+	git remote add origin https://github.com/username/repo.git</p>
+
+<p>To remove origin destination</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote rm origin
+</code></pre></div></div>
+:ET

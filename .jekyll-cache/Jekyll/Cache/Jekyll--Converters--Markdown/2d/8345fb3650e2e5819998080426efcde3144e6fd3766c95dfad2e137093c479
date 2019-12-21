@@ -1,0 +1,11 @@
+I"ã<p>We can display the total number all posts or in particular with following code , I have used only one curly brace, make sure there are two</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{{ site.posts | size }}
+</code></pre></div></div>
+
+<p>To display count number for particular categories:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{{ site.categories.CAT | size }}
+</code></pre></div></div>
+
+:ET

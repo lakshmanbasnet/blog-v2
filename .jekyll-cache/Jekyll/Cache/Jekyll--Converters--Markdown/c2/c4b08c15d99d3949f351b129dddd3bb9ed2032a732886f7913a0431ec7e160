@@ -1,0 +1,51 @@
+I"ƒ<p>I love writing blogs with Jekyll. Before switching to Redhat Enterprise Linux, I used to use Fedora by Redhat.</p>
+
+<p>To continue writing my blogs, I tried installing Jekyll but I encountered some problems which were not new for me as I have already encountered in Fedora.</p>
+
+<p>Generally, for installing Jekyll we need to have Ruby installed in our system. It can be checked with</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby -v
+</code></pre></div></div>
+
+<p>If it isnâ€™t installed, the general command for installing Ruby is</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># yum install ruby
+</code></pre></div></div>
+
+<p>After installing ruby, Jekyll can be installed with:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyll
+</code></pre></div></div>
+
+<p>as Jekyll is a Ruby gem.</p>
+
+<p>But,</p>
+
+<p>you might encounter problem here like <code class="highlighter-rouge">couldn't build native extensions</code>, similar to this.</p>
+
+<p>This can be solved by installing the ruby developer package.</p>
+
+<p>If ruby is already installed, lets re install ruby devel packages, (if ruby is already installed, first uninstalling ruby : <code class="highlighter-rouge">yum remove ruby</code>)</p>
+
+<p>But to install devel packages in RHEL, we need to enable the optional repos.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>subscription-manager repos  --enable rhel-7-server-optional-rpms
+</code></pre></div></div>
+
+<p>Now, install Ruby Devel package by</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum install ruby-devel
+</code></pre></div></div>
+
+<p>And finally, march ahead to install Jekyll! :D</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install jekyl
+</code></pre></div></div>
+
+<p>Oh yeah, installing bundle might be additional too.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem install bundle
+</code></pre></div></div>
+
+<p>Enjoy Jekylling! :)</p>
+:ET

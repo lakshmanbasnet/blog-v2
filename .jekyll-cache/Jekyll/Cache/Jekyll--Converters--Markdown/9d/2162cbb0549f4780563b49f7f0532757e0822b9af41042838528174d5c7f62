@@ -1,0 +1,82 @@
+I"�<p><img src="/assets/host.png" alt="" /></p>
+
+<p>With Github Pages we can host our sites in Github, it is totally free. You can host as many sites as you want. HTML, CSS, Javascripts and Markdown are supported by github pages.</p>
+
+<p>Basically, static sites and project websites are hosted with github. If you want to host any blog sites then you can do with Jekyll too. Check my other posts for Jekyll.</p>
+
+<p>To host any site, I am explaining here from Linux platform, you can use same method for windows too. follow these steps:</p>
+
+<p>You can watch this video or follow the instructions below.</p>
+
+<div class="abc">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/LUbRk2oJQz0?showinfo=0" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<ul>
+  <li>login to your github account and create a new repository</li>
+  <li>in terminal navigate to your website’s folder (where index.html is located)</li>
+  <li>run the following github commands:</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">init</span>
+<span class="n">git</span> <span class="n">add</span> <span class="p">.</span>
+<span class="nf">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"your message here"</span></code></pre></figure>
+
+<ul>
+  <li>now lets add the remote origin  from github</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">origin</span> <span class="n">https</span><span class="ss">:/</span><span class="o">/</span><span class="n">github</span><span class="p">.</span><span class="nf">com</span><span class="o">/</span><span class="n">lakshmanbasnet</span><span class="o">/</span><span class="nb">test</span><span class="p">.</span><span class="nf">git</span></code></pre></figure>
+
+<p>** replace lakshmanbasnet with your username
+  ** replace test.git with your repository name</p>
+
+<ul>
+  <li>
+    <p>the default branch is master, for hosting websites with Github we need to push our files to gh-pages branch. Remember you need to push to this branch since any files pushed to master branch won’t be generated for websites, if you push to gh-pages branch, github will automatically generate website for you.</p>
+  </li>
+  <li>
+    <p>lets make new branch gh-pages with command:</p>
+  </li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">branch</span> <span class="n">gh</span><span class="o">-</span><span class="n">pages</span></code></pre></figure>
+
+<ul>
+  <li>lets navigate to our gh-pages branch</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">checkout</span> <span class="n">gh</span><span class="o">-</span><span class="n">pages</span></code></pre></figure>
+
+<ul>
+  <li>now every thing is ready, just hit push command and enter your credentials when asked</li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">gh</span><span class="o">-</span><span class="n">pages</span></code></pre></figure>
+
+<ul>
+  <li>
+    <p>after you have pushed your file to github repo, goto your github repo in your browser</p>
+  </li>
+  <li>
+    <p>in settings scroll down to find the link for your website, the link will be something like https://lakshmanbasnet.github.io/test/</p>
+  </li>
+  <li>
+    <p>congratulations your site is live now</p>
+  </li>
+  <li>
+    <p>to make any changes to the website, you need to push the files from your computer to github by following commands:</p>
+  </li>
+</ul>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="n">git</span> <span class="n">add</span> <span class="p">.</span>
+<span class="nf">git</span> <span class="n">commit</span> <span class="o">-</span><span class="n">m</span> <span class="s2">"your update message"</span>
+<span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">gh</span><span class="o">-</span><span class="n">pages</span></code></pre></figure>
+
+<p>To add custom domain name to replace the default domain name provided by github check my next post.</p>
+
+<p>Thanks!
+ Enjoy free hosting!! ;)</p>
+
+<p>Like, comment and Share if I worth :P</p>
+:ET

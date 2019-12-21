@@ -1,0 +1,87 @@
+I"�<p>In this post, I will share an idea how you can point your <code class="highlighter-rouge">.np</code> domain website to <code class="highlighter-rouge">Github Pages(gh-pages)</code> website. It is much easier to point any domain towards gh-pages website by simply adding <code class="highlighter-rouge">A Records</code> to domain settings and <code class="highlighter-rouge">CNAME</code> to our <code class="highlighter-rouge">gh-pages</code> Github repository. But the problem with <code class="highlighter-rouge">.np</code> domains is that we can’t add <code class="highlighter-rouge">A records</code> as their is no any field to add <code class="highlighter-rouge">A record</code> to our domain properties. 
+To solve this problem, we will make use of <code class="highlighter-rouge">Cloudflare</code> a CDN(Content Delivery Network) that allows us to manage our domains in easiest and reliable way. And also, it doesn’t charge any fees for doing this, and we can manage multiple sites with cloudflare. So follow the steps below:</p>
+
+<ul>
+  <li>
+    <p>first, make sure that you have added <code class="highlighter-rouge">CNAME</code> file to your github repository
+  In my case I would add lakshmanbasnet.com.np in <code class="highlighter-rouge">CNAME</code> file.
+Remember <code class="highlighter-rouge">CNAME</code> file has no any extensions and its filename should all be capitalized</p>
+  </li>
+  <li>
+    <p>second step is to go to <a href="http://www.cloudflare.com">cloudflare</a> and make an account (go with free plan)</p>
+  </li>
+  <li>
+    <p>at the top click on <code class="highlighter-rouge">Add</code> site</p>
+  </li>
+</ul>
+<figure><img src="/assets/gh/1.png" /></figure>
+
+<ul>
+  <li>add your domain name and begin scan</li>
+</ul>
+<figure><img src="/assets/gh/2.png" /></figure>
+
+<ul>
+  <li>
+    <p>after waiting for some time, it scans and suggests you what to do</p>
+  </li>
+  <li>
+    <p>after the scan is over, slicck on <code class="highlighter-rouge">Continue Setup</code></p>
+  </li>
+  <li>
+    <p>since, we want our domain to point to <code class="highlighter-rouge">gh-pages</code> lets add two <code class="highlighter-rouge">A Records</code>  for Github Pages</p>
+  </li>
+  <li>
+    <p>Now, lets add first <code class="highlighter-rouge">A Record</code>, in <code class="highlighter-rouge">Name</code> field add your domain name and in <code class="highlighter-rouge">IPV4 address field</code> add <code class="highlighter-rouge">gh-pages</code> address i.e <code class="highlighter-rouge">192.30.252.153</code></p>
+  </li>
+</ul>
+
+<figure><img src="/assets/gh/3.png" /></figure>
+
+<ul>
+  <li>
+    <p>similarly for next record <code class="highlighter-rouge">A Record</code>, do as previous but in <code class="highlighter-rouge">IPV4 address field</code> add <code class="highlighter-rouge">gh-pages'</code> address i.e <code class="highlighter-rouge">192.30.252.154</code></p>
+  </li>
+  <li>
+    <p>for timestamp, you can select the smallest available time, larger time you choose, more time it takes for changes to happen</p>
+  </li>
+</ul>
+
+<figure><img src="/assets/gh/4.png" /><figcaption>Your records will sth like this</figcaption></figure>
+
+<ul>
+  <li>also make sure that you have <code class="highlighter-rouge">CNAME</code> record to point your domain name with and without <code class="highlighter-rouge">www</code> to same location</li>
+</ul>
+
+<figure><img src="/assets/gh/5.png" /><figcaption>Your records will sth like this</figcaption></figure>
+
+<ul>
+  <li>now click on <code class="highlighter-rouge">Continue</code> and after that make sure you choose free plan and tap <code class="highlighter-rouge">Continue</code></li>
+</ul>
+
+<figure><img src="/assets/gh/6.png" /></figure>
+
+<ul>
+  <li>after this step Cloudflare automatically suggests you what to do 
+  as in my case I have to update the nameservers to what cloudflare has said to.
+  for your case also, you need to do as directed</li>
+</ul>
+
+<figure><img src="/assets/gh/5.png" /><figcaption>you get suggestion like this</figcaption></figure>
+<ul>
+  <li>
+    <p>now its time to update the <code class="highlighter-rouge">nameservers</code> provided by cloudflare in your <code class="highlighter-rouge">.np</code> domain setting.</p>
+  </li>
+  <li>
+    <p>goto MOS <a href="http://www.register.mos.com.np">site</a>, login to your account and update the nameserver as said by cloudflare</p>
+  </li>
+  <li>
+    <p>after updating the nameserver in mos site, come back to cloudflare setup page and click on <code class="highlighter-rouge">continue</code></p>
+  </li>
+  <li>
+    <p>it might take some time, wait until it completes and finally you are done!!</p>
+  </li>
+</ul>
+
+<p>This way you can easily point your .np domain to Github sites, gh-pages site or any Jekyll Sites. Hope it was useful</p>
+:ET

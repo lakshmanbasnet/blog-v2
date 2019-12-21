@@ -1,0 +1,44 @@
+I"Ò<p>We can view the current java version installed in our system with:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java -version
+</code></pre></div></div>
+
+<p>My java version:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java version "1.7.0_141"
+OpenJDK Runtime Environment (rhel-2.6.10.1.el7_3-x86_64 u141-b02)
+OpenJDK 64-Bit Server VM (build 24.141-b02, mixed mode)
+</code></pre></div></div>
+
+<p>Viewing the list of Java version installed and selecting the default one</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo update-alternatives --config java
+</code></pre></div></div>
+
+<p>This command will give you the list of installed Java versions.</p>
+
+<p>My output was:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>There are 2 programs which provide 'java'.
+
+  Selection    Command
+-----------------------------------------------
+*+ 1           java-1.7.0-openjdk.x86_64 (/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.141-2.6.10.1.el7_3.x86_64/jre/bin/java)
+   2           /usr/java/jdk1.8.0_131/jre/bin/java
+</code></pre></div></div>
+
+<p>1 is the selected currently in use, to make use of 2 typing 2 and pressing enter will choose jdk1.8.0_131 for me.</p>
+
+<p>Now, if I do</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java -version
+</code></pre></div></div>
+
+<p>The output is:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java version "1.8.0_131"
+Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
+Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
+</code></pre></div></div>
+
+:ET

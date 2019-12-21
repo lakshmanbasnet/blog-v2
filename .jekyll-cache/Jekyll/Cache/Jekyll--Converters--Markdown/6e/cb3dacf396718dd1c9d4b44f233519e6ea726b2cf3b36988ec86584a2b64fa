@@ -1,0 +1,73 @@
+I"�
+<p>In Nepal, if you have an iphone, and want to surf internet through your carrier than it might be little bit headache for you at the beginning.</p>
+
+<p>If you have other mobile sets like Samsung then you can easily set up the GPRS/3G setting through SMS but this is not the same for iphone users. You need to manually set the settings.</p>
+
+<p>You have two options.</p>
+
+<ul>
+  <li>visit to your carrier for support</li>
+  <li>use third party websites to generate settings</li>
+</ul>
+
+<p>Here I will share how can you save time and energy by setting it up yourself in easiest way.</p>
+
+<p>Till date I am using two websites to generate settings for iphone. I will write about both, how you can do. You can select any one.</p>
+
+<p>Please make sure that your sim has GPRS/3G internet subscription. If not you can activate by simply sending sms like type 3G and send it to 1400 for Nepal Telecom. If you are Ncell user, I think you needn’t subscibe again.
+You need to have wifi connection in your device to access website.</p>
+
+<h3>First site: iphone.flexserve.net <a href="http://iphone.flexserve.net" target="blank">site</a></h3>
+
+<ul>
+  <li>go to the above <a href="http://iphone.flexserve.net" target="blank">link</a></li>
+  <li>scroll bottom to APN Profiles</li>
+</ul>
+
+<p><img src="/assets/1.png" alt="" /></p>
+
+<ul>
+  <li>since our carriers are not listed click on APN Settings</li>
+  <li>if you are Nepal Telecom user then type ntnet in APN</li>
+  <li>if you are Ncell user type web in APN</li>
+  <li>leave rest of the field(spaces) blank</li>
+</ul>
+
+<p><img src="/assets/22.png" alt="" /></p>
+
+<ul>
+  <li>
+    <p>scroll bottom to Generate Profile</p>
+  </li>
+  <li>install the generated profile</li>
+  <li>you are done! Enjoy browsing internet! :)</li>
+</ul>
+
+<h3> Second site: http://www.unlockit.co.nz <a href="http://www.unlockit.co.nz" target="blank">site</a></h3>
+<ul>
+  <li>go to the above <a href="http://www.unlockit.co.nz" target="blank">link</a></li>
+</ul>
+
+<p><img src="/assets/33.jpg" alt="" /></p>
+
+<ul>
+  <li>scroll bottom to Create APN</li>
+  <li>your carrier will be auto detected , if it doesnot match change your carrier</li>
+  <li>tap on create APN</li>
+</ul>
+
+<p><img src="/assets/44.jpg" alt="" /></p>
+
+<ul>
+  <li>install the generated profile</li>
+  <li>you are done</li>
+  <li>after completing this you might see a bookmark of this website on your homescreen, you can simply delete it.</li>
+</ul>
+
+<p>You can choose any of above website, iphone.flexserve.net isn’t verified one and you need to do manually , whereas unlockit.co.nz is verified generator and you don’t need to do manually, but it places a bookmark to your homescreen , which you can remove easily.</p>
+
+<p>Hope it was useful.</p>
+
+<p>Enjoy Surfing internet in Nepal as you go!</p>
+
+:ET

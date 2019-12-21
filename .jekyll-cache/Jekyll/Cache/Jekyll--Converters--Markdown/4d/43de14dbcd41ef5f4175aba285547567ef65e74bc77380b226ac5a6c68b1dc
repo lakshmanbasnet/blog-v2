@@ -1,0 +1,22 @@
+I"Å<p>While creating app in ruby on rails,in Fedors if you face error something like this:</p>
+
+<p>or in other Linux distros, you can use the same way make sure you replace the correct command as per your system.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    ERROR:  Error installing sqlite3:
+    ERROR: Failed to build gem native extension.
+</code></pre></div></div>
+
+<p>Then run the command</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    sudo dnf install sqlite-devel
+</code></pre></div></div>
+
+<p>after it is successful run</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    bundle install If still not working then, install ruby in developer mode by command:
+
+    sudo dbf install ruby-devel
+</code></pre></div></div>
+
+<p>and run bundle install, it must work.</p>
+:ET

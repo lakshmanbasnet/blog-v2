@@ -1,0 +1,25 @@
+I"ž<p>Embedding a youtube channel  is lot easier and simpler. Youtube provides iframe to embed youtube channel to any webpages or posts.</p>
+
+<p>Just replace YOURCHANNELNAME with name of your channel.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">iframe</span> <span class="n">src</span><span class="o">=</span><span class="s2">"http://www.youtube.com/embed/?listType=user_uploads&amp;list=YOURCHANNELNAME"</span> <span class="n">width</span><span class="o">=</span><span class="s2">"480"</span> <span class="n">height</span><span class="o">=</span><span class="s2">"400"</span><span class="o">&gt;&lt;</span><span class="sr">/iframe&gt;  </span></code></pre></figure>
+
+<p>for instance, to embed my channel I would place this code in my webpage.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="o">&lt;</span><span class="n">iframe</span> <span class="n">src</span><span class="o">=</span><span class="s2">"http://www.youtube.com/embed/?listType=user_uploads&amp;list=galkotbaglung1"</span> <span class="n">width</span><span class="o">=</span><span class="s2">"480"</span> <span class="n">height</span><span class="o">=</span><span class="s2">"400"</span><span class="o">&gt;&lt;</span><span class="sr">/iframe&gt;  </span></code></pre></figure>
+
+<p>To embed a playlist</p>
+
+<ul>
+	<li>open the playlist in youtube</li>
+	<li>click share</li>
+	<li>click on embed</li>
+	<li>copy paste the link given into your webpage</li>
+
+</ul>
+
+<p>To embed a particular video ,</p>
+<ul>
+	<li>open the video and do same as the steps mentioned above in embedding a playlist section</li>
+</ul>
+:ET

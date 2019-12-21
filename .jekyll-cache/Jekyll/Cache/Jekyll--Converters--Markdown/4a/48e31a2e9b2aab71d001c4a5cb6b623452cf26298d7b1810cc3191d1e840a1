@@ -1,0 +1,22 @@
+I"°<p>Recently, I installed OBS studio in my RHEL 7. This is how you do:</p>
+
+<ul>
+  <li>
+    <p>Get RPM fusion at <a href="http://rpmfusion.org/Configuration/">http://rpmfusion.org/Configuration/</a></p>
+  </li>
+  <li>
+    <p>set up build environment</p>
+
+    <p>sudo yum install gcc gcc-c++ gcc-objc cmake git</p>
+  </li>
+  <li>
+    <p>install required packages</p>
+
+    <p>sudo yum install libX11-devel mesa-libGL-devel libv4l-devel <br />
+        pulseaudio-libs-devel x264-devel freetype-devel <br />
+        fontconfig-devel libXcomposite-devel libXinerama-devel <br />
+        qt5-qtbase-devel qt5-qtx11extras-devel libcurl-devel <br />
+        systemd-devel ffmpeg</p>
+  </li>
+</ul>
+:ET

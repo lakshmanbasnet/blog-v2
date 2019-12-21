@@ -1,0 +1,10 @@
+I"û<p>Sublime text editor is great to use and has been loved widely.
+To install this text editor in your fedora system, just run the following command:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>curl -L git.io/sublimetext | sh
+</code></pre></div></div>
+
+<p>It should work on other distros too.</p>
+
+<p>If you need full details then  <b>simonewebdesign</b> has got gist for you , follow this <a href="https://gist.github.com/simonewebdesign/8507139"> link. </a></p>
+:ET

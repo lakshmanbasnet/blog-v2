@@ -1,0 +1,37 @@
+I"S<p>Even though I have posted this in fedora category, it works for all linux distros.
+To execute/run any .sh files.</p>
+
+<p>run the followig comands:</p>
+
+<ul>
+  <li>
+    <p>first give execute permission to script file :</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>chmod +x /path/to/scriptfile.sh
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>and to run the script:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/path/to/scriptfile.sh
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>if scriptfile.sh is in current directory then you do it with:</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>./scriptfile.sh
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<p>as ./ refers to current directory</p>
+
+<p>after doing this it must be running, if still not then</p>
+
+<ul>
+  <li>browse to the script file with file manager</li>
+  <li>right click to properties</li>
+  <li>open permissions</li>
+  <li>make sure: Allow executing file as program is checked on.</li>
+</ul>
+:ET

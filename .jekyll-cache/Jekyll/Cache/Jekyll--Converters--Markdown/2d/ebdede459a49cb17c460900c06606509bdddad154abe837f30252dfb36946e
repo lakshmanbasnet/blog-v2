@@ -1,0 +1,138 @@
+I"<p><img src="/assets/docker.jpg" alt="Docker and Oracle 11gr2" /></p>
+
+<p>Recently, I came to know about <strong>Docker</strong> from my friends and I tried installing Oracle Database through Docker, this blog post is a small note on installing Oracle database 11gR2 on Linux machine. I am writing this thinking it would be easy for myself for future references and others who seek for such blog posts.</p>
+
+<p>Installing <strong>Oracle Database 11g R2</strong> with Docker on Linux is pretty easy and saves time and effort. In a matter of few minutes, you will have your Oracle database up and running and you can use it at your ease.</p>
+
+<p>I did this installation on Fedora 25, and no matter what distro you are using it is totally same across all.</p>
+
+<p>To install Oracle Database 11g R2 with Docker, proceed with following steps:</p>
+
+<h2 id="a-docker-installation">A. Docker Installation##</h2>
+<p>Installing docker is easy and quick. I installed Docker Community Edition (CE) on Fedora. You can find the installation instruction step by step for your system in Docker’s official documentation. <a href="https://docs.docker.com/engine/installation/" target="blank"> Click here</a></p>
+
+<p>In my case, I followed the following steps for fedora:</p>
+
+<h3 id="setting-up-the-repository">setting up the repository###</h3>
+
+<p>install the <code class="highlighter-rouge">dnf-plugins-core</code> package as it provides commands to manage repositories</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo dnf -y install dnf-plugins-core
+</code></pre></div></div>
+
+<p>lets setup the stable repository</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo dnf config-manager \
+--add-repo \
+https://download.docker.com/linux/fedora/docker-ce.repo
+</code></pre></div></div>
+
+<p>enable egde repository(optional)</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo dnf config-manager --enable docker-ce-edge
+</code></pre></div></div>
+
+<h3 id="installing-docker-ce">Installing Docker CE###</h3>
+
+<p>first, lets <strong>update the dnf package index</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo dnf makecache fast
+</code></pre></div></div>
+
+<p>now, lets proceed by <strong>installing latest version of Docker</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo dnf install docker-ce
+</code></pre></div></div>
+
+<h3 id="starting-docker">Starting Docker###</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo systemctl start docker
+</code></pre></div></div>
+
+<h3 id="verifying-installation">Verifying Installation</h3>
+<p>We can verify if Docker CE is installed correctly by running the <code class="highlighter-rouge">hello-world</code> image.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo docker run hello-world
+</code></pre></div></div>
+
+<p>By now, we will have Docker installed in our system. We need to use <code class="highlighter-rouge">sudo</code> to run Docker Commands. If you have any errors or need full details please refer to Docker’s official <a href="https://docs.docker.com/engine/installation/linux/fedora/#install-using-the-repository">site</a>.</p>
+
+<h2 id="b-oracle-database-11g-r2-installation">B. Oracle Database 11g R2 Installation##</h2>
+
+<p>For installing Oracle Database on Docker, I followed <a href="https://github.com/wnameless/docker-oracle-xe-11g">these</a> instruction from Github repo.</p>
+
+<p><strong>installation</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker pull wnameless/oracle-xe-11g
+</code></pre></div></div>
+
+<p>or for older Ubuntu 14.04.4</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker pull wnameless/oracle-xe-11g:14.04.4
+</code></pre></div></div>
+
+<p>and,</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -d -p 49160:22 -p 49161:1521 wnameless/oracle-xe-11g
+</code></pre></div></div>
+
+<p>to make ports 22 and 1521 opened</p>
+
+<p>You might need to stop running Docker while proceeding installing Oracle installation commands</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker stop [OPTIONS] CONTAINER [CONTAINER...]
+</code></pre></div></div>
+
+<p>example:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> docker stop container_name
+</code></pre></div></div>
+
+<p>to <strong>list containers</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo docker container ls
+</code></pre></div></div>
+
+<p>if wanted to connect remotely,</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>docker run -d -p 49160:22 -p 49161:1521 -e ORACLE_ALLOW_REMOTE=true wnameless/oracle-xe-11g
+</code></pre></div></div>
+
+<p>Now, <strong>start your Docker</strong>,</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo systemctl start docker
+</code></pre></div></div>
+
+<p><strong>Loging with SSH</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh root@localhost -p 49160
+password: admin
+</code></pre></div></div>
+
+<p><strong>Connecting with Database</strong></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hostname: localhost
+port: 49161
+sid: xe
+username: system
+password: oracle
+</code></pre></div></div>
+
+<p>Password for SYS and SYSTEM</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> oracle
+</code></pre></div></div>
+
+<p>And now, your are good to go, and start using Oracle Database 11g R2 on your linux machine with Docker.</p>
+
+<p>To access database, you need to login with</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ssh root@localhost -p 49160
+</code></pre></div></div>
+
+<p>in new session.</p>
+
+<p><code class="highlighter-rouge">sqlplus</code> command can be used to start doing database operations.</p>
+
+<p><small>I am learning Oracle recently, I might write more about Oracle Databases and some useful notes. Do check back later. :)</small></p>
+:ET

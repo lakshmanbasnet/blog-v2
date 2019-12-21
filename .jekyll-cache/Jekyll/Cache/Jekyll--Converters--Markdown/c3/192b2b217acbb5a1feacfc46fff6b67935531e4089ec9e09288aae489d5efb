@@ -1,0 +1,67 @@
+I"ø	<p>To install Java in Redhat Enterprise Linux follow these steps:</p>
+
+<ul>
+  <li>we are installing from OpenJDK rpm with command line</li>
+</ul>
+
+<p>Run the following command to install the developer version of OpenJDK</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code># yum install java-1.7.0-openjdk-devel
+</code></pre></div></div>
+
+<ul>
+  <li>(Optional) It is sometimes required to set the <strong>JAVA_HOME</strong> path variable.</li>
+</ul>
+
+<p>You can know the java path by</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>echo $JAVA_HOME
+</code></pre></div></div>
+
+<p>It will give the path where Java is</p>
+
+<p>In my case it was something like : <code class="highlighter-rouge">/usr/lib/jvm/jre-1.8.0-openjdk/bin/java</code> remember it might be different in your case.</p>
+
+<p>Now,</p>
+
+<p>in <code class="highlighter-rouge">.bashrc</code> file which is in home directory lets add the java home path as:</p>
+
+<p>I am editing the file in vim editor</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[lx@localhost ~]$ vi .bashrc
+</code></pre></div></div>
+
+<p>at the bottom of file add the java path in following format:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export JAVA_HOME="/path/to/java/home"
+</code></pre></div></div>
+
+<p>in my case, I added:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#java home path
+export JAVA_HOME="/usr/lib/jvm/jre-1.8.0-openjdk/bin/java"
+</code></pre></div></div>
+
+<p>To save first press te<strong>Ctrl+ O</strong> and then</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:wq
+</code></pre></div></div>
+
+<p>semicolon and then w and q and press enter.</p>
+
+<p>You are done!</p>
+
+<p>You can check the java version installed with:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java -version
+</code></pre></div></div>
+
+<p>My output was:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>java version "1.7.0_141"
+OpenJDK Runtime Environment (rhel-2.6.10.1.el7_3-x86_64 u141-b02)
+OpenJDK 64-Bit Server VM (build 24.141-b02, mixed mode)
+</code></pre></div></div>
+
+<p>You can get full documentation <a href="https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Application_Platform/6/html/Installation_Guide/Install_OpenJDK_on_Red_Hat_Enterprise_Linux.html" target="blank">here</a></p>
+:ET

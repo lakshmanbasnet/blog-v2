@@ -1,0 +1,113 @@
+I"#<p><img src="/assets/github.JPG" alt="Github git setup" /></p>
+
+<p>In this blog post, I am writing how you can set up <code class="highlighter-rouge">git</code> a version control system in your computer system and connect and authenticate it with github.</p>
+
+<p>open terminal and check if git is already installed</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git --version
+</code></pre></div></div>
+
+<p>if it is already installed, git version will be the output:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git version 2.5.0
+</code></pre></div></div>
+
+<p>If not installed Download and install git from https://git-scm.com/download/linux
+-you will find the command for your distro accordingly, some common are listed here:</p>
+
+<p>fedora</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>yum install git
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>dnf install git
+</code></pre></div></div>
+
+<p>debian/ubuntu</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get install git
+</code></pre></div></div>
+
+<p>If git is already installed we can get/update latest version of git by git itself</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/git/git
+</code></pre></div></div>
+
+<h2 id="setting-git-username">Setting Git username</h2>
+
+<p>In terminal, lets setup username</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global user.name "username"
+</code></pre></div></div>
+
+<p>This will be written in a file <code class="highlighter-rouge">/.gitconfig</code></p>
+
+<p>You can check username with</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global user.name
+</code></pre></div></div>
+
+<h2 id="setting-email-address">Setting email address</h2>
+
+<p>in terminal add your github email address</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global user.email "email@example.com"
+</code></pre></div></div>
+
+<p>confirm by</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global user.email
+</code></pre></div></div>
+
+<p>note: we are adding username and email address for every repository on our computer</p>
+
+<h2 id="authenticating-with-github-from-git">Authenticating with GitHub from Git</h2>
+
+<p>There are two ways to connect with Github from our computer with git.</p>
+
+<ol>
+  <li>With HTTPS</li>
+  <li>With ssh</li>
+</ol>
+
+<p>Here I am explaining about the HTTPS</p>
+
+<p>We can push/commit/pull or do any operations on our github repo.</p>
+
+<ul>
+  <li>go to github.com</li>
+  <li>create a new repository</li>
+</ul>
+
+<p>in terminal,</p>
+
+<p>Initialize git</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+</code></pre></div></div>
+
+<p>add the changes</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+</code></pre></div></div>
+
+<p>commit changes</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit -m "your message"
+</code></pre></div></div>
+
+<p>add remote by</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin https://github.com/username/repository_name.git
+</code></pre></div></div>
+
+<p>we can get origin address in repo’s setting too while creating repo</p>
+
+<p>after adding origin,we are ready to push to github</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push -u origin master
+</code></pre></div></div>
+
+:ET
