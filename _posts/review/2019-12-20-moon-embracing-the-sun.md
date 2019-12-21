@@ -3,7 +3,7 @@ title: Review - Moon Embracing The Sun
 date: 2019-12-20
 categories: review
 layout: post
-description: et in the Joseon era, Moon Embracing The Sun is the story about love that tragically gets into the political warfare, love that came between two young brothers who are princes and how things go wrong due to political discrepancies. 
+description: Set in the Joseon era, Moon Embracing The Sun is a story about love that tragically gets into the political warfare, love that came between two young brothers who are princes and how things go wrong due to political discrepancies. 
 image: /assets/moon-embracing-the-sun.jpg
 author: Sonisha
 ---
