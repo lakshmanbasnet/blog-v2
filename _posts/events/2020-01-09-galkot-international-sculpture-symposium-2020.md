@@ -8,6 +8,7 @@ description:  Galkot Art Foundation is hosting and organizing a 17 days long scu
 d: 17 February - 04 March 2020 | Falgun 5 - 21, 2076 B.S.
 venue: Teuwa, Galkot, Baglung, Nepal
 website: http://galkotart.org.np/
+author: lakshman
 tagline: 
 fb: /गलकोट-कला-प्रतिष्ठान-1992033627575709/
 image: /assets/galkot-sculpture-symposium.jpg
