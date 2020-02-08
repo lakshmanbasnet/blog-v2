@@ -14,14 +14,14 @@ permalink: pretty
 permalink: /:categories/:title
 
 email: 
-description: Computer Science Student, Tech Enthusiast and Occasional Blogger from Nepal - Laxman Basnet | Lakshman's Blog
+description: Tech Enthusiast, Digital Marketing Professional and Occasional Blogger - Laxman Basnet | Lakshman's Blog
 des: 
 collections:
   photo-gallery: 
     output: true
  
 
-gems:
+plugins:
 - jekyll-seo-tag
 - jekyll-admin
 - jekyll-paginate
@@ -29,7 +29,7 @@ gems:
 sass:
   style: compressed
 
-paginate: 12
+paginate: 10
 markdown: kramdown
 highlighter: rouge
 kramdown:

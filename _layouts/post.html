@@ -39,10 +39,7 @@ layout: default
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta">{% if page.author %}<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><i class="fa fa-edit" aria-hidden="true"></i>
-{{ page.author }}</span>
- &nbsp; 
- {% endif %}<i class="fa fa-calendar" aria-hidden="true"></i>
+    <p class="post-meta"><i class="fa fa-calendar" aria-hidden="true"></i>
 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time> &nbsp;&nbsp; <span itemprop="name"><i class="fa fa-folder-open-o" aria-hidden="true"></i>
  {{ page.categories}}</span> 
     &nbsp;&nbsp;<i class="fa fa-clock-o" aria-hidden="true"></i>
