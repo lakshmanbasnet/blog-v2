@@ -363,6 +363,7 @@ pre {
 .navbar {
   font-size: 16px;
   border-radius: 0px !important;
+  margin-bottom: 0px !important;
  }
 .site-title {
     font-family: 'Gloria Hallelujah', cursive;
@@ -594,7 +595,7 @@ pre {
     font-size: 35px;
     letter-spacing: -1px;
     line-height: 1;
-    border-bottom: 1px solid #e74c3c;
+    
 
 
     @include media-query($on-laptop) {
@@ -774,10 +775,14 @@ height: 100%;
     list-style: none;
 }
 
-.hre{
+.rhre{
 
     border-bottom: 1px solid $grey-color-light;
     list-style: none;
+}
+
+.hre{
+  list-style: none;
 }
 
 
@@ -1110,9 +1115,7 @@ i.ba {
     left: 0;
 }
 
-.rhre {
-  border-bottom: 1px solid #e74c3c;
-}
+
 
 .tableofcontent {
 box-shadow:0 2px 5px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.1) inset;
