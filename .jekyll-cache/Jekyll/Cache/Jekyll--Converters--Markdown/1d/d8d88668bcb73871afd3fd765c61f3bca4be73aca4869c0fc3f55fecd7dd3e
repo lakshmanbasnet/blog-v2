@@ -1,0 +1,190 @@
+I"�+<p>Few hours before writing this article, I was trying to setup DISQUS Comment System in this Jekyll site. I went through Disqus’ official site’s documentation and did exactly same what was told there but for some reasons the comment system didn’t load at all. I looked over the internet, but still no luck .. and later, I started playing around and the comment section just loaded! :D Here is how I did it!
+<br /></p>
+
+<div class="row">
+<div class="col-md-6 sm-5 xs-5 tableofcontent">
+	<h3 class="rhre">This post is about</h3>
+	<li class="hre"><a href="#1"><h4>1. What Disqus is</h4></a></li>
+	<li class="hre"><a href="#2"><h4>2. Disqus Comment vs Facebook Comment</h4></a></li>
+	<li class="hre"><a href="#3"><h4>3. Disqus Installation in Jekyll site</h4></a></li>
+	<a href="#4"><h4>4. Quick Notes</h4></a>
+
+</div>
+
+</div>
+
+<p><a name="1"></a>
+<br />
+<br /></p>
+
+<p>First, if you are new to DISQUS comment, let me tell you what Disqus is all about. It comes from the word <b>discussion</b>. It is a very popular Comment Management System, remember it somehow differs from Content Management System even though comment is also a content in itself. It is kind of social network of comment that can be embedded into any webpages. Comment management is really easier and smoother with Disqus.
+<br />
+<br />
+Wikipedia defines Disqus as:</p>
+<div class="thumbnail">
+Disqus (/dɪsˈkʌs/) is a worldwide blog comment hosting service for web sites and online communities that use a networked platform. The company's platform includes various features, such as social integration, social networking, user profiles, spam and moderation tools, analytics, email notifications, and mobile commenting. 
+</div>
+<p><a name="2"></a>
+<br />
+<br /></p>
+<h2>DISQUS Comment vs Facebook Comment</h2>
+<p>From 2016 to the time writing this post, I was using facebook comment plugin for managing comments in this blog site. And now I am switching to Disqus comments primarily for following reasons:</p>
+
+<ul>
+  <li>not all visitors are willing to comment through their personal facebook account</li>
+  <li>setting up facebook developer app and making comment plugin work takes little more time than setting up Disqus</li>
+  <li>Disqus has a very outstanding dashboard for comment management</li>
+  <li>apart from comments there are several other features like ads, newsletter subscriptions, and more in different plans in Disqus</li>
+</ul>
+
+<p><a name="3"></a>
+<br /><br /></p>
+<h2>Setting up Disqus in Jekyll site</h2>
+<p>Now lets quickly dive into setting up Disqus Comment System in our Jekyll site.</p>
+
+<p>For this, please follow the instructions followed below:</p>
+<ul>
+  <li>Sign Up and login to <a href="https://disqus.com" target="blank">Disqus</a></li>
+  <li>create a new site from <a href="https://disqus.com/admin/create/"><code class="highlighter-rouge">New</code></a>  tab</li>
+  <li>fil in the details and appropriate category that best fits your site</li>
+  <li>
+    <p>next page will take you to select appropriate platform where we can select the platforms our site is made on</p>
+  </li>
+  <li>choose jekyll</li>
+  <li>in step <i class="ba"><strong>1</strong></i>, it says us to setup in YAML front matter.</li>
+</ul>
+<div class="thumbnail">
+<b>note</b>: if you want comment section to appear in every posts, or you don't want to define `comments: true` than you don't need to declare it in YAML. You can skip the step below:
+</div>
+
+<p>YAML front matter is something thats inside:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+sth goes here
+---
+</code></pre></div></div>
+
+<p>The instruction is to add <code class="highlighter-rouge">comments: true</code> in the front matter of every post where we need to load Disqus comment as below:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: default
+comments: true
+# other options
+---
+
+post content
+</code></pre></div></div>
+
+<ul>
+  <li>in step <i class="ba"><b>2</b></i>,<br /></li>
+</ul>
+
+<p>Disqus instructs us to put the universal code inside, lets create a new file <code class="highlighter-rouge">disqus.html</code> in <code class="highlighter-rouge">_includes</code> where we will keep our disqus comment code. The general syntax is:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if page.comments %}
+universal code here
+{% endif %}
+</code></pre></div></div>
+
+<p>Here is how my <code class="highlighter-rouge">disqus.html</code> file looks like:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">div</span> <span class="nx">id</span><span class="o">=</span><span class="dl">"</span><span class="s2">disqus_thread</span><span class="dl">"</span><span class="o">&gt;&lt;</span><span class="sr">/div</span><span class="err">&gt;
+</span><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+
+<span class="cm">/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/</span>
+
+<span class="kd">var</span> <span class="nx">disqus_config</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">url</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">{{ page.url }}</span><span class="dl">'</span><span class="p">;</span>  <span class="c1">// Replace PAGE_URL with your page's canonical URL variable</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">page</span><span class="p">.</span><span class="nx">identifier</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">{{ page.url }}</span><span class="dl">'</span> <span class="c1">// Replace PAGE_IDENTIFIER with your page's unique identifier variable</span>
+<span class="p">};</span>
+
+<span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span> <span class="c1">// DON'T EDIT BELOW THIS LINE</span>
+<span class="kd">var</span> <span class="nx">d</span> <span class="o">=</span> <span class="nb">document</span><span class="p">,</span> <span class="nx">s</span> <span class="o">=</span> <span class="nx">d</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="dl">'</span><span class="s1">script</span><span class="dl">'</span><span class="p">);</span>
+<span class="nx">s</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="dl">'</span><span class="s1">https://Shortname.disqus.com/embed.js</span><span class="dl">'</span><span class="p">;</span>
+<span class="nx">s</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="dl">'</span><span class="s1">data-timestamp</span><span class="dl">'</span><span class="p">,</span> <span class="o">+</span><span class="k">new</span> <span class="nb">Date</span><span class="p">());</span>
+<span class="p">(</span><span class="nx">d</span><span class="p">.</span><span class="nx">head</span> <span class="o">||</span> <span class="nx">d</span><span class="p">.</span><span class="nx">body</span><span class="p">).</span><span class="nx">appendChild</span><span class="p">(</span><span class="nx">s</span><span class="p">);</span>
+<span class="p">})();</span>
+<span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span>
+                            
+<span class="o">&lt;</span><span class="nx">script</span> <span class="nx">src</span><span class="o">=</span><span class="dl">"</span><span class="s2">https://Shortname.disqus.com/embed.js</span><span class="dl">"</span><span class="o">&gt;&lt;</span><span class="sr">/script&gt;</span></code></pre></figure>
+
+<p>replace <strong>shortname</strong> with your from the one you created one previously in disqus</p>
+
+<p>since the js code didn’t work, so I added script source manually at the end and it works well. :)</p>
+
+<p><br /><br /></p>
+<div class="thumbnail">
+<b>note</b>: if you want comment to be displayed in every posts, then you don't need to put universal code inside as above.  
+</div>
+
+<p><br /><br /></p>
+<ul>
+  <li>Now, in <code class="highlighter-rouge">post.html</code> file located in <code class="highlighter-rouge">_layouts</code>,</li>
+</ul>
+
+<p>lets add the disquss comment code from <code class="highlighter-rouge">_includes</code> right above the closing <code class="highlighter-rouge">&lt;/article&gt;</code> tag or anywhere you want the comments to appear</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if page.comments %}
+	{% include disqus.html %}
+{% endif %}
+</code></pre></div></div>
+
+<p>what this code does is, if the post has <code class="highlighter-rouge">comments: true</code> in YAML front matter than it will load the disqus comment.</p>
+
+<p><br /><br /></p>
+
+<ul>
+  <li>If you want comment to be displayed in every posts, like in mine case,</li>
+</ul>
+
+<p>add just following lines in <code class="highlighter-rouge">post.html</code></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% include disqus.html %}
+</code></pre></div></div>
+
+<ul>
+  <li>
+    <p>we are done with setting up Disqus in our jekyll system, remember to put <code class="highlighter-rouge">comments: true</code> if you have wrapped <code class="highlighter-rouge">&lt;div id="disqus_thread" style="color: grey !important;" &gt;&lt;/div&gt;
+</code>  inside if page.comments and endif, to display comments in specific posts in <code class="highlighter-rouge">post.html</code> file</p>
+  </li>
+  <li>
+    <p>go ahead and check if the comment system is loading!</p>
+  </li>
+  <li>
+    <p>you can return back to diqus.com and complete configuration and enjoy the dashboard!
+<a name="4"></a>
+<br /><br /></p>
+  </li>
+</ul>
+
+<h2>Quick notes:</h2>
+
+<ol>
+  <li>if you want to load comments in specific defined post only,
+    <ul>
+      <li>you need to wrap include disqus.html inside if page.comments … endif</li>
+      <li>you need to define in which post to load comment by adding <code class="highlighter-rouge">comments: true</code> in frontmatter</li>
+    </ul>
+  </li>
+  <li>if you want comment to load in all posts
+    <ul>
+      <li>you don’t need to wrap include disqus.html inside anything</li>
+      <li>no need to add any front matters</li>
+    </ul>
+  </li>
+  <li>
+    <p>Disqus might slow down your webpage loading speed, for this you can keep all the scripts at the end footer of your jekyll site or do lazy load.</p>
+
+    <p>But remember to at least keep <code class="highlighter-rouge">&lt;div id="disqus_thread"&gt;&lt;/div&gt;</code> inside disqus.html</p>
+  </li>
+  <li>you can play around and modify above steps and procedurs as you wish</li>
+</ol>
+
+<p><br /><br /></p>
+
+<p>Do, comment below if this article hepled you or have any confusion!</p>
+
+:ET

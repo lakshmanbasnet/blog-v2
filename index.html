@@ -57,7 +57,7 @@ image: /assets/photo_2016-11-09_20-46-47.jpg
 
 			<div class="col-lg-6 col-md-6">
 				<h1><a class="post-link" style="color:#000;text-decoration:none;" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> </h1>
-				<p style="font-size: 14px;">{{ post.description | strip_html | truncatewords: 60 }}</p>
+				<p style="font-size: 14px;">{{ post.description | strip_html | truncatewords: 32 }}</p>
 
 				
 			</div>
@@ -107,7 +107,7 @@ padding: 10px;">
 </div>
 {% endif %}
 
-<p class="rss-subscribe" align="center"><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="label label-primary">Subscribe via RSS</span></a></p>
+<p class="rss-subscribe" align="center" ><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="label label-primary" style="background-color: grey">Subscribe via RSS</span></a></p>
 
 <!--End mc_embed_signup-->
 

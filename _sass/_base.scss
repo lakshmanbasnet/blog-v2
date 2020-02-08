@@ -1132,10 +1132,12 @@ padding: 10px;
 }
 
 .imgin {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(80%)
+  -moz-filter: grayscale(76%); 
+  -webkit-filter: grayscale(76%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(76%)
 }
 .imgin:hover {
+  -moz-filter: grayscale(0);
   -webkit-filter: grayscale(0);
   filter: none;
 }
