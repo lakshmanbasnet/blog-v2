@@ -99,7 +99,7 @@ Do you write a review by capitalizing businesses' name? Yeah, maybe sometimes, b
 
 Example
 <blockquote>"... ABC was very kind and professional. ... ABC explained the process and cost. ... ABC offered a discount... Thanks, ABC and DEF company, you guys are awesome!"</blockquote>
-
+</ol>
 
 <br><br>
 
