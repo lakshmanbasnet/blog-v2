@@ -1,6 +1,6 @@
 ---
 title: Spotting fake Google reviews the smart way
-date: 2019-03-23 02:39:00 Z
+date: 2018-03-23 02:39:00 Z
 categories:
 - info
 layout: post
