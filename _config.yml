@@ -25,6 +25,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-admin
 - jekyll-paginate
+- jekyll-sitemap
 
 sass:
   style: compressed

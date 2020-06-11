@@ -5,8 +5,8 @@
     <description>Tech Enthusiast, Digital Marketing Professional and Occasional Blogger - Laxman Basnet | Lakshman's Blog</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 04 Apr 2020 13:04:16 +0000</pubDate>
-    <lastBuildDate>Sat, 04 Apr 2020 13:04:16 +0000</lastBuildDate>
+    <pubDate>Thu, 11 Jun 2020 03:59:28 +0000</pubDate>
+    <lastBuildDate>Thu, 11 Jun 2020 03:59:28 +0000</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -593,7 +593,12 @@ wp_set_password('new-password', 3);
     
       <item>
         <title>All About Nepal in Adelaide</title>
-        <description>&lt;p&gt;Hi!&lt;/p&gt;
+        <description>&lt;div class=&quot;abc&quot;&gt;
+	
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/caYM1Jlesgc&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Hi!&lt;/p&gt;
 
 &lt;p&gt;This post is all about Nepal, Nepali people in Adelaide and everything a Nepali needs to know or can get Nepali here in Adelaide, South Australia.
 &lt;br /&gt;

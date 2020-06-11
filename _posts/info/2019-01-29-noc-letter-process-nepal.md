@@ -10,6 +10,10 @@ image: /assets/lb-th.png
 pin: true
 ---
 
+<div class="abc">
+<iframe width="720" height="300" src="https://www.youtube.com/embed/d_W29A06bFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div><br><br>
+
 Ministry of Education, Scholarship Wing in Kaiser Mahal, Kathmandu issues No Objection Letter popularly known as NOC Certificate for all Nepali applicants who have studied or have taken equivalency degree of Nepal. 
 <br>
 <div class="row">
@@ -37,9 +41,13 @@ Ministry of Education, Scholarship Wing in Kaiser Mahal, Kathmandu issues No Obj
 - required by banks to pay application/ tuition fees to foreign educational institutions
 - written consent from Nepal Government that MOE has no objection to NOC holder in studying in foreign nations
 - can be obtained on the same day of application <a name="why"></a> 
-<br> <br>
-  
 
+<br> <br>
+<hr>
+<small><b>Are you thinking of applying Australia? </b><br>
+You will find this video very helpful: &nbsp;&nbsp;<i class="fa fa-youtube" aria-hidden="true"></i>
+<a href="https://bit.ly/2ArYwuL" target="blank">First 7 things to do after arriving in Australia</a></small>
+<hr>  <br><br>
 
 
 **Why do I need a NOC letter?**
@@ -77,6 +85,12 @@ Following documents are essential for you to obtain the certificate:<br>
 
 6. be back to counter 6 after the time they advise: 1hr with token no.
 
+<br> <br>
+<hr>
+<small>Also read: <a href="/info/bank-draft-process-nepal" target="blank"><b>Process of Obtaining Bank Draft in Nepal</b></a></small>
+<hr>  <br><br>
+
+
 <a name="moe"></a>
 <br><br>
 **Where to go to get NOC letter?**  
@@ -107,7 +121,18 @@ Documents required:
 - deposit voucher slip of NPR 1500 in NHPC SBI Bank account
 - directly go to room number 3 and submit there and come to room 1 and wait until they call your name
 
-<br><br><br>
+
+<br> <br>
+<hr>
+<small>
+Helpful videos about studying in Australia all in Nepali <br><i class="fa fa-youtube" aria-hidden="true"></i>
+<a href="http://bit.ly/2TLEd2r" target="blank"><b>Subscribe our Channel Lakshman and Sonisha</b></a></small>
+<div class="abc">
+<iframe width="720" height="300" src="https://www.youtube.com/embed/videoseries?list=PLyzpyQLGHk0P9av6JtbIFlw_36fm3HKp3" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<hr>  <br><br>
+
+<br>
 If you have any queries please check the comment forum below, if you don't find your answer comment down and I will be more than happy to answer you. :)
 
 
