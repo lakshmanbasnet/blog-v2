@@ -14,7 +14,7 @@ pin: true
 <iframe width="720" height="300" src="https://www.youtube.com/embed/d_W29A06bFI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div><br><br>
 
-Ministry of Education, Scholarship Wing in Kaiser Mahal, Kathmandu issues No Objection Letter popularly known as NOC Certificate for all Nepali applicants who have studied or have taken equivalency degree of Nepal. 
+Ministry of Education, Scholarship Wing in Kaiser Mahal, Kathmandu issues No Objection Letter popularly known as NOC Certificate for all Nepali applicants who have studied in any educational organizations in Nepal or have taken equivalency degree of Nepal. 
 <br>
 <div class="row">
 <div class="col-md-6 sm-5 xs-5 tableofcontent">
