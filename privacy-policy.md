@@ -3,13 +3,75 @@ title: Privacy Policy - lakshmanbasnet.com
 layout: page
 ---
 
-Lakshmanbasnet.com and blog.lakshmanbasnet.com follow following privacy policy for all visitors:
+This following document sets forth the Privacy Policy for the website, http://blog.lakshmanbasnet.com and/or lakshmanbasnet.com and all subdomains under lakshmanbasnet.com
 
-- No personal information like Name, Age etc. is collected while a visitor lands any pages
-- If a visitor makes a comment through third party integrations like disqus, social networks, your Name and details might be collected
-- This site has no payment requirement, hence no any credit card and banking details are connected
-- Google Analytics and Statcounter will be tracking visitors behavior
-- No, any data obtained from above sources is used for commercial purposes or provided to others.
-- Since, this site is a static site, with no databases, we don't store any visitors information or data!
-- visitors are believed to read Disclaimer of lakshmanbasnet.com at https://blog.lakshmanbasnet.com/disclaimer and consented to terms and conditions mentioned
+blog.lakshmanbasnet.com is committed to providing you with the best possible customer service experience. lakshmanbasnet.com is bound by the Privacy Act 1988 (Cth), which sets out a number of principles concerning the privacy of individuals.
 
+Who we are
+
+Our website address is: https://blog.lakshmanbasnet.com.
+What personal data we collect and why we collect it
+Comments
+
+When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
+
+An anonymised string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.
+
+Media
+
+If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
+Cookies
+
+If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
+
+If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
+
+When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
+
+If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.
+
+Embedded content from other websites
+
+Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+
+These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+
+How long we retain your data
+
+If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognise and approve any follow-up comments automatically instead of holding them in a moderation queue.
+
+For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
+
+What rights you have over your data
+
+If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.
+
+Where we send your data
+
+Visitor comments may be checked through an automated spam detection service.
+Collection of your personal information
+
+There are many aspects of the site which can be viewed without providing personal information, however, for access to future blog.lakshmanbasnet.com customer support features you are required to submit personally identifiable information. This may include but not limited to a unique username and password, or provide sensitive information in the recovery of your lost password.
+
+Sharing of your personal information
+
+We may occasionally hire other companies to provide services on our behalf, including but not limited to handling customer support enquiries, processing transactions or customer freight shipping. Those companies will be permitted to obtain only the personal information they need to deliver the service. blog.lakshmanbasnet.com takes reasonable steps to ensure that these organisations are bound by confidentiality and privacy obligations in relation to the protection of your personal information.
+
+Use of your personal information
+
+For each visitor to reach the site, we expressively collect the following non-personally identifiable information, including but not limited to browser type, version and language, operating system, pages viewed while browsing the Site, page access times and referring website address. This collected information is used solely internally for the purpose of gauging visitor traffic, trends and delivering personalized content to you while you are at this Site.
+
+From time to time, we may use customer information for new, unanticipated uses not previously disclosed in our privacy notice. If our information practices change at some time in the future we will use for these new purposes only, data collected from the time of the policy change forward will adhere to our updated practices.
+Changes to this Privacy Policy
+
+blog.lakshmanbasnet.com reserves the right to make amendments to this Privacy Policy at any time. If you have objections to the Privacy Policy, you should not access or use the Site.
+
+
+Accessing Your Personal Information
+
+You have a right to access your personal information, subject to exceptions allowed by law. If you would like to do so, please let us know. You may be required to put your request in writing for security reasons. blog.lakshmanbasnet.com reserves the right to charge a fee for searching for, and providing access to, your information on a per request basis.
+Contacting us
+
+blog.lakshmanbasnet.com welcomes your comments regarding this Privacy Policy. If you have any questions about this Privacy Policy and would like further information, please contact us by any of the following means during business hours Monday to Friday.
+
+E-mail: privacy-policy@blog.lakshmanbasnet.com
