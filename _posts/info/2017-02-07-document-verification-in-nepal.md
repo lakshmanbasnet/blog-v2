@@ -30,8 +30,8 @@ If you are applying for any universities abroad, they require your educational d
 	<li class="hre"><a href="#mofa"><h4>C. Verification by MOFA</h4></a></li>
 	<li class="hre"><a href="#embassy"><h4>D. Document attestaion at the embassy</h4></a></li>
 	<li class="hre"><a href="#key"><h4>E. Key points</h4></a></li>
-  <li class="hre"><a href="#faqs"><h4>F. FAQs</h4></a></li>
-  <a href="#faqs"><h4>G. NOC application form</h4></a>
+	<a href="#faqs"><h4>F. FAQs</h4></a>
+  
 	
 
 </div>
@@ -142,12 +142,6 @@ For me, I had to verify my documents for abroad education which involved followi
 <br><br>
 
 <h2>Frequently Asked Questions (FAQs)</h2>
-
-
-
-
-
-
 
 
 <div class="panel-group" id="accordion">
