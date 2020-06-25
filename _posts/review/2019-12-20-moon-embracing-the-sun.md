@@ -17,7 +17,11 @@ Set in the Joseon era, Moon Embracing The Sun is the story about love that tragi
   
 
 
-This drama had a wonderful set of the cast with child actors extreme talented. The story revolves around a young crown prince who falls in love with Heo Yeon Woo, who is the wise daughter of a Chief Scholar. They both eventually fall in love and the crown prince desires to marry her. Heo Yeon Woo indeed gets chosen for Crown princess however, dowager queen eliminates her by casting a dark spell and attempts to kill her by the help of a royal shaman. Heo Yeon Woo eventually dies in the world’s eyes but she is saved by the same shaman who casts spell on her.   
+This drama had a wonderful set of the cast with child actors extreme talented. The story revolves around a young crown prince who falls in love with Heo Yeon Woo, who is the wise daughter of a Chief Scholar.
+
+They both eventually fall in love and the crown prince desires to marry her. Heo Yeon Woo indeed gets chosen for Crown princess however, dowager queen eliminates her by casting a dark spell and attempts to kill her by the help of a royal shaman.
+
+Heo Yeon Woo eventually dies in the world’s eyes but she is saved by the same shaman who casts spell on her.   
   
   
 <hr>
@@ -29,18 +33,24 @@ This drama had a wonderful set of the cast with child actors extreme talented. T
   
 
 
-This drama overall is the most beautifully scripted drama I’ve ever watched. I was so bewitched by the drama that I had to watch it twice and I don’t know how many more times I will watch this! The lead actor who plays the bereaving crown prince later King (Kim Soo Hyun) completely justified his role of being a ruthless leader. He is a handsome man with appealing looks and kinda looks soft but he took his role to the best level! The lead actress in the role of Heo Yeon Woo played by Han Ga In is just okay but she looked really confused and blank all the time. 🙄 
+This drama overall is the most beautifully scripted drama I’ve ever watched. I was so bewitched by the drama that I had to watch it twice and I don’t know how many more times I will watch this! The lead actor who plays the bereaving crown prince later King (Kim Soo Hyun) completely justified his role of being a ruthless leader.
+
+He is a handsome man with appealing looks and kinda looks soft but he took his role to the best level! The lead actress in the role of Heo Yeon Woo played by Han Ga In is just okay but she looked really confused and blank all the time. 🙄 
 She is a beautiful actress but she looked pitiful all the time, even when she became queen!   
 
   
 
-One of my best actors in K dramas is Jung II Woo, the actor who played Prince Yangmung. He had a very sad story. Never appreciated by the then king, he had only love for Heo Yeon Woo however he had to let her go as she only cherished the crown prince. He often was isolated in the royal family as his mom was just a concubine and he even couldn’t claim his love for Heo Yeon Woo even though he tried million times. This part was heartbreaking because he deserved love too but he died at the end. 😭  
+One of my best actors in K dramas is Jung II Woo, the actor who played Prince Yangmung. He had a very sad story. Never appreciated by the then king, he had only love for Heo Yeon Woo however he had to let her go as she only cherished the crown prince.
+
+He often was isolated in the royal family as his mom was just a concubine and he even couldn’t claim his love for Heo Yeon Woo even though he tried million times. This part was heartbreaking because he deserved love too but he died at the end. 😭  
 
 <hr>
 <small>Recommended review: <a href="/review/mirror-witch-korean-drama" target="blank">Mirror of the Witch Korean Drama - Review</a></small>
 <hr>    
 
-Overall, I give this drama 9/10 for being such a wonderful emotional romantic drama. It did have few shortcomings but this can be overlooked. The child actors played their roles beautifully. The older actors also did justice do their part. In no way did this drama look unreal! Especially when Princess Minwa cried for her husband looked so real and also brought tears to my eyes. I cried every time the King cried for Heo Yeon Woo. This was such a sad emotional drama that I indeed skipped a few sad minutes being unable to watch it.  
+Overall, I give this drama 9/10 for being such a wonderful emotional romantic drama. It did have few shortcomings but this can be overlooked. The child actors played their roles beautifully. The older actors also did justice do their part.
+
+In no way did this drama look unreal! Especially when Princess Minwa cried for her husband looked so real and also brought tears to my eyes. I cried every time the King cried for Heo Yeon Woo. This was such a sad emotional drama that I indeed skipped a few sad minutes being unable to watch it.  
 
   
 

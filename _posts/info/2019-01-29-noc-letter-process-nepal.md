@@ -29,8 +29,9 @@ It is issued for all Nepali applicants who have studied in any educational organ
 	<li class="hre"><a href="#how"><h4>C. How can I get NOC letter?</h4></a></li>
 	<li class="hre"><a href="#documents"><h4>D. Documents required</h4></a></li>
 	<li class="hre"><a href="#moe"><h4>E. MOE contact and location</h4></a></li>
-  <li class="hre"><a href="#moe"><h4>F. Extra Information</h4></a></li>
-	<a href="#faqs"><h4>G. Frequently Asked Questions (FAQs) </h4></a>
+  <li class="hre"><a href="#tips"><h4>F. Extra information</h4></a></li>
+  <li class="hre"><a href="#form"><h4>G. NOC application form</h4></a></li>
+	<a href="#faqs"><h4>H. Frequently Asked Questions (FAQs) </h4></a>
 	
 
 </div>
@@ -64,13 +65,18 @@ Basically, when you possess a NOC letter, it means that
  or the final reason is 
 
 
+
 2. You have legal permission to send/ pay/ get fees in foreign currency to foreign nation for educational purposes.
 
-<br>
-Let me make this clear, 
-so you have received your offer letter or i20 from your desired foreign instituion and now you need to pay your admission fees from Nepal. 
 <br><br>
-You can pay your fees in different ways, one genuine way is to do SWIFT Bank Transfer to your college/university through licensed Banks in Nepal. To send money on your behalf, Banks in Nepal will require you to present NOC issued from the Education Ministry.<a name="how"></a>
+Let me make this clear, 
+so you have received your offer letter or i20 from your desired foreign instituion in <a href="/info/first-5-things-to-do-international-students-international-students-australia">Australia </a>Canada, Japan or anywhere and now you need to pay your admission fees from Nepal. 
+<br><br>
+You can pay your fees in different ways, one genuine way is to do SWIFT Bank Transfer to your college/university through licensed Banks in Nepal. 
+
+<br>
+
+To send money on your behalf, Banks in Nepal will require you to present NOC issued from the Education Ministry.<a name="how"></a>
 
 <br><br>
 
@@ -79,10 +85,10 @@ You can pay your fees in different ways, one genuine way is to do SWIFT Bank Tra
 Listed below are the major steps involved in obtaining the NOC certificate.
 
 
-1. You can download the application form online from the Education Ministry's official site at [https://moe.gov.np/content/no-objection-letter.html](https://moe.gov.np/content/no-objection-letter.html) or can get one in counter or in the shops outside.  <a name="documents"></a>
+1. You can download the application form online from the Education Ministry's official site at <a href="https://moe.gov.np/content/no-objection-letter.html">moe.gov.np</a> or can get one in counter or in the shops outside.  <a name="documents"></a>
 <br><br>
 2. **What are the Documents required?**:<br>
-Following documents are essential for you to obtain the certificate:<br>
+Following documents are essential for you to obtain the certificate:<br><br>
 <i class="fa fa-check" aria-hidden="true"></i> passport original & copy,<br>
 <i class="fa fa-check" aria-hidden="true"></i> citizenship original & copy <br>
 <i class="fa fa-check" aria-hidden="true"></i> offer/ i20 letter from university, <br>
@@ -120,7 +126,7 @@ This is the general process, some steps and fees might differ with time.
 You will receive your NOC letter within the same day.
 
 <br><br>
-Incase, the officer asks you to get permission/ letter from Nepal Health Professional Council(NHPC) then, you need to visit NHPC office at Bansbari, Kathmandu and follow these steps:
+Incase, the officer asks you to get permission/ letter from <a href="https://www.nhpc.org.np/" target="blank">Nepal Health Professional Council (NHPC)</a> , you need to visit NHPC office at Bansbari, Kathmandu and follow these steps:
 <br><br>
 Documents required at NHPC:
 - passport (original & copy),
@@ -146,25 +152,52 @@ Helpful videos about studying in Australia all in Nepali <br><i class="fa fa-you
 <hr>  <br><br>
 
 
-<h2>Frequently Asked Questions (FAQs) about NOC</h2>
+<h3>Updates regarding No Objection Letter</h3>
+
+
+<table class="table table-hover table-bordered table-responsive">
+    <tr>
+      <td><a href="https://tkpo.st/2VGYgAd">Government stops issuing no-objection certificates for study in countries (China, Japan, South Korea, Italy, Iran and Singapore) hard hit by Covid-19</a></td>
+      <td><small>The Kathmandu Post<br>Mar 30, 2020</small></td>
+    </tr>
+    <tr>
+      <td><a href="https://myrepublica.nagariknetwork.com/news/amid-coronavirus-outbreak-government-suspends-labour-permits-for-time-being/">The government announced that it will not issue any No Objection Letter (NOC) to the students going for abroad studies.</a></td>
+      <td><small>myRepublica<br>Mar 30, 2020</small></td>
+    </tr>
+    <tr>
+      <td><a href="https://internationaleducation.gov.au/News/Latest-News/Pages/Nepalese-Government-No-Objection-Certificates-for-education-abroad.aspx">Nepalese Government clarification on No Objection Certificates for education abroad</a></td>
+      <td><small>Australian Government, International Education</small></td>
+    </tr><a name="form"></a>
+</table>
+
+
+<br><br>
+<div align="center">
+<h3>
+<a href="https://moe.gov.np/assets/uploads/files/noc.pdf" style="border: 1px solid #ded; border-radius: 12px; padding: 10px;text-align: center;" target="blank"> <i class="fa fa-cloud-download" aria-hidden="true"></i> Download NOC Application Form</a></h3>
+</div>
+
+
+<br><br>
+<h2>Frequently Asked Questions (FAQs)</h2>
  
   <div class="panel-group" id="accordion">
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">How can I get NOC letter in Nepal?</a>
-        </h3>
+        </h4>
       </div>
-      <div id="collapse1" class="panel-collapse collapse in">
+      <div id="collapse1" class="panel-collapse collapse">
         <div class="panel-body">You can obtain a No Objection Letter (NOC) in Nepal by submitting filling and submitting an application form in person at Ministry of Education, Scholarship Wing, Kathmandu. You will receive your letter within the same day.</div>
       </div>
     </div>
 
 <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">What documents are required for NOC?</a>
-        </h3>
+        </h4>
       </div>
       <div id="collapse2" class="panel-collapse collapse">
         <div class="panel-body">Documents like passport, citizenship certificate, academic documents, offer letter are required for obtaining NOC letter. Check <a href="/info/noc-letter-process-nepal#documents" class="label label-success">Documents required</a> for detailed information. </div>
@@ -173,9 +206,9 @@ Helpful videos about studying in Australia all in Nepali <br><i class="fa fa-you
 
   <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">What is the purpose of no objection certificate?</a>
-        </h3>
+        </h4>
       </div>
       <div id="collapse3" class="panel-collapse collapse">
         <div class="panel-body">No Objection Certificate is required by banks in Nepal to do your payment of tuition/ application fees to your university in foreign countries in foreign currency. Also, immigration officers at the departure terminal in Nepal's airport might ask for the NOC letter to make sure you are a genuine student leaving Nepal.</div>
@@ -184,9 +217,9 @@ Helpful videos about studying in Australia all in Nepali <br><i class="fa fa-you
 
   <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Do I need a No Objection Letter (NOC) if I am going abroad under scholarship scheme?</a>
-        </h3>
+        </h4>
       </div>
       <div id="collapse4" class="panel-collapse collapse">
         <div class="panel-body">If you are going abroad for your further study under scholarship, you mightn't have the necessity of paying fees from Nepal. In this context, you don't need a NOC. However, the officials at the Nepal's international airport might ask you for your NOC certificate. So it is best to get one or contact the Ministry of Education in advance.</div>
@@ -195,9 +228,9 @@ Helpful videos about studying in Australia all in Nepali <br><i class="fa fa-you
 
    <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">How long does it take to obtain a NOC letter?</a>
-        </h3>
+        </h4>
       </div>
       <div id="collapse5" class="panel-collapse collapse">
         <div class="panel-body">You will get your letter on the same day, within few hours of submitting your application.</div>
@@ -206,9 +239,9 @@ Helpful videos about studying in Australia all in Nepali <br><i class="fa fa-you
 
   <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">How much does it cost?</a>
-        </h3>
+        </h4>
       </div>
       <div id="collapse6" class="panel-collapse collapse">
         <div class="panel-body">It costs you NPR 2000 (Twelve thousands only) to get your No Objection Certificate.</div>
@@ -217,9 +250,9 @@ Helpful videos about studying in Australia all in Nepali <br><i class="fa fa-you
 
   <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Where can I find more information about NOC letter?</a>
-        </h3>
+        </h4>
       </div>
       <div id="collapse7" class="panel-collapse collapse">
         <div class="panel-body">Please reach Ministry of Education by visiting <a href="https://moe.gov.np/content/no-objection-letter.html" class="label label-success">moe.gov.np</a> or contacting them.</div>
@@ -228,9 +261,9 @@ Helpful videos about studying in Australia all in Nepali <br><i class="fa fa-you
 
   <div class="panel panel-default">
       <div class="panel-heading">
-        <h3 class="panel-title">
+        <h4 class="panel-title">
           <a data-toggle="collapse" data-parent="#accordion" href="#collapse8">Didn't find an answer?</a>
-        </h3>
+        </h4>
       </div>
       <div id="collapse8" class="panel-collapse collapse">
         <div class="panel-body">Scroll down to leave a comment! I will reply you asap.</div>
