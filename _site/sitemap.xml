@@ -113,10 +113,6 @@
 <lastmod>2016-07-08T04:06:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/info/national-cyber-olymipad-3rd-inter-school-ict-quiz-2073-to-be-held-from-bhadra-14</loc>
-<lastmod>2016-07-09T05:01:00+00:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/knowledgeserverplus/heroku-custom-domain</loc>
 <lastmod>2016-07-29T04:06:47+00:00</lastmod>
 </url>
@@ -249,10 +245,6 @@
 <lastmod>2017-06-19T06:16:02+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/linux/redhat-blog-announcement</loc>
-<lastmod>2017-06-20T04:06:47+00:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/info/guideline-for-report-writing-for-bsw-second-year</loc>
 <lastmod>2017-06-28T04:06:47+00:00</lastmod>
 </url>
@@ -377,10 +369,6 @@
 <lastmod>2019-02-24T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/knowledgeserverplus/cultural-shock-australia</loc>
-<lastmod>2019-03-11T04:06:47+00:00</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/events/nepal-festival-adelaide-2019</loc>
 <lastmod>2019-04-09T00:00:00+00:00</lastmod>
 </url>
@@ -395,10 +383,6 @@
 <url>
 <loc>http://localhost:4000/info/visit-nepal-2020</loc>
 <lastmod>2019-08-29T02:39:00+00:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/events/galkot-ghumte-mahotsav-2076</loc>
-<lastmod>2019-11-09T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/review/moon-embracing-the-sun</loc>
@@ -417,6 +401,10 @@
 <lastmod>2020-03-23T02:39:00+00:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2019-02-11-queen-for-seven-days-korean-drama-review</loc>
+<lastmod>2020-06-25T10:15:24+00:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/nepal-360-photo%09/</loc>
 </url>
 <url>
@@ -427,9 +415,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/analytics/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/archive</loc>
@@ -465,9 +450,6 @@
 <loc>http://localhost:4000/log</loc>
 </url>
 <url>
-<loc>http://localhost:4000/ae</loc>
-</url>
-<url>
 <loc>http://localhost:4000/nepal-360-photo/</loc>
 </url>
 <url>
@@ -487,9 +469,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/technology/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/timeline/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/travel/</loc>
