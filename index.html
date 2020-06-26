@@ -79,7 +79,7 @@ padding: 10px;">
 <nav aria-label="...">
 <ul class="pager">
 {% if paginator.previous_page %}
-<li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &larr;Newer<span aria-hidden="true"></span></a></li> &nbsp;&nbsp;
+<li class="btn btn-outline-dark"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &larr;Newer<span aria-hidden="true"></span></a></li> &nbsp;&nbsp;
 {% else %}
 <span> Newer</span> &nbsp;&nbsp;
 
@@ -97,7 +97,7 @@ padding: 10px;">
 
 
 {% if paginator.next_page %}
-<li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span aria-hidden="true">&rarr;</span></a></li>
+<li class="btn btn-outline-dark"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span aria-hidden="true">&rarr;</span></a></li>
 {% else %}
 <span>Older</span>
 {% endif %}
@@ -107,8 +107,7 @@ padding: 10px;">
 </div>
 {% endif %}
 
-<p class="rss-subscribe" align="center" ><a href="{{ "/feed.xml" | prepend: site.baseurl }}"><span class="label label-primary" style="background-color: grey">Subscribe via RSS</span></a></p>
+
 
 <!--End mc_embed_signup-->
-
 </div>

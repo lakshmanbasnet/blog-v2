@@ -11,6 +11,8 @@ image: /assets/spot-fake-reviews-google-maps.jpg
 <img src="/assets/spot-fake-reviews-google-maps.jpg" alt="fake google reviews detect">
 <br>
 
+
+
 You may have come across many reviews on Google Maps, where something doesn't look right. Even though most of the reviews published on google maps are genuine, there are a lot of fake reviews prevailing for some good or bad reasons. 
 
 Considering the below-mentioned ways you can spot fake reviews in any platforms other than Google Maps too. <br> <br>

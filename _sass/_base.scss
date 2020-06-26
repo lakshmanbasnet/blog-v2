@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $text-color !important;
+    color: #000 !important;
     text-decoration: none !important;
 
     &:visited {
@@ -1146,3 +1146,27 @@ padding: 10px;
 }
 
 
+.gsc-search-box table, th, td {
+    border: 0px !important;
+
+}
+
+.gsc-control-cse {
+    padding: 0em !important;
+}
+
+.form.gsc-search-box {
+    margin-bottom: 0px !important;
+    }
+
+.table.gsc-search-box {
+    border-style: none;
+    border-width: 0;
+    border-spacing: 0 0;
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+
+.table.gsc-search-box td.gsc-input {
+    padding-right: 0px !important;
+}

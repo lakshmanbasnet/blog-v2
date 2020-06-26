@@ -457,9 +457,6 @@
 <loc>http://localhost:4000/rhel/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/site-counter/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/technology/</loc>
 </url>
 <url>
@@ -494,10 +491,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/page10/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/a.html</loc>
-<lastmod>2019-07-14T10:54:08+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/certs/lakshman-basnet-3cx-certification.pdf</loc>

@@ -5,7 +5,7 @@ layout: category
 ---
 
 <ul class="post-list">
-{% for post in site.categories.IOT %}
+{% for post in site.categories.iot %}
 <li>
       <span class="post-meta">{{ post.date | date: '%Y %b %d'}}</span> &raquo; <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
     </li>
