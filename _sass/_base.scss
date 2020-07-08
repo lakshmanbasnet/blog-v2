@@ -141,10 +141,11 @@ blockquote {
  */
 pre,
 code {
-    color: #ffffff;
+    color: #ffffff !important;
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
+    
 }
 
 code {
